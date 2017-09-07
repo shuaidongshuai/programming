@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "基于MAP线程安全的观察者监听者设计模式", "基于MAP线程安全的观察者监听者设计模式\基于MAP线程安全的观察者监听者设计模式.vcxproj", "{1EAAC941-F9D6-4A34-9B9A-5DAEC5FCB31E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "线程不安全的", "线程不安全的\线程不安全的.vcxproj", "{EA1F851E-EA1F-4666-B4EE-3F9571A55BD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EAAC941-F9D6-4A34-9B9A-5DAEC5FCB31E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1EAAC941-F9D6-4A34-9B9A-5DAEC5FCB31E}.Debug|Win32.Build.0 = Debug|Win32
+		{1EAAC941-F9D6-4A34-9B9A-5DAEC5FCB31E}.Release|Win32.ActiveCfg = Release|Win32
+		{1EAAC941-F9D6-4A34-9B9A-5DAEC5FCB31E}.Release|Win32.Build.0 = Release|Win32
+		{EA1F851E-EA1F-4666-B4EE-3F9571A55BD0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EA1F851E-EA1F-4666-B4EE-3F9571A55BD0}.Debug|Win32.Build.0 = Debug|Win32
+		{EA1F851E-EA1F-4666-B4EE-3F9571A55BD0}.Release|Win32.ActiveCfg = Release|Win32
+		{EA1F851E-EA1F-4666-B4EE-3F9571A55BD0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

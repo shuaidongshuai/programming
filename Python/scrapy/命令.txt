@@ -1,0 +1,8 @@
+scrapy startproject xxx 	创建工程
+
+scrapy crawl xxx.py 		启动
+
+scrapy shell url		调试
+response.xpath().extract()	检查元素
+
+scrapy genspider myXici com.dong 创建spider，可以不用命令自己创建文件也行

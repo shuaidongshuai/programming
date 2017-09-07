@@ -1,0 +1,46 @@
+package com.dong.test;
+
+import java.util.HashSet;
+import java.util.Iterator;
+
+public class HashSetTest2 {
+   public static void main(String[] args) 
+    { 
+                 HashSet hs=new HashSet(); 
+                 hs.add(new Student2(1,"zhangsan")); 
+                 hs.add(new Student2(2,"lisi")); 
+                 hs.add(new Student2(3,"wangwu")); 
+                 hs.add(new Student2(1,"zhangsan")); 
+  
+                 Iterator it=hs.iterator(); 
+                 while(it.hasNext()) 
+                 { 
+                        System.out.println(it.next()); 
+                 }
+                 
+     } 
+} 
+class Student2
+ {
+	int num;
+	String name;
+
+	Student2(int num, String name) {
+		this.num = num;
+		this.name = name;
+	}
+
+	public String toString() {
+		return num + ":" + name;
+	}
+
+	public int hashCode() {
+		return num * name.hashCode();
+	}
+
+	public boolean equals(Object o) {
+		Student2 s = (Student2) o;
+		return num == s.num && name.equals(s.name);
+	}
+}   
+

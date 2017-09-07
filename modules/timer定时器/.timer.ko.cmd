@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/modules/timer定时器/timer.ko := arm-linux-ld -EL -r  -T /linux-2.6.32.2_mini/scripts/module-common.lds --build-id -o /mnt/hgfs/modules/timer定时器/timer.ko /mnt/hgfs/modules/timer定时器/timer.o /mnt/hgfs/modules/timer定时器/timer.mod.o

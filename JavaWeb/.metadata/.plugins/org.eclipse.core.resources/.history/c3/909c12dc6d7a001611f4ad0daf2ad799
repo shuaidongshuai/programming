@@ -1,0 +1,121 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>节点的增删改查</title>
+<!--加入样式表-->
+<style type="text/css">
+div {
+	border:#0099FF 1px solid;
+	height:60px;
+	width:120px;
+	margin:20px 0px 20px 20px;
+	padding:50px 100px 0px 20px; 
+	}
+	
+#div_1{
+	background-color:#00FFFF;
+	}
+	
+#div_2{
+	background-color:#FF3399;
+	}
+	
+#div_3{
+	background-color:#0000FF;
+	}
+	
+#div_4{
+	background-color:#FFFF66;
+	}
+</style>
+
+
+</head>
+
+
+
+<body>
+    <div id="div_1">
+		
+    </div>
+    
+    <div id="div_2">
+    div区域2
+    </div>
+    
+    <div id="div_3">
+   	 div区域3
+    </div>
+	
+	
+    
+    <div id="div_4">
+    div区域4
+    </div>
+	
+    
+    <hr />
+    <input type="button" value="创建并添加节点" onclick="addNode()" />
+    <input type="button" value="删除节点" onclick="deleteNode()" />
+    <input type="button" value="替换节点" onclick="updateNode()" />
+    <input type="button" value="克隆节点" onclick="copyNode()" />
+
+</body>
+<script type="text/javascript">
+		//创建并添加节点
+		function addNode(){
+// 				1 找到第一个标签
+				var div_1 = document.getElementById("div_1");
+		
+// 				2 创建一个对象a
+				var a = document.createElement("a");
+				
+// 				3 在这个标签中  添加 对象
+				div_1.appendChild(a);
+				
+// 				4 为a标签添加标签体（设置名字）
+				a.innerHTML = "点我";
+				
+// 				5 为创建的a标签增加属性
+				a.setAttribute("href", "http://www.itcast.cn");
+				
+		}
+		//删除节点
+		function deleteNode(){
+			//1 获得要删除的div
+			var div_2 = document.getElementById("div_2");
+			//2 获得div的父元素
+			var parent = div_2.parentNode;
+			//3 通过爹删除孩子
+			parent.removeChild(div_2);
+		}
+		//替换节点
+		function updateNode(){
+			//1 获得被替换的div
+			var div_3 = document.getElementById("div_3");
+			//2 创建img元素对象<img />
+			var img = document.createElement("img");
+			//3 为img添加属性
+			img.setAttribute("src", "mn.jpg");
+			img.setAttribute("width", "300");
+			//4 找到爹
+			var parent = div_3.parentNode;
+			//5 替换
+			parent.replaceChild(img, div_3);
+		}
+		//克隆节点
+		function copyNode(){
+			// 1.获得div4
+			var div_4 = document.getElementById("div_4");
+			// 2.调用克隆方法克隆
+			var div_copy = div_4.cloneNode(true);
+			// 3.获得父亲\
+			var parent = div_4.parentNode;
+			// 4.添加到最后一个div之前
+			//parent.appendChild(div_copy);
+			parent.insertBefore(div_copy, div_4);
+		}
+</script>
+
+</html>

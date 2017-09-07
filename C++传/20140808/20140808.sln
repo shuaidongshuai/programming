@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "win-linux-udp封装", "win-udp封装\win-udp封装.vcxproj", "{E6308BAC-7AB2-45B8-A448-0B869D4AF9FA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "c++_udpAPI封装", "win_c++_udpAPI封装\win_c++_udpAPI封装.vcxproj", "{1A488D75-C64E-4397-874F-E4C8D0318796}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6308BAC-7AB2-45B8-A448-0B869D4AF9FA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E6308BAC-7AB2-45B8-A448-0B869D4AF9FA}.Debug|Win32.Build.0 = Debug|Win32
+		{E6308BAC-7AB2-45B8-A448-0B869D4AF9FA}.Release|Win32.ActiveCfg = Release|Win32
+		{E6308BAC-7AB2-45B8-A448-0B869D4AF9FA}.Release|Win32.Build.0 = Release|Win32
+		{1A488D75-C64E-4397-874F-E4C8D0318796}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1A488D75-C64E-4397-874F-E4C8D0318796}.Debug|Win32.Build.0 = Debug|Win32
+		{1A488D75-C64E-4397-874F-E4C8D0318796}.Release|Win32.ActiveCfg = Release|Win32
+		{1A488D75-C64E-4397-874F-E4C8D0318796}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

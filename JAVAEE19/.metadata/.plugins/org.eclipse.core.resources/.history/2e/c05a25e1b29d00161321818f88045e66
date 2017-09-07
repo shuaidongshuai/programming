@@ -1,0 +1,9 @@
+import java.util.LinkedList;
+
+
+public class teste {
+	private static LinkedList<String> list;//每个男性对女性的排名
+	public static void main(String[] args) {
+		list = new LinkedList<String>();
+	}
+}

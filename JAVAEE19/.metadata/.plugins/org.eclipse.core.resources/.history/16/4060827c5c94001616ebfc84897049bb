@@ -1,0 +1,16 @@
+package com.dong.test;
+
+public class Test1 {
+	/*
+	一、在Object类中的定义为:
+		public native int hashCode();
+		是一个本地方法，返回的对象的地址值。
+		但是，同样的思路，在String等封装类中对此方法进行了重写。方法调用得到一个计算公式得到的 int值。*/
+	public static void main1(String[] args) {
+		String s1=new String("zhaoxudong"); 
+		String s2=new String("zhaoxudong"); 
+		System.out.println(s1==s2);//false 
+		System.out.println(s1.equals(s2));//true 
+	}
+	
+}

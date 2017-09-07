@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/modules/Kset/Kset.ko := arm-linux-ld -EL -r  -T /linux-2.6.32.2/scripts/module-common.lds --build-id -o /mnt/hgfs/modules/Kset/Kset.ko /mnt/hgfs/modules/Kset/Kset.o /mnt/hgfs/modules/Kset/Kset.mod.o

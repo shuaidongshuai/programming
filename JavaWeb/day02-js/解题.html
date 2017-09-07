@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>解题.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+	
+		<style type="text/css">
+ 		a{
+ 			color:red;
+ 		}
+ 	</style>
+  </head>
+  
+  <body>
+  <a>
+    猜不出来是不准走的哦！！！！！
+  </a>
+
+  	<script type="text/javascript">
+  		var num = Math.round(Math.random()*100);//生成100以内的素随机数
+		//alert(num);
+		alert("猜数字游戏，请输入0---100以内的数。猜不出来就不放过你")
+		while(true)
+		{
+			var guess = prompt();
+			if(+guess == num)
+			{
+				alert("恭喜你答对了，放过你吧");
+				break;
+			}	
+			if(+guess > num)
+				alert("你输入的数太大了");
+			
+			if(+guess < num)
+				alert("你输入的数太小了");			
+		}
+  	</script>
+  </body>
+</html>

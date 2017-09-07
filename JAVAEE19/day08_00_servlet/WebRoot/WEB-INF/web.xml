@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+	<!-- b、修改web.xml文件，给servlet提供一个可访问的URI地址 -->
+
+
+	<!-- 创建一个servlet实例 -->
+	<servlet>
+		<servlet-name>myServlet</servlet-name>
+		<servlet-class>com.dong.servlet.ServletDemo</servlet-class>
+	</servlet>
+
+	<!-- 给servlet映射一个可访问的URI地址 -->
+	<servlet-mapping>
+		<servlet-name>myServlet</servlet-name>
+		<url-pattern>/cmd</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>servletDemo2</servlet-name>
+		<servlet-class>com.dong.servlet.ServletDemo2</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>servletDemo2</servlet-name>
+		<url-pattern>/dong</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>servletDemo3</servlet-name>
+		<servlet-class>com.dong.servlet.ServletDemo3</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>servletDemo3</servlet-name>
+		<url-pattern>/Demo3</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>servletDemo4自动创建</servlet-name>
+		<servlet-class>com.dong.servlet.ServletDemo4自动创建</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>servletDemo4自动创建</servlet-name>
+		<url-pattern>/servlet/ServletDemo4自动创建</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>servletDemo4自动创建2</servlet-name>
+		<servlet-class>com.dong.servlet.ServletDemo4自动创建2</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>servletDemo4自动创建2</servlet-name>
+		<url-pattern>/servlet/ServletDemo4自动创建2</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ServletDemo4</servlet-name>
+		<servlet-class>com.dong.servlet.ServletDemo4</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ServletDemo4</servlet-name>
+		<url-pattern>/servlet/ServletDemo4</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+
+
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

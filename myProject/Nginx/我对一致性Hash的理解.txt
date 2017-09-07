@@ -1,0 +1,31 @@
+把节点放到 0 - 2^32 - 1 的环中
+节点分布不均匀：用虚拟节点来解决这个问题
+
+具体的操作是：
+1.new 一个服务器节点出来（可以是ip地址和端口）
+算出他的hash值，放到 0 - 2^32 - 1的环中。比如放到了：key1 key2 key3位置   
+把节点放到红黑树中
+那么到时候访问的时候 0 < node < key1 访问的就是key1这个hash值对应的服务器
+                     key1 < node < key2 访问的就是key2这个hash值对应的服务器
+
+找服务器的时候
+*在红黑树中查找key值比key大的最小的结点*/
+ util_rbtree_lookup(vnode_tree,key); 这个函数可以直接找
+
+/*实体结点*/
+class CNode_s 
+{
+private: 
+    void setCNode_s(char * pIden, int pVNodeCount , void * pData); 
+    char iden[100];/*结点标示串*/
+    int vNodeCount; /*虚拟结点数目*/
+    void * data;/*数据结点*/
+};
+/*虚拟结点*/
+class CVirtualNode_s 
+{
+private: 
+    long hash; /*hash值*/
+    CNode_s * node; /*虚拟结点所指向的实体结点*/
+};
+根据key可以找到下一个虚拟节点，根据虚拟节点我们又可以找到实体节点

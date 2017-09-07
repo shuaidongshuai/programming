@@ -1,0 +1,82 @@
+1、修改client.c
+//修改为：分两次发送
+write(sock,sendbuf,1);//如果对方进程关闭 第一次发送 对方会发送一个RST段过来
+		
+write(sock,sendbuf+1,strlen(sendbuf)-1);//第二次发送 对方会发送一个SIGPIPE端过来
+
+2、./service
+
+3、./client
+
+4、ps -aux
+dong      44792  0.0  0.0   4224    92 pts/2    S+   22:05   0:00 ./service
+
+5、kill -9 44792
+
+6、netstat -an | grep tcp| grep 5000
+tcp        0      0 192.168.1.144:5000      0.0.0.0:*               LISTEN     
+tcp        1      0 192.168.1.144:44672     192.168.1.144:5000      CLOSE_WAIT 
+tcp        0      0 192.168.1.144:5000      192.168.1.144:44672     FIN_WAIT2  
+
+7、在客服端 随便输入 一行
+
+8、netstat -an | grep tcp| grep 5000
+tcp        0      0 192.168.1.144:5000      0.0.0.0:*               LISTEN  
+
+发现客服端没有输出“client close”
+client.c中
+	int ret = readline(sock,recvbuf, 1024 );
+
+//说明并没有返回 0 
+	if(ret == -1 ){
+	exit(1);
+		
+	}
+		
+	
+	if(ret == 0){		
+	printf("client close\n");
+			
+	break;	
+	}
+
+9、在 client.c中
+加入：
+void handle_sigpipe(int sig)//作用：捕捉SIGPIPE
+
+{
+	printf("recv a sig = %d\n",sig);
+
+}
+
+int main()
+{
+
+	signal(SIGPIPE,handle_sigpipe);
+
+10、./client
+
+11、ps -aux
+dong      44915  0.0  0.0   4224    92 pts/2    S+   22:35   0:00 ./service
+
+12、kill -9 44915  
+
+13、netstat -an | grep tcp| grep 5000
+tcp        0      0 192.168.1.144:5000      0.0.0.0:*               LISTEN     
+tcp        1      0 192.168.1.144:44672     192.168.1.144:5000      CLOSE_WAIT 
+tcp        0      0 192.168.1.144:5000      192.168.1.144:44672     FIN_WAIT2  
+
+14、在客服端 随便输入 一行
+出现了：
+recv a sig = 13
+client close
+说明 signal把  SIGPIPE 信号给捕捉了
+read 返回了 0
+
+15、kill -l
+ 1) SIGHUP       2) SIGINT       3) SIGQUIT      4) SIGILL       5) SIGTRAP
+ 6) SIGABRT      7) SIGBUS       8) SIGFPE       9) SIGKILL     10) SIGUSR1
+11) SIGSEGV     12) SIGUSR2     13) SIGPIPE     14) SIGALRM     15) SIGTERM
+看到 13） 就是 SIGPIPE
+
+

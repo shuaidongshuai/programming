@@ -1,0 +1,3 @@
+2016-06-12 13:33:46
+java.lang.ArrayIndexOutOfBoundsException: 3
+	at _19.IO_7_异常日志.main(IO_7_异常日志.java:12)

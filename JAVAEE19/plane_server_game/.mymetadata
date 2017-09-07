@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="plane_server_game"
+  id="myeclipse.1480730525122"
+  context-root="/plane_server_game"
+  j2ee-spec="5.0"
+  archive="plane_server_game.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

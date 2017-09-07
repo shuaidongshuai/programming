@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/module/add_sub/test/test.ko.unsigned := ld -r -m elf_i386 -T /usr/src/kernels/2.6.32-279.el6.i686/scripts/module-common.lds --build-id -o /mnt/hgfs/module/add_sub/test/test.ko.unsigned /mnt/hgfs/module/add_sub/test/test.o /mnt/hgfs/module/add_sub/test/test.mod.o 

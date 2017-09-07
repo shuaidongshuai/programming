@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="day09_01_获取表单提交的内容"
+  id="myeclipse.1476511510430"
+  context-root="/day09_01_PostRequest"
+  j2ee-spec="5.0"
+  archive="day09_01_获取表单提交的内容.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

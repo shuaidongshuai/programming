@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "大整数排序", "牛客刷题\牛客刷题.vcxproj", "{C5AC6631-8E8B-4E95-A9B8-9643E88BC061}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉排序树", "二叉排序树\二叉排序树.vcxproj", "{28FC40C4-70AD-4AA6-A0EA-349AC7325D3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5AC6631-8E8B-4E95-A9B8-9643E88BC061}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C5AC6631-8E8B-4E95-A9B8-9643E88BC061}.Debug|Win32.Build.0 = Debug|Win32
+		{C5AC6631-8E8B-4E95-A9B8-9643E88BC061}.Release|Win32.ActiveCfg = Release|Win32
+		{C5AC6631-8E8B-4E95-A9B8-9643E88BC061}.Release|Win32.Build.0 = Release|Win32
+		{28FC40C4-70AD-4AA6-A0EA-349AC7325D3A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{28FC40C4-70AD-4AA6-A0EA-349AC7325D3A}.Debug|Win32.Build.0 = Debug|Win32
+		{28FC40C4-70AD-4AA6-A0EA-349AC7325D3A}.Release|Win32.ActiveCfg = Release|Win32
+		{28FC40C4-70AD-4AA6-A0EA-349AC7325D3A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

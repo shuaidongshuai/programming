@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style type="text/css">
+	span{color:red;display: none}
+</style>
+
+
+
+</head>
+<body>
+	
+	
+	<form action="">
+		name:<input id="name" type="text" /><span id="span">对不起 输入不符合要求</span>
+		<br>
+		pass:<input id="pass" type="password" />
+		<br>
+		<input id="btn" type="button" value="button" />
+	</form>
+	
+	
+</body>
+
+
+<script type="text/javascript">
+	document.getElementById("btn").onclick = function(){
+		document.getElementById("span").style.display = "inline";
+	};
+</script>
+
+</html>

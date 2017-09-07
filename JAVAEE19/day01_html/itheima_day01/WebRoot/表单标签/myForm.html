@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>myForm.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  		<!-- 
+  		1、form标签：<form></form>
+		属性：	
+			name:表单名称
+			action:提交的路径地址
+			method:提交方式（get和post）
+			
+			get和post的区别（重点）：
+				(1)get提交将数据加在地址栏的后面，格式?name=value&name=value；post提交将数据封装在请求体中
+					?username=zhangsan&password=123&sex=male&hobby=football&hobby=paiqiu&city=bj#
+				(2)get提交相对不安全；post提交相对安全
+				(3)get提交有大小限制，根据浏览器不同而不同；post不限制大小
+				
+		示例：
+		<form> 
+			<table>
+				//form里面嵌套table			
+			</table>			
+		</form>
+		
+	2、input标签：<input type=" "/>
+		type属性:根据type属性实现各种不同功能的表单项；
+			text：普通的文本输入框；
+				name：username value="张三"<!--张三是默认值--
+			password：密码输入框；特点是显示的是掩码
+			radio：单选按钮
+				name：如果想让一组单选按钮互斥，就用指定同意name属性值，需要加value属性值；
+				checked：默认被选中；				
+			checkbox：复选框；
+				name：组的概念，需要加value属性值。
+				checked：默认被选中；
+			file：上传文件的控件
+			button：普通按钮，没有任何内置的功能；
+			submit：内置功能，点击会按照action地址提交
+			reset：重置，点击会清空之前填写的内容
+			image：图片按钮，功能类似与submit
+				src：加载图片
+				alt:图片的提示文字
+			hidden:隐藏表单，作用是在提交数据的时候，服务器需要这个数据，但是不需要用户看到。
+		
+		注意：name属性必须要写。
+	
+	3、select标签(<select></select>)：下拉菜单
+		属性：
+			name;表单项的名称
+		option标签：可选项（下拉菜单之间的级联）
+			属性：
+				value，表单项的值
+				selected：默认被选中
+		
+	4、textarea:文本域标签
+		属性：
+			cols：列数
+			rows：行数
+		注意：默认的文本值在标签体当中
+  		 -->
+  <body>
+  	<form name="form" action="#" method="get">
+  		<table>
+  			<tr>
+  				<th>VIP专属姓名
+  				<td><input type="text" name="name" value="陈明东">
+  			<tr>
+  				<th>钻石密码
+  				<td><input type="password" name="password">
+  		</table>
+  		
+  		类别<input type="radio" name="sex" value="person">人	<!-- name是用来后台获取输入内容的 获取的就是value的值 -->
+  		<input type="radio" name="sex" value="god" checked="checked">神
+  		<input type="radio">鬼<br><br>
+  		
+  		癖好<input type="checkbox" name="checkbox" value="0" checked="checked">泡妞
+  		<input type="checkbox" name="checkbox" value="1">再次泡妞
+  		<input type="checkbox" name="checkbox" value="2">继续泡妞<br><br>
+  		
+  		上传文件<input type="file" name="file"><br><br>
+  		
+  		下拉选项
+  		<select name="dong">
+  			<option value="chen">陈
+  			<option value="ming">明
+  			<option value="dong">东
+  		</select>
+  		<select>
+  			<option>帅
+  			<option>的
+  			<option>飞
+  			<option>起
+  		</select>
+  		<br><br>
+  			<table>
+  				<tr>
+  					<th>个人介绍
+  					<td><textarea rows="4" cols="50">我是一只小丫小小鸟</textarea>
+  			</table>
+  		
+  		<br><br>
+  		
+  		<input type="submit" value="上传信息">
+  		<input type="reset"><br><br>
+  		<input type="hidden" name="hide" value="xxxx">
+  		
+  		点击美眉，上传资料<input type="image" name="iamge" src="images/1.jpg" width="50%" alt="图片加载失败" align="middle">
+  	</form>
+  </body>
+</html>

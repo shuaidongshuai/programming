@@ -1,0 +1,40 @@
+﻿生成启动时间为 2016/8/13 14:51:50。
+     1>项目“E:\programming\c++\获取主机全部IP\Project1\Project1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源1.cpp"
+         源1.cpp
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(11): error C2065: “WSADATA”: 未声明的标识符
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(11): error C2146: 语法错误: 缺少“;”(在标识符“wsaData”的前面)
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(11): error C2065: “wsaData”: 未声明的标识符
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(12): error C2039: “WSAStartup”: 不是“`global namespace'”的成员
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(15): error C2065: “wsaData”: 未声明的标识符
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(12): error C3861: “WSAStartup”:  找不到标识符
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(13): error C3861: “MAKEWORD”:  找不到标识符
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(19): error C3861: “gethostname”:  找不到标识符
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(21): error C2065: “hostent”: 未声明的标识符
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(21): error C2065: “pHost”: 未声明的标识符
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(21): error C2039: “gethostbyname”: 不是“`global namespace'”的成员
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(21): error C3861: “gethostbyname”:  找不到标识符
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(24): error C2065: “in_addr”: 未声明的标识符
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(24): error C2146: 语法错误: 缺少“;”(在标识符“addr”的前面)
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(24): error C2065: “addr”: 未声明的标识符
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(29): error C2065: “pHost”: 未声明的标识符
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(29): error C2227: “->h_addr_list”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(37): error C2065: “addr”: 未声明的标识符
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(37): error C2228: “.S_un”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(37): error C2228: “.S_addr”的左边必须有类/结构/联合
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(37): error C2065: “pHost”: 未声明的标识符
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(37): error C2227: “->h_length”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(37): error C3861: “memcpy”:  找不到标识符
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(40): error C2039: “inet_ntoa”: 不是“`global namespace'”的成员
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(40): error C2065: “addr”: 未声明的标识符
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(40): error C3861: “inet_ntoa”:  找不到标识符
+     1>e:\programming\c++\获取主机全部ip\project1\源1.cpp(49): error C3861: “system”:  找不到标识符
+     1>已完成生成项目“E:\programming\c++\获取主机全部IP\Project1\Project1.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.41

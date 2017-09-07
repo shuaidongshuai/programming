@@ -1,0 +1,14 @@
+﻿生成启动时间为 2017/3/19 19:48:42。
+     1>项目“E:\programming\C++\C++11新特性\密闭类和密闭方法\密闭类和密闭方法.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源.cpp"
+         源.cpp
+     1>e:\programming\c++\c++11新特性\密闭类和密闭方法\源.cpp(7): error C3246: “Derived”: 无法从“Base”继承，因为它已被声明为“final”
+                 e:\programming\c++\c++11新特性\密闭类和密闭方法\源.cpp(4) : 参见“Base”的声明
+     1>e:\programming\c++\c++11新特性\密闭类和密闭方法\源.cpp(16): error C2011: “Derived”:“class”类型重定义
+                 e:\programming\c++\c++11新特性\密闭类和密闭方法\源.cpp(6) : 参见“Derived”的声明
+     1>已完成生成项目“E:\programming\C++\C++11新特性\密闭类和密闭方法\密闭类和密闭方法.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.72

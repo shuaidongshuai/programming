@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>myDemo4.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+    <!-- 背景属性
+		background-color:背景颜色
+		background-image:背景图片
+			属性值：url("图片地址");
+		background-repeat:平铺方式
+			属性值：默认横向纵向平铺
+					repeat:横向纵向平铺
+					no-repeat:不平铺
+					repeat-y：纵向
+					repeat-x：横向 -->
+    
+	<style type="text/css">
+		//div{background-color: gray;}
+		body{background-color: green;
+		background-image: url("images/dog.gif");/* 默认铺满全屏 */
+		background-repeat: repeat-x;/* x轴铺满   */
+		background-repeat: repeat-y;/* y轴铺满   *//* 如果既有x也有y 就看是谁在后面 谁就占主动权 */
+		}
+	</style>
+  </head>
+  
+  <body>
+    <div style="color:red">ft</div>
+  </body>
+</html>

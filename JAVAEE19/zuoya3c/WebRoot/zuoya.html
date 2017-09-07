@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>寻觅go窝</title>
+	<style type="text/css">
+	.clear{
+		clear:both;
+	}
+	body{
+		background-color: #fff;
+		margin: -8px -8px -8px -8px;
+	}
+	#top{
+		position: relative;
+		background-image: url("images/topbackground1.jpg");
+		background-repeat: no-repeat;
+		background-size:cover;/*等比铺满全屏*/
+		box-shadow: 0px 60px 60px #152539 inset;
+		/* margin: -8px -8px 0px -8px; */
+	}
+	#top_left img{
+		float: left;
+		padding: 10px 5%;
+	}
+	#leftbutton{
+		float: left;
+	}
+	#rightbutton{
+		float: right;
+	}
+	#far{
+		margin-top: 220px;
+	}
+	#login{
+		height: 100px;
+	}
+	#login a{
+		font-size: 30px;
+		padding: 0px 20px 20px 50px;
+		text-decoration: none;
+		float: left;
+	}
+	#login a:hover{
+		color: red;
+	}
+	.word{
+		background: #2c3e50;
+	    border-radius: 10px 10px 10px 10px;
+	    height: 40px;
+		width: 150px;
+		margin: 3px 40px;
+		float: left;
+	}
+	.word a{
+		width: 140px;
+		text-align:center;
+		color: black;
+		margin: -1px -45px;
+	}
+	.word:hover{
+		color: #CCE8CF;
+	}
+	.search{
+		vertical-align: middle;
+		height: 30px;
+		vertical-align: middle;
+		margin: 0px 20px 12px 130px;
+	}
+	.go{
+		background-color: #F16B80;
+		vertical-align: middle;
+		height: 45px;
+		width: 220px;
+	    border-radius: 0px 5px 5px 0px;
+	    border: none;
+	    font-size: 30px;
+	    color: #fff;
+	    font-family: "microsoft yahei";
+	    margin: 0px 0px 10px 40px;
+	}
+	
+	#find{
+		background-color: #f3f3f3;
+		
+	}
+	#find img{
+		margin: 0px 15%;
+	}
+	#bottom{
+		text-align: center;
+	    font-family: "microsoft yahei";
+	    padding: 5px 0;
+	}
+	#bottom h1{
+		display: block;
+	    font-size: 44px;
+	    font-weight: normal;
+	    line-height: 44px;
+	    color: #445566;
+	    margin-bottom: 15px;
+	}
+	#bottom span{
+		display: block;
+	    font-size: 18px;
+	    color: #959ea7;
+	}
+	#bottom_t img{
+		width: 420px;
+    	height: 326px;
+    	margin: 10px 10px 0px 10px;
+    	color: #fff
+	}
+	#bottom_b img{
+		width: 640px;
+    	height: 326px;
+    	margin: 10px 10px 0px 10px;
+    	color: #fff;
+		position: relative;
+	}
+	#bottom img:hover{
+		border: 1px solid #2B66A5;
+	}
+	</style>
+</head>
+
+<body >
+	<div id="page">
+		<div id="top" >
+			<div id="top_left">
+				<img alt="" src="images/logo.png">
+			</div>
+				<div class="clear"></div>
+			
+			<div id="far"></div>
+			<div>
+				<img alt="" src="images/left.png" id="leftbutton">
+				<img alt="" src="images/right.png" id="rightbutton">
+			</div>
+			<div class="clear"></div>
+			<div id="far"></div>
+			
+			<div id="login">
+				<a href="login.jsp">登录</a>
+				<a href="reg.jsp">注册</a>
+				<div class="word"><a href="http://map.baidu.com/">目的地</a></div>
+				<div class="word"><a href="http://www.nongli.com/item3/">离开日期</a></div>
+				<input type="text" class="search">
+				<input class="go" type="button" value="寻觅go窝→">
+			</div>
+		</div>
+		<div id="find">
+			<a style="cursor: auto;" target="_blank">
+				<img alt="" src="images/find.png">
+			</a>
+		</div>
+		<div id="bottom">
+			<h1>宾至如归</h1>
+			<span>海内存知己  天涯若比邻</span>
+			<div id="bottom_t">
+				<img alt="" src="images/center1.jpg">
+				<img alt="" src="images/center2.jpg">
+				<img alt="" src="images/center3.jpg">
+			</div>
+			<div class="clear"></div>
+			<h1>亲如一家</h1>
+			<span>有缘千里来相会</span>
+			<div id="bottom_b">
+				<img alt="" src="images/center4.jpg" >
+				<img alt="" src="images/center5.jpg">
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</body>
+
+<script type="text/javascript">
+	var time = 1;
+	var max = 4;/*几张图片*/
+	var pre = document.getElementById("leftbutton");
+	var img = document.getElementById("top");
+	pre.onclick = function(){
+		time++;
+		if(time > max)
+			time = 1;
+		img.style.backgroundImage = "url(images/topbackground"+time+".jpg)";
+	};
+	var next = document.getElementById("rightbutton");
+	next.onclick = function(){
+		time--;
+		if(time < 1)
+			time = max;
+		img.style.backgroundImage = "url(images/topbackground"+time+".jpg)";
+	};
+</script>
+
+</html>

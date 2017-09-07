@@ -1,0 +1,20 @@
+
+class A{
+	String name;
+	int age;
+}
+class B{
+	String name;
+	int age;
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		return super.clone();
+	}
+	
+}
+public class Clone {
+	public static void main(String[] args) {
+		
+		
+	}
+}

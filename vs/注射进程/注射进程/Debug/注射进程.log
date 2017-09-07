@@ -1,0 +1,15 @@
+﻿生成启动时间为 2016/7/12 13:04:27。
+     1>项目“E:\programming\vs\注射进程\注射进程\注射进程.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "源.c"
+         源.c
+       Link:
+         D:\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\programming\vs\注射进程\Debug\注射进程.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\programming\vs\注射进程\Debug\注射进程.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\programming\vs\注射进程\Debug\注射进程.lib" /MACHINE:X86 /DLL "Debug\源.obj"
+            正在创建库 E:\programming\vs\注射进程\Debug\注射进程.lib 和对象 E:\programming\vs\注射进程\Debug\注射进程.exp
+     1>LINK : warning LNK4232: 名称 注射进程.dll 包含非 ASCII 字符，在具有除 936 以外的 ANSI 代码页的系统上可能不能加载 DLL
+         注射进程.vcxproj -> E:\programming\vs\注射进程\Debug\注射进程.dll
+     1>已完成生成项目“E:\programming\vs\注射进程\注射进程\注射进程.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.13

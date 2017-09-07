@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>陈明东</title>
+
+<style type="text/css">
+	#form{
+		text-align: center;
+	}
+	#user{
+		margin-bottom: 10px;
+	}
+	#user input{
+		width: 280px;
+		height: 20px;
+	}
+	#pwd{
+		margin-bottom: 20px;
+	}
+	#pwd input{
+		width: 280px;
+		height: 20px;
+	}
+	#img{
+		margin-bottom: 10px;
+	}
+	#img a{
+		font-size: 20px;
+		color: red;
+		font-style: oblique;
+		font-variant: inherit;
+	}
+	#code input{
+		margin-right:20px;
+		margin-left:20px;
+		width: 110px;
+	}
+	body{
+		background-image: url("images/1.gif");
+	}
+	
+</style>
+
+<script type="text/javascript">
+	function change(){
+		//得到图片元素
+		var img = document.getElementsByTagName("img")[0];
+		//img.src = "/day09_00_logProject/servlet/ChangeImage";
+		img.src = "/day09_00_logProject/servlet/ChangeImage?time="+new Date().getTime();
+		//加上时间参数，是为了浏览器不缓存，比如IE，当你输入的网址和现在一样的时候，它默认就再这个页面，用了缓存，有了时间，那么网址就不一样了，但Google默认不缓存
+	}
+</script>
+</head>
+<body>
+	<form action="#" method="post" id="form">
+		<div><p>账号登录</div>
+		<div id="user"><input type="text" name="username" id="username"></div>
+		<div id="pwd"><input type="password" name="pwd"></div>
+		<div id="img"><img src="/day09_00_logProject/servlet/ChangeImage" align="middle"><a href="javascript:change()">看不清</div>
+		<div id="code"><input type="text" name="code"><input type="submit" value="登录"/></div>
+	</form>
+</body>
+</html>

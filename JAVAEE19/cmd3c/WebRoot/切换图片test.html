@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>东东</title>
+
+<style type="text/css">
+
+	#d1{
+		background-image: url("images/2.png");
+		background-size: cover;
+		height: 100px;
+		width: 100px;
+	}
+	
+</style>
+</head>
+<body>
+
+	<div id="d1"></div>
+
+</body>
+
+
+<script type="text/javascript">
+	var div = document.getElementById("d1");
+	div.onmouseover = function(){
+		this.style.backgroundImage = "url(images/2.jpg)";
+	};
+	div.onmouseout = function(){
+		this.style.backgroundImage = "url(images/2.png)";
+	};
+	var time = 2;
+	div.onclick = function(){
+		if(time > 3){
+			time = 2;
+		}
+		this.style.backgroundImage = "url(images/"+time+++".jpg)";
+			
+	}
+</script>
+
+</html>

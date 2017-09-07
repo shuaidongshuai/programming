@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>03-dom中的事件02.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  
+  <body>
+  		<input type="text" id="one"  />
+  </body>
+    <script type="text/javascript">
+    		var one = document.getElementById("one");
+    		
+    		one.onblur=function(){
+    			alert("失去焦点!");
+    		}
+    		one.onfocus=function(){
+    			alert("得到焦点!");
+    		}
+    </script>
+</html>

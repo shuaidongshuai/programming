@@ -1,0 +1,13 @@
+﻿生成启动时间为 2017/3/19 19:48:42。
+     1>项目“E:\programming\C++\C++11新特性\显式覆盖\显式覆盖.vcxproj”在节点 3 上(Build 个目标)。
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源.cpp"
+         源.cpp
+     1>e:\programming\c++\c++11新特性\显式覆盖\源.cpp(10): error C3668: “Derived::A”: 包含重写说明符“override”的方法没有重写任何基类方法
+     1>e:\programming\c++\c++11新特性\显式覆盖\源.cpp(11): error C3668: “Derived::B”: 包含重写说明符“override”的方法没有重写任何基类方法
+     1>e:\programming\c++\c++11新特性\显式覆盖\源.cpp(13): error C3668: “Derived::D”: 包含重写说明符“override”的方法没有重写任何基类方法
+     1>已完成生成项目“E:\programming\C++\C++11新特性\显式覆盖\显式覆盖.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.62

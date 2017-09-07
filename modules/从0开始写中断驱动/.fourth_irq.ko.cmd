@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/modules/从0开始写中断驱动/fourth_irq.ko := arm-linux-ld -EL -r  -T /linux-2.6.32.2/scripts/module-common.lds --build-id -o /mnt/hgfs/modules/从0开始写中断驱动/fourth_irq.ko /mnt/hgfs/modules/从0开始写中断驱动/fourth_irq.o /mnt/hgfs/modules/从0开始写中断驱动/fourth_irq.mod.o

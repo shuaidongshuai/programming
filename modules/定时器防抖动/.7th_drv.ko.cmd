@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/modules/定时器防抖动/7th_drv.ko := arm-linux-ld -EL -r  -T /linux-2.6.32.2/scripts/module-common.lds --build-id -o /mnt/hgfs/modules/定时器防抖动/7th_drv.ko /mnt/hgfs/modules/定时器防抖动/7th_drv.o /mnt/hgfs/modules/定时器防抖动/7th_drv.mod.o

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>03-dom中的事件02.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  
+  <body>
+  		<input type="text" id="one" value="陈明东" />
+  		
+  		<select id="two" >
+  			<option>大专</option>
+  			<option>本科</option>
+  		</select>
+  </body>
+    <script type="text/javascript">
+    		var one = document.getElementById("one");
+    		
+    		one.onchange=function(){
+    			alert("1被改变了!");
+    		}
+    		
+    		
+		var two = document.getElementById("two");
+    		
+		two.onchange=function(){
+    			alert("2被改变了!");
+    		}
+    </script>
+</html>

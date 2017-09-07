@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/modules/kernel异常分析/test.ko := arm-linux-ld -EL -r  -T /linux-2.6.32.2/scripts/module-common.lds --build-id -o /mnt/hgfs/modules/kernel异常分析/test.ko /mnt/hgfs/modules/kernel异常分析/test.o /mnt/hgfs/modules/kernel异常分析/test.mod.o

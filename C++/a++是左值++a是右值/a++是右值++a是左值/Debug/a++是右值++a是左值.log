@@ -1,0 +1,14 @@
+﻿生成启动时间为 2016/10/30 13:12:40。
+     1>项目“E:\programming\c++\a++是右值++a是左值\a++是右值++a是左值\a++是右值++a是左值.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源.cpp"
+         源.cpp
+     1>e:\programming\c++\a++是右值++a是左值\a++是右值++a是左值\源.cpp(28): warning C4552: “+”: 运算符不起任何作用；应输入带副作用的运算符
+       Link:
+         D:\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\programming\c++\a++是右值++a是左值\Debug\a++是右值++a是左值.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\programming\c++\a++是右值++a是左值\Debug\a++是右值++a是左值.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\programming\c++\a++是右值++a是左值\Debug\a++是右值++a是左值.lib" /MACHINE:X86 "Debug\源.obj"
+         a++是右值++a是左值.vcxproj -> E:\programming\c++\a++是右值++a是左值\Debug\a++是右值++a是左值.exe
+     1>已完成生成项目“E:\programming\c++\a++是右值++a是左值\a++是右值++a是左值\a++是右值++a是左值.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.10

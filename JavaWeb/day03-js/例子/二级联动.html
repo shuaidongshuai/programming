@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>二级联动.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+	<script type="text/javascript">
+		//json对象
+		// 相当于java当中的map
+		/* 
+		var json = {"name":"tom","age":18};
+		
+		//遍历json对象的键
+		
+		for(var key in json){  
+			//alert(key);
+			
+			alert(key+"==>"+json[key])
+		}
+		 */
+		//---------------------------------------------------------
+		
+		var json = {"河北省":["石家庄","廊坊","沧州"],
+					"山西省":["太原","大同","运城"],
+					"黑龙江省":["哈尔滨","齐齐哈尔","佳木斯"]};
+		
+		
+		// 初始化省的下拉选
+		function fun1(){
+			//1 获得省的select对象
+			var province = document.getElementById("province");
+			//2 遍历json的所有键
+			for(var key in json){  
+				// 创建一个option
+				var option = document.createElement("option");
+				option.innerHTML = key; // <option>河北省</option>
+				// 将option添加到select中
+				province.appendChild(option);
+			}
+		}
+		
+		function fun2(){
+			//1 获得市的select对象
+			var province = document.getElementById("province");
+			var city = document.getElementById("city");
+			//2 清空市级下拉选的数据
+			city.length =1; 
+			//3 获得用户选择的省
+			if(!province.selectedIndex){
+			//用户选择的是提示选项=>什么也不做
+			return;
+			}
+			var options = province.options;
+			var pName = options[province.selectedIndex].innerHTML;
+			//4 从json中根据省获得 省下的市数据
+			var cities = json[pName];
+			//5 遍历市级的数组
+			for(var i = 0 ; i<cities.length;i++){
+			var cityName = cities[i];
+				//创建市的option
+				var option = document.createElement("option");
+				option.innerHTML = cityName; 
+				// 将option添加到select中
+				city.appendChild(option);
+			}
+		}
+		
+	</script>
+  </head>
+  <body onload="fun1();" >
+  	<select id="province" onchange="fun2();" >
+  		<option>---请选择省---</option>
+  	</select>
+  	<select id="city" >
+  		<option>---请选择市---</option>
+  	</select>
+  </body>
+</html>

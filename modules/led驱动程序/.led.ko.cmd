@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/modules/led驱动程序/led.ko := arm-linux-ld -EL -r  -T /linux-2.6.32.2/scripts/module-common.lds --build-id -o /mnt/hgfs/modules/led驱动程序/led.ko /mnt/hgfs/modules/led驱动程序/led.o /mnt/hgfs/modules/led驱动程序/led.mod.o

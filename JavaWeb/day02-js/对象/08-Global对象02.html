@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>05-三个包装对象.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+<script type="text/javascript">
+// parseInt  转换成整数  => 从左到右依次转换.转换到遇到不能转换的字符为止
+// parseFloat 转换成浮点数
+
+var str = "123";
+
+var num1 = parseInt(str);
+var num2 = +str;
+var num3 = new Number(str);
+
+//alert(typeof num);
+//------------------------------------------
+var str2 = "123a";
+
+//alert(+str2);
+//alert(parseInt(str2));//123
+//-------------------------------------------
+var str3 = "a123";
+
+//alert(parseInt(str3));//NaN
+//-------------------------------------------
+var str4= "3.14";
+
+//alert(parseFloat(str4));//3.14
+//alert(parseInt(str4));//3
+</script>
+  </head>
+  <body>
+  </body>
+</html>

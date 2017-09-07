@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- <a href="demo11.html" onclick="fn(event)">点击我吧</a> -->
+	<!-- <a href="demo11.html" onclick="return false">点击我吧</a> -->
+</body>
+<script type="text/javascript">
+
+	function fn(e){
+		//ie：window.event.returnValue = false;
+		//W3c：传递过来的事件对象.preventDefault();
+		//W3c标准
+		if(e&&e.preventDefault){
+			alert("w3c");
+			e.preventDefault();//其他的浏览器都是支持W3c标准
+		//IE标签
+		}else{
+			alert("ie");
+			window.event.returnValue = false;//ie用这个阻止默认行为
+		}
+	}
+
+</script>
+
+
+
+</html>

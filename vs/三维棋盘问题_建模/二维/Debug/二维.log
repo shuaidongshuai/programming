@@ -1,0 +1,13 @@
+﻿生成启动时间为 2016/7/14 13:09:50。
+     1>项目“E:\programming\vs\三维棋盘问题_建模\二维\二维.vcxproj”在节点 3 上(Build 个目标)。
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\三维棋盘问题_建模\二维.cpp"
+         二维.cpp
+       Link:
+         D:\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\programming\vs\三维棋盘问题_建模\Debug\二维.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\programming\vs\三维棋盘问题_建模\Debug\二维.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\programming\vs\三维棋盘问题_建模\Debug\二维.lib" /MACHINE:X86 "Debug\二维.obj"
+         二维.vcxproj -> E:\programming\vs\三维棋盘问题_建模\Debug\二维.exe
+     1>已完成生成项目“E:\programming\vs\三维棋盘问题_建模\二维\二维.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.91

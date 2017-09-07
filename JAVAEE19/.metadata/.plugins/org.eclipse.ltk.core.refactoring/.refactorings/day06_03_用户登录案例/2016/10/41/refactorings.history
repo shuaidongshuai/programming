@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.dong.login.server&apos; to &apos;Server&apos;&#x0D;&#x0A;- Original project: &apos;day06_03_用户登录案例&apos;&#x0D;&#x0A;- Original element: &apos;com.dong.login.server&apos;&#x0D;&#x0A;- Renamed element: &apos;com.dong.login.Server&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;server&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.dong.login{server.java[server" matchStrategy="1" name="Server" qualified="false" references="true" similarDeclarations="false" stamp="1475900187455" textual="false" version="1.0"/>
+</session>

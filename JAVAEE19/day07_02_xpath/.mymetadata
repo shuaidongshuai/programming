@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="day07_02_xpath"
+  id="myeclipse.1443510391187"
+  context-root="/day07_02_xpath"
+  j2ee-spec="5.0"
+  archive="day07_02_xpath.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

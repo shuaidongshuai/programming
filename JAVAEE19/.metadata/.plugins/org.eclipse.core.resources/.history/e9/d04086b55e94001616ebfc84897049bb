@@ -1,0 +1,61 @@
+package com.dong.test;
+
+import java.util.HashSet;
+import java.util.Iterator;
+
+public class HashSetTest2 {
+   public static void main(String[] args) 
+    { 
+                 HashSet hs=new HashSet(); 
+                 hs.add(new Student(1,"zhangsan")); 
+                 hs.add(new Student(2,"lisi")); 
+                 hs.add(new Student(3,"wangwu")); 
+                 hs.add(new Student(1,"zhangsan")); 
+  
+                 Iterator it=hs.iterator(); 
+                 while(it.hasNext()) 
+                 { 
+                        System.out.println(it.next()); 
+                 }
+/*输出结果为： 
+              1:zhangsan 
+              1:zhangsan 
+              3:wangwu 
+              2:lisi */
+                 
+/*	问题出现了，为什么hashset添加了相等的元素呢，这是不是和hashset的原则违背了呢？回答是：没有 
+             因为在根据hashcode()对两次建立的new Student(1,"zhangsan")对象进行比较时，生成的是不同的哈希码值，
+             所以hashset把他当作不同的对象对待了，当然此时的equals()方法返回的值也不等（这个不用解释了吧）。
+             那么为什么会生成不同的哈希码值呢？上面我们在比较s1和s2的时候不是生成了同样的哈希码吗？
+             原因就在于我们自己写的Student类并没有重新自己的hashcode()和equals()方法，
+             所以在比较时，是继承的object类中的hashcode()方法，呵呵，各位还记得object类中的hashcode()方法比较的是什么吧！！ 
+             它是一个本地方法，比较的是对象的地址（引用地址），使用new方法创建对象，两次生成的当然是不同的对象了（这个大家都能理解吧。。。）
+             造成的结果就是两个对象的hashcode()返回的值不一样。所以根据第一个准则，hashset会把它们当作不同的对象对待，
+             自然也用不着第二个准则进行判定了。那么怎么解决这个问题呢？？ 
+             答案是：在Student类中重新hashcode()和equals()方法。*/	
+     } 
+} 
+class Student 
+ {
+	int num;
+	String name;
+
+	Student(int num, String name) {
+		this.num = num;
+		this.name = name;
+	}
+
+	public String toString() {
+		return num + ":" + name;
+	}
+	public int hashCode() 
+	{ 
+	            return num*name.hashCode(); 
+	} 
+	public boolean equals(Object o) 
+	{ 
+	            Student s=(Student)o; 
+	            return num==s.num && name.equals(s.name); 
+	} 
+}   
+

@@ -1,0 +1,9 @@
+INDEX VERSION 1.126
+E:\programming\JavaWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3877009437.index
+\itheima_day02\src
+E:\programming\JavaWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4033703006.index
+\itheima_day03\src
+E:\programming\JavaWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3967819880.index
+\itheima74\src
+E:\programming\JavaWeb\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3734717656.index
+\itheima_day01\src

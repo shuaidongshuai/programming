@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>01-hello.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  
+  <body>
+  	<div id="one" class="two" name="three" ></div>
+  </body>
+    <script type="text/javascript">
+    	//dom的所有对象会在页面打开时,由浏览器负责创建.
+    	//我们如何获得这些dom对象?
+    	// 浏览器把 dom的定点对象 Document对象的引用交给了 window对象
+   //代码:window.document
+   	
+   	//document	
+   		var doc = window.document;
+   		
+   		//alert(doc);
+   	//element 的获得 (重点)
+   		var div1 = document.getElementsByTagName("div")[0];
+   		var div2 = document.getElementById("one");
+   		var div3 = document.getElementsByClassName("two")[0];
+   		var div4 = document.getElementsByName("three")[0];
+   		alert(div3 == div4);
+    </script>
+</html>

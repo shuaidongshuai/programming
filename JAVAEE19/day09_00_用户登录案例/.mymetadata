@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="day09_00_用户登录案例"
+  id="myeclipse.1476455417909"
+  context-root="/day09_00_logProject"
+  j2ee-spec="5.0"
+  archive="day09_00_用户登录案例.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

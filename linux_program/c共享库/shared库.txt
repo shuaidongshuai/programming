@@ -1,0 +1,30 @@
+﻿//1
+gcc -fPIC -c add.o sub.o				// -c 只编译不连接   // -fPIC 参数表示，生成的.o文件  内容都是相对地址*****
+生成libdong.so.1.1 这个库
+gcc -shared -Wl,-soname,libdong.so.1 -o libdong.so.1.1 add.o sub.o		// libdong.so.1.1   前面1是大版本号，后面1是小版本号
+生成可执行文件
+gcc main.c libdong.so.1.1 -o main
+
+//2
+然后执行 ./main  
+会报错：./main: error No such file or directory  找不到库
+
+//3
+ldd a.out  		// ldd  查看 a.out 依赖哪些库？
+linux-vdso.so.1 =>  (0x00007ffce05f6000)
+libdong.so.1 => not found						找不到库
+libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f5beda4c000)
+/lib64/ld-linux-x86-64.so.2 (0x00005636af218000)
+
+//4
+加入库的路径
+sudo vim /etc/ld.so.conf
+sudo ldconfig -v 更新库
+
+//有几个需要注意的地方
+1. /etc/ld.so.conf  中有 include /etc/ld.so.conf.d/*.conf	不能在下一行也写 include  错了都不知道咋错的
+															下一行直接写 路径
+2. /mnt/hgfs/   中是win和linux共享的   有些东西linux无法访问，无法执行。当初看内核代码也有这个原因
+				把库copy到别的地方去
+
+

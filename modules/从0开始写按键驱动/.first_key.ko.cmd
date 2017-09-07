@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/modules/从零开始编写按键驱动/first_key.ko := arm-linux-ld -EL -r  -T /linux-2.6.32.2/scripts/module-common.lds --build-id -o /mnt/hgfs/modules/从零开始编写按键驱动/first_key.ko /mnt/hgfs/modules/从零开始编写按键驱动/first_key.o /mnt/hgfs/modules/从零开始编写按键驱动/first_key.mod.o

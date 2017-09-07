@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>07-dom中的事件05.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+ <style type="text/css">
+ 	div{
+ 		border: red solid;
+ 		width:300px;
+ 		height: 300px;
+ 	}
+ </style>
+  </head>
+   
+  
+  <body  >
+  		<div id="one">
+  			
+  		</div>
+  </body>
+  
+   <script type="text/javascript">
+   /*  onmousedown 鼠标按钮被按下。 4 1 9 Yes 
+       onmouseup 鼠标按键被松开。
+	   
+	    onmouseout 鼠标从某元素移开。 4 1 9 Yes 
+	    onmouseover 鼠标移到某元素之上。 3 1 9 Yes 
+	    
+	    onmousemove 鼠标被移动。 3 1 9 Yes 
+	      */
+	var one = document.getElementById("one");
+   
+/* 	one.onmousedown =function(event){
+			alert(event.button);
+		}
+	one.onmouseout =function(event){
+		alert("onmouseout");
+	}
+	one.onmouseover =function(event){
+		alert("onmouseover");
+	} */
+	one.onmousemove =function(event){
+		alert(event.clientX+"==>"+event.clientY);
+	}
+	</script>
+</html>

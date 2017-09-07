@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "植物大战僵尸", "植物大战僵尸\植物大战僵尸.vcxproj", "{B39F4B45-F0AE-476B-9150-BE76018D5903}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "植物大战僵尸MFC", "植物大战僵尸MFC\植物大战僵尸MFC.vcxproj", "{930A7EDA-805A-4D92-96C8-FF90D5FEE9E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B39F4B45-F0AE-476B-9150-BE76018D5903}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B39F4B45-F0AE-476B-9150-BE76018D5903}.Debug|Win32.Build.0 = Debug|Win32
+		{B39F4B45-F0AE-476B-9150-BE76018D5903}.Release|Win32.ActiveCfg = Release|Win32
+		{B39F4B45-F0AE-476B-9150-BE76018D5903}.Release|Win32.Build.0 = Release|Win32
+		{930A7EDA-805A-4D92-96C8-FF90D5FEE9E1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{930A7EDA-805A-4D92-96C8-FF90D5FEE9E1}.Debug|Win32.Build.0 = Debug|Win32
+		{930A7EDA-805A-4D92-96C8-FF90D5FEE9E1}.Release|Win32.ActiveCfg = Release|Win32
+		{930A7EDA-805A-4D92-96C8-FF90D5FEE9E1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

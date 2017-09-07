@@ -1,0 +1,34 @@
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.ListIterator;
+
+
+public class teste {
+	private static LinkedList<String> list;//每个男性对女性的排名
+	public static void main(String[] args) {
+		list = new LinkedList<int>();
+		
+		list.add("1");
+		list.add("2");
+		list.add("3");
+		list.add("4");
+		ListIterator<int>it=list.listIterator(0);
+	/*	for(;it.hasNext();){
+			it.next();
+			if(it.next().equals("3")){
+				break;
+			}
+		}*/
+	/*	for(;it.hasNext();) {
+			if(it.next().equals("3"))
+				break;
+		}	*/
+		for(;it.hasNext()&&it.next().equals("3");) {
+			
+		}
+		it.add("dong");
+		for(ListIterator<int>itt=list.listIterator(0);itt.hasNext();){
+			System.out.println(itt.next());
+		}
+	}
+}

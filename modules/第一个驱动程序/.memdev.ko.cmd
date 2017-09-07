@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/modules/第一个驱动程序/memdev.ko := arm-linux-ld -EL -r  -T /linux-2.6.32.2/scripts/module-common.lds --build-id -o /mnt/hgfs/modules/第一个驱动程序/memdev.ko /mnt/hgfs/modules/第一个驱动程序/memdev.o /mnt/hgfs/modules/第一个驱动程序/memdev.mod.o

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>myDemo1.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  
+  <body>
+    
+  </body>
+  
+  <script type="text/javascript">
+  	var s = new String("chen-ming-dong");
+  	var obj = new Boolean(true);
+/*   	alert(typeof s);
+  	alert(obj.toString());
+  	alert(typeof obj.toString()); */
+  	/* var arr = s.split("");
+  	for(var i = 0;i<arr.length;i++){
+  		alert(arr[i]);
+  	} */
+  	
+  	
+  	/* 正则表达式 */
+  	/* 自定义密码，必须以大写开头 其中只允许字母数字_-   结尾必须包含.dong  .必须加转义符 */
+  	var reg = /^[A-Z]+[A-z0-9_-]*\.dong$/;
+  	var pa = "Hel123_-lo.dong";
+  	alert(reg.test(pa));
+  	
+  </script>
+  
+</html>

@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/modules/proc文件系统/proc.ko := arm-linux-ld -EL -r  -T /linux-2.6.32.2_mini/scripts/module-common.lds --build-id -o /mnt/hgfs/modules/proc文件系统/proc.ko /mnt/hgfs/modules/proc文件系统/proc.o /mnt/hgfs/modules/proc文件系统/proc.mod.o

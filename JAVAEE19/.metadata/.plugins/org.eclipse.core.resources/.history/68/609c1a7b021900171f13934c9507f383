@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>寻觅go窝</title>
+	<style type="text/css">
+	.clear{
+		clear:both;
+	}
+	#top{
+		
+	}
+	
+	
+	
+	</style>
+</head>
+
+<body>
+	<div id="top">
+		<div id="top_left">
+			<img alt="" src="images/logo.jpg">
+		</div>
+		<div id="top_right">
+			<img alt="" src="bookimages/cart.gif">
+			<a href="#">购物车</a>|
+			<a href="#">帮助中心</a>|
+			<a href="#">我的账户</a>|
+			<a href="#">新用户注册</a>
+		</div>
+	</div>
+	<div >
+	
+	</div>
+</body>

@@ -1,0 +1,39 @@
+﻿生成启动时间为 2016/7/27 15:09:56。
+     1>项目“E:\programming\C++传智\20150612\模板元\模板元.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源.cpp"
+         源.cpp
+     1>e:\programming\c++传智\20150612\模板元\源.cpp(45): warning C4307: “+”: 整型常量溢出
+                 e:\programming\c++传智\20150612\模板元\源.cpp(45): 参见对正在编译的类 模板 实例化“data<46>”的引用
+                 e:\programming\c++传智\20150612\模板元\源.cpp(45): 参见对正在编译的类 模板 实例化“data<47>”的引用
+                 e:\programming\c++传智\20150612\模板元\源.cpp(45): 参见对正在编译的类 模板 实例化“data<48>”的引用
+                 e:\programming\c++传智\20150612\模板元\源.cpp(45): 参见对正在编译的类 模板 实例化“data<49>”的引用
+                 e:\programming\c++传智\20150612\模板元\源.cpp(45): 参见对正在编译的类 模板 实例化“data<50>”的引用
+                 e:\programming\c++传智\20150612\模板元\源.cpp(45): 参见对正在编译的类 模板 实例化“data<51>”的引用
+                 e:\programming\c++传智\20150612\模板元\源.cpp(45): 参见对正在编译的类 模板 实例化“data<52>”的引用
+                 e:\programming\c++传智\20150612\模板元\源.cpp(45): 参见对正在编译的类 模板 实例化“data<53>”的引用
+                 e:\programming\c++传智\20150612\模板元\源.cpp(45): 参见对正在编译的类 模板 实例化“data<54>”的引用
+                 e:\programming\c++传智\20150612\模板元\源.cpp(45): 参见对正在编译的类 模板 实例化“data<55>”的引用
+                 e:\programming\c++传智\20150612\模板元\源.cpp(45): 参见对正在编译的类 模板 实例化“data<56>”的引用
+                 e:\programming\c++传智\20150612\模板元\源.cpp(45): 参见对正在编译的类 模板 实例化“data<57>”的引用
+                 e:\programming\c++传智\20150612\模板元\源.cpp(45): 参见对正在编译的类 模板 实例化“data<58>”的引用
+                 e:\programming\c++传智\20150612\模板元\源.cpp(45): 参见对正在编译的类 模板 实例化“data<59>”的引用
+                 e:\programming\c++传智\20150612\模板元\源.cpp(45): 参见对正在编译的类 模板 实例化“data<60>”的引用
+                 e:\programming\c++传智\20150612\模板元\源.cpp(45): 参见对正在编译的类 模板 实例化“data<61>”的引用
+                 e:\programming\c++传智\20150612\模板元\源.cpp(45): 参见对正在编译的类 模板 实例化“data<62>”的引用
+                 e:\programming\c++传智\20150612\模板元\源.cpp(45): 参见对正在编译的类 模板 实例化“data<63>”的引用
+                 e:\programming\c++传智\20150612\模板元\源.cpp(45): 参见对正在编译的类 模板 实例化“data<64>”的引用
+                 e:\programming\c++传智\20150612\模板元\源.cpp(45): 参见对正在编译的类 模板 实例化“data<65>”的引用
+                 e:\programming\c++传智\20150612\模板元\源.cpp(45): 参见对正在编译的类 模板 实例化“data<66>”的引用
+                 e:\programming\c++传智\20150612\模板元\源.cpp(45): 参见对正在编译的类 模板 实例化“data<67>”的引用
+                 e:\programming\c++传智\20150612\模板元\源.cpp(45): 参见对正在编译的类 模板 实例化“data<68>”的引用
+                 e:\programming\c++传智\20150612\模板元\源.cpp(45): 参见对正在编译的类 模板 实例化“data<69>”的引用
+                 e:\programming\c++传智\20150612\模板元\源.cpp(60): 参见对正在编译的类 模板 实例化“data<70>”的引用
+       Link:
+         D:\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\programming\C++传智\20150612\Debug\模板元.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\programming\C++传智\20150612\Debug\模板元.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\programming\C++传智\20150612\Debug\模板元.lib" /MACHINE:X86 "Debug\源.obj"
+         模板元.vcxproj -> E:\programming\C++传智\20150612\Debug\模板元.exe
+     1>已完成生成项目“E:\programming\C++传智\20150612\模板元\模板元.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.01

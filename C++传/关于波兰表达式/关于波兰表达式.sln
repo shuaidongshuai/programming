@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "中缀表达式转逆波兰表达式", "中缀表达式转逆波兰表达式\中缀表达式转逆波兰表达式.vcxproj", "{419DFFC9-5D2E-4EB4-B642-FFE722FF9218}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "计算逆波兰表达式", "计算逆波兰表达式\计算逆波兰表达式.vcxproj", "{492AADA5-5C56-4988-9483-590675D84E26}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "表达式计算", "表达式计算\表达式计算.vcxproj", "{59581EFB-ABE8-45C7-A0A1-8AD837F253F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{419DFFC9-5D2E-4EB4-B642-FFE722FF9218}.Debug|Win32.ActiveCfg = Debug|Win32
+		{419DFFC9-5D2E-4EB4-B642-FFE722FF9218}.Debug|Win32.Build.0 = Debug|Win32
+		{419DFFC9-5D2E-4EB4-B642-FFE722FF9218}.Release|Win32.ActiveCfg = Release|Win32
+		{419DFFC9-5D2E-4EB4-B642-FFE722FF9218}.Release|Win32.Build.0 = Release|Win32
+		{492AADA5-5C56-4988-9483-590675D84E26}.Debug|Win32.ActiveCfg = Debug|Win32
+		{492AADA5-5C56-4988-9483-590675D84E26}.Debug|Win32.Build.0 = Debug|Win32
+		{492AADA5-5C56-4988-9483-590675D84E26}.Release|Win32.ActiveCfg = Release|Win32
+		{492AADA5-5C56-4988-9483-590675D84E26}.Release|Win32.Build.0 = Release|Win32
+		{59581EFB-ABE8-45C7-A0A1-8AD837F253F6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{59581EFB-ABE8-45C7-A0A1-8AD837F253F6}.Debug|Win32.Build.0 = Debug|Win32
+		{59581EFB-ABE8-45C7-A0A1-8AD837F253F6}.Release|Win32.ActiveCfg = Release|Win32
+		{59581EFB-ABE8-45C7-A0A1-8AD837F253F6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

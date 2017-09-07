@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/modules/1内核链表/mylist.ko := arm-linux-ld -EL -r  -T /linux-2.6.32.2_mini/scripts/module-common.lds --build-id -o /mnt/hgfs/modules/1内核链表/mylist.ko /mnt/hgfs/modules/1内核链表/mylist.o /mnt/hgfs/modules/1内核链表/mylist.mod.o

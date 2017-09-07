@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>05-三个包装对象.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+<script type="text/javascript">
+	// encodeURI/decodeURI 可以将中文Url编码 例如:  汤姆=>%E6%B1%A4%E5%A7%86
+	// encodeURIComponent/decodeURIComponent 转换的范围更大,包括一些url中的字符. & : /
+	//username=%E6%B1%A4%E5%A7%86
+	
+	var str ="http://www.baidu.com?wd=&汤?姆";
+	var encodeStr = encodeURIComponent(str);
+	alert(encodeStr);
+//------------------------------------------	
+</script>
+  </head>
+  <a href="http://www.baidu.com?wd=传智" >点我</a>
+  <body>
+  </body>
+</html>

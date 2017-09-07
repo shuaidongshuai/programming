@@ -1,0 +1,275 @@
+源.cpp
+D:\visual studio\VC\INCLUDE\xlocale(337) : warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+class _s__RTTIBaseClassDescriptor2	size(28):
+	+---
+ 0	| pTypeDescriptor
+ 4	| numContainedBases
+ 8	| _PMD where
+20	| attributes
+24	| pClassDescriptor
+	+---
+
+
+
+class _s__RTTIBaseClassArray	size(1):
+	+---
+ 0	| arrayOfBaseClassDescriptors
+	+---
+
+
+
+class ?$_Bitwise_hash@_N	size(1):
+	+---
+	| +--- (base class ?$unary_function@_NI)
+	| +---
+	+---
+
+
+
+class ?$_Bitwise_hash@D	size(1):
+	+---
+	| +--- (base class ?$unary_function@DI)
+	| +---
+	+---
+
+
+
+class ?$_Bitwise_hash@C	size(1):
+	+---
+	| +--- (base class ?$unary_function@CI)
+	| +---
+	+---
+
+
+
+class ?$_Bitwise_hash@E	size(1):
+	+---
+	| +--- (base class ?$unary_function@EI)
+	| +---
+	+---
+
+
+
+class ?$_Bitwise_hash@_W	size(1):
+	+---
+	| +--- (base class ?$unary_function@_WI)
+	| +---
+	+---
+
+
+
+class ?$_Bitwise_hash@F	size(1):
+	+---
+	| +--- (base class ?$unary_function@FI)
+	| +---
+	+---
+
+
+
+class ?$_Bitwise_hash@G	size(1):
+	+---
+	| +--- (base class ?$unary_function@GI)
+	| +---
+	+---
+
+
+
+class ?$_Bitwise_hash@H	size(1):
+	+---
+	| +--- (base class ?$unary_function@HI)
+	| +---
+	+---
+
+
+
+class ?$_Bitwise_hash@I	size(1):
+	+---
+	| +--- (base class ?$unary_function@II)
+	| +---
+	+---
+
+
+
+class ?$_Bitwise_hash@J	size(1):
+	+---
+	| +--- (base class ?$unary_function@JI)
+	| +---
+	+---
+
+
+
+class ?$_Bitwise_hash@K	size(1):
+	+---
+	| +--- (base class ?$unary_function@KI)
+	| +---
+	+---
+
+
+
+class ?$_Bitwise_hash@_J	size(1):
+	+---
+	| +--- (base class ?$unary_function@_JI)
+	| +---
+	+---
+
+
+
+class ?$_Bitwise_hash@_K	size(1):
+	+---
+	| +--- (base class ?$unary_function@_KI)
+	| +---
+	+---
+
+
+
+class ?$_Bitwise_hash@M	size(1):
+	+---
+	| +--- (base class ?$unary_function@MI)
+	| +---
+	+---
+
+
+
+class ?$_Bitwise_hash@N	size(1):
+	+---
+	| +--- (base class ?$unary_function@NI)
+	| +---
+	+---
+
+
+
+class ?$_Bitwise_hash@O	size(1):
+	+---
+	| +--- (base class ?$unary_function@OI)
+	| +---
+	+---
+
+
+
+class ?$add_reference@$$CBX	size(1):
+	+---
+	+---
+
+
+
+class ?$add_rvalue_reference@$$CBX	size(1):
+	+---
+	+---
+
+
+
+class __JUMP_BUFFER	size(64):
+	+---
+ 0	| Ebp
+ 4	| Ebx
+ 8	| Edi
+12	| Esi
+16	| Esp
+20	| Eip
+24	| Registration
+28	| TryLevel
+32	| Cookie
+36	| UnwindFunc
+40	| UnwindData
+	+---
+
+
+
+class _Bxty	size(0):
+	+---
+ 0	| _Buf
+ 0	| _Ptr
+ 0	| _Alias
+	+---
+
+
+
+class ?$remove_volatile@$$CBD	size(1):
+	+---
+	+---
+
+
+
+class ?$remove_const@$$CBD	size(1):
+	+---
+	+---
+
+
+
+class ?$remove_cv@$$CBD	size(1):
+	+---
+	+---
+
+
+
+class ?$is_void@$$CBD	size(1):
+	+---
+	| +--- (base class ?$_Is_void@D)
+	| | +--- (base class ?$integral_constant@_N$0A@)
+	| | +---
+	| +---
+	+---
+
+
+
+class ?$_If@$0A@$$CBH$$CBD	size(1):
+	+---
+	+---
+
+
+
+class ?$is_same@PBDPBD	size(1):
+	+---
+	| +--- (base class ?$integral_constant@_N$00)
+	| +---
+	+---
+
+
+
+class ?$is_same@ABDABD	size(1):
+	+---
+	| +--- (base class ?$integral_constant@_N$00)
+	| +---
+	+---
+
+
+
+class ?$_If@$00U?$_Simple_types@D@std@@U?$_String_iter_types@DIHPADPBDAADABD@2@	size(1):
+	+---
+	+---
+
+
+
+class _Bxty	size(16):
+	+---
+ 0	| _Buf
+ 0	| _Ptr
+ 0	| _Alias
+	+---
+
+
+
+class B	size(12):
+	+---
+	| +--- (base class A)
+ 0	| | m
+ 4	| | m2
+ 8	| | m3
+	| +---
+	+---
+
+
+
+class ?$_Iterator012@Urandom_access_iterator_tag@std@@DHPBDABDU_Iterator_base0@2@	size(1):
+	+---
+	| +--- (base class _Iterator_base0)
+	| +---
+	+---
+
+
+
+Microsoft (R) Incremental Linker Version 12.00.40629.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:源.exe 
+源.obj 

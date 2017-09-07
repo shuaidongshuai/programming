@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="cmd3c"
+  id="myeclipse.1491277854555"
+  context-root="/cmd3c"
+  j2ee-spec="5.0"
+  archive="cmd3c.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

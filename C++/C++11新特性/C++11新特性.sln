@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Range-based for-loop", "Range-based for-loop\Range-based for-loop.vcxproj", "{85E5BFCA-1DCF-429B-95FB-B4A2300D3D70}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lambda 表达式", "Lambda 表达式\Lambda 表达式.vcxproj", "{3B74842A-7B1E-481A-89FE-9C7FED55B930}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "auto关键字", "auto关键字\auto关键字.vcxproj", "{1B40D2C0-E356-47AF-B69A-288E3B2A3BD2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "密闭类和密闭方法", "密闭类和密闭方法\密闭类和密闭方法.vcxproj", "{BB1FDCAF-19F6-4A74-BB24-3223090CD161}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "显式覆盖", "显式覆盖\显式覆盖.vcxproj", "{D1E82B94-76C1-4C9F-98F8-1856BE3B37E8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "非成员begin()和end()", "非成员begin()和end()\非成员begin()和end().vcxproj", "{8435B58C-51A8-49A7-8458-D3B0A9E4C769}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "constexpr", "constexpr\constexpr.vcxproj", "{831FA902-398C-4BEE-A20E-892359207B23}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bind", "bind\bind.vcxproj", "{5B4B8891-7796-474F-8E48-F217116DD702}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85E5BFCA-1DCF-429B-95FB-B4A2300D3D70}.Debug|Win32.ActiveCfg = Debug|Win32
+		{85E5BFCA-1DCF-429B-95FB-B4A2300D3D70}.Debug|Win32.Build.0 = Debug|Win32
+		{85E5BFCA-1DCF-429B-95FB-B4A2300D3D70}.Release|Win32.ActiveCfg = Release|Win32
+		{85E5BFCA-1DCF-429B-95FB-B4A2300D3D70}.Release|Win32.Build.0 = Release|Win32
+		{3B74842A-7B1E-481A-89FE-9C7FED55B930}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3B74842A-7B1E-481A-89FE-9C7FED55B930}.Debug|Win32.Build.0 = Debug|Win32
+		{3B74842A-7B1E-481A-89FE-9C7FED55B930}.Release|Win32.ActiveCfg = Release|Win32
+		{3B74842A-7B1E-481A-89FE-9C7FED55B930}.Release|Win32.Build.0 = Release|Win32
+		{1B40D2C0-E356-47AF-B69A-288E3B2A3BD2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1B40D2C0-E356-47AF-B69A-288E3B2A3BD2}.Debug|Win32.Build.0 = Debug|Win32
+		{1B40D2C0-E356-47AF-B69A-288E3B2A3BD2}.Release|Win32.ActiveCfg = Release|Win32
+		{1B40D2C0-E356-47AF-B69A-288E3B2A3BD2}.Release|Win32.Build.0 = Release|Win32
+		{BB1FDCAF-19F6-4A74-BB24-3223090CD161}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BB1FDCAF-19F6-4A74-BB24-3223090CD161}.Debug|Win32.Build.0 = Debug|Win32
+		{BB1FDCAF-19F6-4A74-BB24-3223090CD161}.Release|Win32.ActiveCfg = Release|Win32
+		{BB1FDCAF-19F6-4A74-BB24-3223090CD161}.Release|Win32.Build.0 = Release|Win32
+		{D1E82B94-76C1-4C9F-98F8-1856BE3B37E8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D1E82B94-76C1-4C9F-98F8-1856BE3B37E8}.Debug|Win32.Build.0 = Debug|Win32
+		{D1E82B94-76C1-4C9F-98F8-1856BE3B37E8}.Release|Win32.ActiveCfg = Release|Win32
+		{D1E82B94-76C1-4C9F-98F8-1856BE3B37E8}.Release|Win32.Build.0 = Release|Win32
+		{8435B58C-51A8-49A7-8458-D3B0A9E4C769}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8435B58C-51A8-49A7-8458-D3B0A9E4C769}.Debug|Win32.Build.0 = Debug|Win32
+		{8435B58C-51A8-49A7-8458-D3B0A9E4C769}.Release|Win32.ActiveCfg = Release|Win32
+		{8435B58C-51A8-49A7-8458-D3B0A9E4C769}.Release|Win32.Build.0 = Release|Win32
+		{831FA902-398C-4BEE-A20E-892359207B23}.Debug|Win32.ActiveCfg = Debug|Win32
+		{831FA902-398C-4BEE-A20E-892359207B23}.Debug|Win32.Build.0 = Debug|Win32
+		{831FA902-398C-4BEE-A20E-892359207B23}.Release|Win32.ActiveCfg = Release|Win32
+		{831FA902-398C-4BEE-A20E-892359207B23}.Release|Win32.Build.0 = Release|Win32
+		{5B4B8891-7796-474F-8E48-F217116DD702}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5B4B8891-7796-474F-8E48-F217116DD702}.Debug|Win32.Build.0 = Debug|Win32
+		{5B4B8891-7796-474F-8E48-F217116DD702}.Release|Win32.ActiveCfg = Release|Win32
+		{5B4B8891-7796-474F-8E48-F217116DD702}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

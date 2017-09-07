@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>综合练习1.html</title>
+
+<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+<meta http-equiv="description" content="this is my page">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+<style type="text/css">
+#title h1 {
+	text-align: center;
+	background-color: gray;
+}
+
+#info {
+	text-align: center;
+}
+
+#username {
+	margin-left: 35%;
+	font-size: 30px;
+	width: 30%;
+	cellpadding
+	="5"
+}
+#btn{
+	width: 60px;
+}
+
+.del {
+	background-color: gray;
+	text-decoration: blink;
+}
+</style>
+
+</head>
+
+<body bgcolor="#CCE8CF">
+	<br>
+	<div id="title">
+		<h1>东东排行榜</h1>
+	</div>
+	<br>
+	<div id="info">
+		姓名：<input type="text" id="name"> 年龄：<input type="text"
+			id="age"> 分数：<input type="text" id="score"><br>
+		<br>
+		<button id="btn">上传</button>
+		<br> <br>
+		<hr>
+		<br> <br>
+		<table id="username" border="1" cellpadding="5">
+			<tr>
+				<th>姓名
+				<th>年龄
+				<th>分数
+				<th>&nbsp;
+			<tr>
+				<td>陈明东
+				<td>20
+				<td>10000
+				<td><a class="del" href="">Delete</a>
+			<tr>
+				<td>大东
+				<td>20
+				<td>9999
+				<td><a class="del" href="">Delete</a>
+		</table>
+	</div>
+</body>
+<script type="text/javascript">
+	window.onload = function() {
+		document.getElementById("btn").onclick = function() {
+			var name = document.getElementById("name").value;
+			var age = document.getElementById("age").value;
+			var score = document.getElementById("score").value;
+
+			var tdName = document.createElement("td");
+			var tdNameText = document.createTextNode(name);
+			tdName.appendChild(tdNameText);
+
+			var tdEmail = document.createElement("td");
+			var tdEmailText = document.createTextNode(age);
+			tdEmail.appendChild(tdEmailText);
+
+			var tdTel = document.createElement("td");
+			var tdTelText = document.createTextNode(score);
+			tdTel.appendChild(tdTelText);
+
+			var tdDelete = document.createElement("td");
+			var aE = document.createElement("a");
+			aE.setAttribute("href", "#");
+			var aEText = document.createTextNode("Delete");
+			aE.appendChild(aEText);
+			tdDelete.appendChild(aE);
+
+			//创建tr，将4个创建完成的td对象放置到tr中
+			var tr = document.createElement("tr");
+			tr.appendChild(tdName);
+			tr.appendChild(tdEmail);
+			tr.appendChild(tdTel);
+			tr.appendChild(tdDelete);
+
+			var table = document.getElementsByTagName("table");
+			table[0].appendChild(tr);
+
+			//当点击Delete，执行删除对应的行
+			aE.onclick = function() {
+				return deleteTr(this);
+			};
+		};
+		//删除对应行的方法
+		function deleteTr(aE) {
+			/**
+			 *  <tr>
+					<td>Jerry</td>
+					<td>jerry@sohu.com</td>
+					<td>8000</td>
+					<td><a href="deleteEmp?id=Jerry">Delete</a></td>
+				</tr>
+			 */
+			var name = aE.parentNode.parentNode.firstChild.firstChild.nodeValue;
+			var flag = window.confirm("您确定要删除【" + name + "】吗？");
+			if (flag) {
+				//查找父节点（tbody）
+				var tbody = aE.parentNode.parentNode.parentNode;
+				//查找子节点（tr）
+				var tr = aE.parentNode.parentNode;
+				//删除tr
+				tbody.removeChild(tr);
+			}
+		}
+	};
+</script>
+
+</html>

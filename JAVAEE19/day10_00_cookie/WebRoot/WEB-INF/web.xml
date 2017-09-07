@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>Demo1</servlet-name>
+    <servlet-class>com.dong.cookie.Demo1保存浏览器上次访问时间</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Demo3Clear</servlet-name>
+    <servlet-class>com.dong.cookie.Demo3Clear</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.dong.login.Login保存用户名和密码</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DoLogin</servlet-name>
+    <servlet-class>com.dong.login.DoLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Beauty</servlet-name>
+    <servlet-class>com.dong.entity.Beauty</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowAllBeauty</servlet-name>
+    <servlet-class>com.dong.history.ShowAllBeauty</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowOneBeauty</servlet-name>
+    <servlet-class>com.dong.history.ShowOneBeauty</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Demo1</servlet-name>
+    <url-pattern>/servlet/Demo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Demo3Clear</servlet-name>
+    <url-pattern>/servlet/Demo3Clear</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlet/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoLogin</servlet-name>
+    <url-pattern>/servlet/DoLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Beauty</servlet-name>
+    <url-pattern>/servlet/Beauty</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowAllBeauty</servlet-name>
+    <url-pattern>/servlet/ShowAllBeauty</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowOneBeauty</servlet-name>
+    <url-pattern>/servlet/ShowOneBeauty</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

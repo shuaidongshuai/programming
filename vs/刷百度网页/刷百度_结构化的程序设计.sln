@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "刷百度_结构化的程序设计", "刷百度_结构化的程序设计\刷百度_结构化的程序设计.vcxproj", "{ECDD9F31-255C-4D15-A2F0-72978E159337}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECDD9F31-255C-4D15-A2F0-72978E159337}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ECDD9F31-255C-4D15-A2F0-72978E159337}.Debug|Win32.Build.0 = Debug|Win32
+		{ECDD9F31-255C-4D15-A2F0-72978E159337}.Release|Win32.ActiveCfg = Release|Win32
+		{ECDD9F31-255C-4D15-A2F0-72978E159337}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

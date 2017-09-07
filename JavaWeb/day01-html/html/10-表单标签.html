@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>表格标记</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+</head>
+<body>
+	<!-- form用于标识表单的范围 
+			action属性: 决定提交的位置
+		input
+			type属性:决定输入的类型
+			name属性(重点):提交的键
+			size属性:文本输入框的显示长度	 	text	password
+			maxlength属性:显示文本框输入长度	text	password
+			readonly:只读.不可修改文本内容.会提交    text	password
+			disabled:禁用.被禁用的表单项不会被提交. 所有input都可以使用
+			
+		select
+			multiple: 多选
+			size:一次可以选择的选项数量
+			disabled:禁用
+		textarea
+			disabled:禁用
+			readonly:只读
+		form 
+			action:表单提交的地址
+			method:表单提交的方式.
+				get提交:
+					1.将参数键值对拼装在Url地址之后.
+					2.get提交安全性相对较差
+					3.get提交参数长度有限
+				post提交:
+					1.参数不在Url上
+					2.post提交安全性相对较好
+					3.post提交理论上参数长度没有限制
+	-->
+	<form action="#" >			<!--  method="post" -->
+		用户名:<input type="text" name="username" value="jerry" /><br/>		<!--  disabled="disabled" 可以不让人填写 -->
+		密码:<input type="password" name="password" size="1" /><br/>
+		性别:男<input type="radio" name="sex" value="male" />女<input type="radio"  name="sex" value="female" /><br/>		<!-- disabled 可以不让人填写 -->
+		爱好:抽烟<input type="checkbox" name="habbit" value="smork" />
+			喝酒<input type="checkbox" name="habbit" value="drink" />
+			烫头<input type="checkbox" name="habbit" value="tangtou" /><br/>
+		学历:<select name="edu">		<!-- multiple   size="10"-->
+				<option value="zk" >专科</option>
+				<option value="bk" >本科科</option>
+				<option value="ss" >硕士</option>
+			</select><br/>
+		个人说明:<textarea rows="10" cols="35" name="desc"  >这家伙很懒!神马也没留下!</textarea><br/>
+		近照:<input type="file" name="file" /><br/>
+		<input type="hidden" name="haha" value="heihei" />
+		<input type="submit" value="提交" /><input type="reset" value="重置" />
+	</form>
+</body>
+</html>

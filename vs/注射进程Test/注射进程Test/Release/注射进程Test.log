@@ -1,0 +1,17 @@
+﻿生成启动时间为 2016/10/1 1:30:14。
+     1>项目“E:\programming\vs\注射进程Test\注射进程Test\注射进程Test.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源.cpp"
+         源.cpp
+       Link:
+         D:\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\programming\vs\注射进程Test\Release\注射进程Test.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\programming\vs\注射进程Test\Release\注射进程Test.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\programming\vs\注射进程Test\Release\注射进程Test.lib" /MACHINE:X86 /SAFESEH /DLL "Release\源.obj"
+            正在创建库 E:\programming\vs\注射进程Test\Release\注射进程Test.lib 和对象 E:\programming\vs\注射进程Test\Release\注射进程Test.exp
+     1>LINK : warning LNK4232: 名称 注射进程Test.dll 包含非 ASCII 字符，在具有除 936 以外的 ANSI 代码页的系统上可能不能加载 DLL
+         正在生成代码
+         已完成代码的生成
+         注射进程Test.vcxproj -> E:\programming\vs\注射进程Test\Release\注射进程Test.dll
+     1>已完成生成项目“E:\programming\vs\注射进程Test\注射进程Test\注射进程Test.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.11

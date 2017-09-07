@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>寻觅go窝</title>
+	<style type="text/css">
+	.clear{
+		clear:both;
+	}
+	body{
+		background-color: #fff;
+		margin: -8px -8px -8px -8px;
+	}
+	#top{
+		position: relative;
+		background-image: url("images/topbackground.jpg");
+		background-repeat: no-repeat;
+		background-size:cover;/*等比铺满全屏*/
+		box-shadow: 0px 60px 60px #152539 inset;
+	}
+	#top_left img{
+		float: left;
+		width: 100px;
+		height: 100px;
+		margin: 15px;
+	}
+	
+	
+	</style>
+</head>
+
+<body>
+	<div id="top">
+	
+	</div>
+	<div >
+	
+	</div>
+</body>

@@ -1,0 +1,68 @@
+import java.util.Iterator;
+import java.util.TreeSet;
+
+
+class Score implements Comparable<String>{
+	private String str;
+	public Score(String str1,String str2) {
+		this.str = str2 + "," + str1;
+	}
+	@Override
+	public int compareTo(String o) {
+		String[] split = str.split(",");
+		String[] split2 = o.split(",");
+		int num = Integer.parseInt(split[0]) - Integer.parseInt(split2[0]);
+		if(num == 0){
+			return split[1].compareTo(split[1]);
+		}
+		return num;
+	}
+	/*@Override
+	public int compare(String o1, String o2) {
+		String[] split = o1.split(",");
+		String[] split2 = o2.split(",");
+		int num = Integer.parseInt(split[0]) - Integer.parseInt(split2[0]);
+		if(num == 0){
+			return split[1].compareTo(split[1]);
+		}
+		return num;
+	}*/
+}
+
+public class SortScore {
+	public void addScore(TreeSet set,Score score){
+		set.add(score);
+	}
+	public TreeSet initSet(){
+		return new TreeSet();
+	}
+	
+	public void show(TreeSet set){
+		for(Iterator it = set.iterator();it.hasNext();){
+			System.out.println(it.next());
+		}
+	}
+	public String getMaxScore(TreeSet set){
+		String first = (String) set.first();
+		set.remove(first);
+		return first;
+	}
+	
+	public static void main(String[] args) {
+		SortScore ts = new SortScore();
+		TreeSet set = ts.initSet();
+		Score score1 = new Score("1","999");
+		Score score2 = new Score("2","1000");
+		Score score3 = new Score("3","888");
+		Score score4 = new Score("4","999");
+		set.add(score1);
+		set.add(score2);
+		set.add(score3);
+		set.add(score4);
+		ts.show(set);
+		
+	/*	System.out.println(ts.getMaxScore(set));
+		System.out.println(ts.getMaxScore(set));
+		System.out.println(ts.getMaxScore(set));*/
+	}
+}

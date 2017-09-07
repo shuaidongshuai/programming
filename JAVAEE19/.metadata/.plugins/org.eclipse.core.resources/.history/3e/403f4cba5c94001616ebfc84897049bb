@@ -1,0 +1,31 @@
+package com.dong.test;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import javax.swing.text.html.HTMLDocument.Iterator;
+
+public class Test1 {
+	/*
+	 * 一、在Object类中的定义为: public native int hashCode(); 是一个本地方法，返回的对象的地址值。
+	 * 但是，同样的思路，在String等封装类中对此方法进行了重写。方法调用得到一个计算公式得到的 int值。
+	 */
+	public static void main(String[] args) {
+		String s1 = new String("dong");
+		String s2 = new String("dong");
+		System.out.println(s1 == s2);// false
+		System.out.println(s1.equals(s2));// true
+
+		System.out.println(s1.hashCode());// s1.hashcode()等于s2.hashcode()
+		System.out.println(s2.hashCode());
+		Set hashset = new HashSet();
+		hashset.add(s1);
+		hashset.add(s2);
+		/* 实质上在添加s1,s2时，运用上面说到的两点准则，可以知道hashset认为s1和s2是相等的，是在添加重复元素，所以让s2覆盖了s1; */
+		Iterator it = hashset.iterator();
+		while (it.hasNext()) {
+			System.out.println(it.next());
+		}
+	}
+
+}

@@ -1,0 +1,14 @@
+#Sun Apr 30 16:24:52 CST 2017
+tomcat7Server.protectWife_server_game.type=WebDeployment
+tomcat7Server.protectWife_server_game.shouldOverwrite=false
+tomcat7Server.protectWife_server_game.contextRoot=/protectWife_server_game
+tomcat7Server.protectWife_server_game.altContextRoot=
+tomcat7Server.protectWife_server_game.IEARProjectName=
+tomcat7Server.protectWife_server_game.isUptoDate=true
+tomcat7Server.protectWife_server_game.deploymentPath=D\:\\tomcat-7.0.52\\webapps\\protectWife_server_game
+tomcat7Server.protectWife_server_game.shouldBackup=false
+tomcat7Server.protectWife_server_game.isExploded=true
+eclipse.preferences.version=1
+tomcat7Server.protectWife_server_game.isDeployed=true
+tomcat7Server.protectWife_server_game.deployIsOverProject=false
+tomcat7Server.protectWife_server_game.noFileCopy=false

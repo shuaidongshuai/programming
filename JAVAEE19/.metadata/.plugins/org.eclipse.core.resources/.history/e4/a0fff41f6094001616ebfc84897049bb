@@ -1,0 +1,50 @@
+package com.dong.test;
+
+import java.util.HashSet;
+import java.util.Iterator;
+
+public class HashSetTest2 {
+	public static void main(String[] args) {
+		HashSet hs = new HashSet();
+		hs.add(new Student2(1, "zhangsan"));
+		hs.add(new Student2(2, "lisi"));
+		hs.add(new Student2(3, "wangwu"));
+		hs.add(new Student2(1, "zhangsan"));
+
+		Iterator it = hs.iterator();
+		while (it.hasNext()) {
+			System.out.println(it.next());
+		}
+		/*
+		 * 根据重写的方法，即便两次调用了new
+		 * Student(1,"zhangsan")，我们在获得对象的哈希码时，根据重写的方法hashcode(
+		 * )，获得的哈希码肯定是一样的（这一点应该没有疑问吧）。
+		 * 当然根据equals()方法我们也可判断是相同的。所以在向hashset集合中添加时把它们当作重复元素看待了
+		 * 。所以运行修改后的程序时，我们会发现运行结果是： 1:zhangsan 3:wangwu 2:lisi 可以看到重复元素的问题已经消除。
+		 */
+	}
+} 
+class Student2
+ {
+	int num;
+	String name;
+
+	Student2(int num, String name) {
+		this.num = num;
+		this.name = name;
+	}
+
+	public String toString() {
+		return num + ":" + name;
+	}
+
+	public int hashCode() {
+		return num * name.hashCode();
+	}
+
+	public boolean equals(Object o) {
+		Student2 s = (Student2) o;
+		return num == s.num && name.equals(s.name);
+	}
+}   
+

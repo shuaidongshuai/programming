@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>Context_set</servlet-name>
+    <servlet-class>com.dong.Context.Context_set</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Context_get</servlet-name>
+    <servlet-class>com.dong.Context.Context_get</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ContextDemo3</servlet-name>
+    <servlet-class>com.dong.Context.ContextDemo3</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Context_RealPath</servlet-name>
+    <servlet-class>com.dong.Context.Context_RealPath</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ContextDemo5</servlet-name>
+    <servlet-class>com.dong.Context.ContextDemo5</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ContextDemo6</servlet-name>
+    <servlet-class>com.dong.Context.ContextDemo6</servlet-class>
+  </servlet>
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Context_set</servlet-name>
+    <url-pattern>/servlet/Context_set</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Context_get</servlet-name>
+    <url-pattern>/servlet/Context_get</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContextDemo3</servlet-name>
+    <url-pattern>/servlet/ContextDemo3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Context_RealPath</servlet-name>
+    <url-pattern>/servlet/Context_RealPath</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContextDemo5</servlet-name>
+    <url-pattern>/servlet/ContextDemo5</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContextDemo6</servlet-name>
+    <url-pattern>/servlet/ContextDemo6</url-pattern>
+  </servlet-mapping>	
+  
+  
+  <context-param>
+  	<param-name>encoding</param-name>
+  	<param-value>UTF-8</param-value>
+  </context-param>
+  
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

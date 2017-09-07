@@ -1,0 +1,13 @@
+
+class A{
+	String name;
+	int age;
+	
+}
+
+public class Clone {
+	public static void main(String[] args) {
+		
+		
+	}
+}

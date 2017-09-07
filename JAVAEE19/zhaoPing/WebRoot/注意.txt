@@ -1,0 +1,2 @@
+D:\myEclipse10\Common\plugins\com.genuitec.eclipse.j2eedt.core_10.0.0.me201110301321\data\libraryset\EE_5
+下面的所有包  需要自己导入

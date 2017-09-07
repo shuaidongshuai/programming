@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>13-RegExp对象.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+<script type="text/javascript">
+//正则对象  =>  使用正则匹配字符串.
+//表单校验时会用到正则
+	
+	//1 创建
+		//参数1: 正则表达式
+		//参数2: 匹配模式. g: 全局  i: 忽略大小写
+	var reg1 = new RegExp("e","gi");
+	var reg2 = /z/g;
+	//2 方法
+	// test 方法 => 校验 字符串是否能与正则表达式匹配
+	//alert(reg2.test("hello"));//true
+//------------------------------------------------------------------------
+// String 与正则结合的 4个方法
+	var str = "hello world";
+	//split 切割
+	alert(str.split(/o/g));
+	//replace 替换
+	alert(str.replace(/l/g, "a"));
+	//match 匹配并获得 => 找不到就返回null
+	alert(str.match(/or/g));//or
+	//search 查找索引
+	alert(str.search(/e/g));//1
+</script>
+  </head>
+  <body>
+  </body>
+</html>

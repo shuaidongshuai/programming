@@ -1,0 +1,5 @@
+hello:1.c 2.c 3.c
+	gcc 1.c 2.c 3.c -o hello
+.PHONY:clean
+clean:
+	rm hello

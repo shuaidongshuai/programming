@@ -1,0 +1,188 @@
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.ListIterator;
+
+class people{
+	protected int id;
+	private int mywealth;
+	private int mylooks;
+	private int mycharacter;
+	protected int wealth;
+	protected int looks;
+	protected int character;
+	boolean flag;
+	public people(int id2,int mywealth2,int mylooks2,int mycharacter2,
+	int wealth2,int looks2,int character2,boolean flag2){
+		id = id2;
+		mywealth = mywealth2;
+		mylooks = mylooks2;
+		mycharacter = mycharacter2;
+		wealth = wealth2;
+		looks = looks2;
+		character = character2;
+		flag = false;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getMywealth() {
+		return mywealth;
+	}
+	public void setMywealth(int mywealth) {
+		this.mywealth = mywealth;
+	}
+	public int getMylooks() {
+		return mylooks;
+	}
+	public void setMylooks(int mylooks) {
+		this.mylooks = mylooks;
+	}
+	public int getMycharacter() {
+		return mycharacter;
+	}
+	public void setMycharacter(int mycharacter) {
+		this.mycharacter = mycharacter;
+	}
+	public int getWealth() {
+		return wealth;
+	}
+	public void setWealth(int wealth) {
+		this.wealth = wealth;
+	}
+	public int getLooks() {
+		return looks;
+	}
+	public void setLooks(int looks) {
+		this.looks = looks;
+	}
+	public int getCharacter() {
+		return character;
+	}
+	public void setCharacter(int character) {
+		this.character = character;
+	}
+}
+class Node{
+	public int id;//异性id
+	public Node(int id2,int mywealth2,int mylooks2,int mycharacter2,
+			int wealth2,int looks2,int character2){
+		id = id2;
+		sum = mywealth2*wealth2+mylooks2*looks2+mycharacter2*character2;
+	}
+	public int sum;//异性得分
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getSum() {
+		return sum;
+	}
+	public void setSum(int sum) {
+		this.sum = sum;
+	}
+}
+class male extends people{
+	private LinkedList<Node> list;//每个男性对女性的排名
+	public male(int id2, int mywealth2, int mylooks2, int mycharacter2,
+			int wealth2, int looks2, int character2, boolean flag2) {
+		super(id2, mywealth2, mylooks2, mycharacter2, wealth2, looks2, character2,
+				flag2);
+		list = new LinkedList<Node>();
+	}
+	public void addpeople(people fm){//
+		Node mn= new Node(fm.id,wealth,looks,character,fm.getMywealth()
+				,fm.getMylooks(),fm.getMycharacter());
+		/*ListIterator<Node> it = list.listIterator();
+		int sum = it.next().getSum();
+		while(it.hasNext()&&mn.getSum()<sum) {
+				it.add(mn);
+		}	*/
+		for(ListIterator<Node> it = list.listIterator();it.hasNext();it.next()){
+			it.add(mn);
+		}
+	}
+	//////////////////////////////////////////////////////////////
+	public int getFm() {//获取最喜欢女性的id
+		return list.getLast().getId();
+	}
+	public void show(){
+		ListIterator<Node> it = list.listIterator();
+		while(it.hasNext()){
+			System.out.printf("%d\n ", it.next().id);
+		}
+	}
+}
+class female extends male{
+	public female(int id2, int mywealth2, int mylooks2, int mycharacter2,
+			int wealth2, int looks2, int character2, boolean flag2) {
+		super(id2, mywealth2, mylooks2, mycharacter2, wealth2, looks2, character2,
+				flag2);
+		hmp = 0;
+	}
+	public int hmp;//被多少人发出邀请
+	public void addhmp(){
+		hmp++;
+	}
+}
+
+class match_marry{
+	public ArrayList<male> mmale;
+	public LinkedList<female> mfemale;
+	//ListIterator<female> itfemale；
+	public void vote(int fmid,male man){//对这位女性投票的所有男性排名
+		ListIterator<female> it = mfemale.listIterator();
+		while(it.hasNext()){
+			if(it.next().getId() == fmid){
+				break;
+			}
+		}
+		it.next().addhmp();
+		it.next().addpeople(man);
+	}
+	public void match(){	
+		ListIterator<male> it2 = mmale.listIterator();
+		while(it2.hasNext()){  
+			ListIterator<female> it = mfemale.listIterator();
+			while(it.hasNext()){
+				it2.next().addpeople(it.next());
+			}
+			int fm = it2.next().getFm();
+			search(fm,it2.next());
+		}
+	}
+	public void search(int num,male mm)
+	{
+		ListIterator<female> it = mfemale.listIterator();
+		while(it.hasNext()){
+			if(it.next().getId() == num){
+				it.next().addhmp();
+				it.next().addpeople(mm);
+				break;
+			}
+		}
+	}
+}
+
+public class maintest {
+	public static void main(String[] args){
+		male ma = new male(7,85,98,90,72,17,11,true);
+		female fm = new female(24,91,96,86,87,10,3,true);
+		female fm2 = new female(42,94,73,100,14,67,19,true);
+		female fm3 = new female(92,94,89,75,14,4,82,true);
+		ma.addpeople(fm);
+		ma.addpeople(fm2);
+		ma.addpeople(fm3);
+		ma.show();
+	}
+
+}

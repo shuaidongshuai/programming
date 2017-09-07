@@ -1,0 +1,12 @@
+hello:1.o 2.o 3.o
+	gcc 1.o 2.o 3.o -o hello        #文件名不是makefile  
+1.o:1.c					#用make -f 文件名	
+	gcc -c 1.c		#but 这个文件名也只能是makefile开头
+2.o:2.c
+	gcc -c 2.c
+3.o:3.c
+	gcc -c 3.c
+.PHONY:clean                            #使用说明  make clean 
+clean:                                  #         就可以执行下面语句
+	rm -f *.o hello
+

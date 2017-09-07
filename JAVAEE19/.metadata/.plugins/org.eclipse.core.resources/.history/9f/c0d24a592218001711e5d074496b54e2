@@ -1,0 +1,14 @@
+package com.dong.dao;
+
+import com.dong.domain.User;
+
+public interface UserDao {
+	
+	/**
+	 * ÃÌº””√ªß
+	 * @param user
+	 */
+	public void addUser(User user);
+	
+	public User findUser(User user);
+}

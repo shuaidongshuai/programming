@@ -1,0 +1,12 @@
+package test;
+
+import java.awt.print.Printable;
+
+public class Test {
+	public static void main(String[] args) {
+		System.out.println("start java");
+	}
+	void testString(){
+		System.out.println("hello".length());
+	}
+}

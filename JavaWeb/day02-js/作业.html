@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>作业.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+<script type="text/javascript">
+////作业
+	//完成猜数字游戏
+	// 用户进入页面,要求用户输入一个100以内的整数.(后台会随机生成一个100以内的整数)
+	// 根据用户输入的结果给予对应提示.并要求重新输入.
+	// 直到输入正确为止=> 询问用户是否重新开始游戏.
+	// 重新生成随机数.......
+	
+	fun();
+	function fun(){
+		var num=Math.round(Math.random()*100);//round就是为了取整
+		alert(num);
+		alert("0--100,猜一个数字");
+		while(true){
+			var str=prompt();
+			if(+str == +num)
+				break;
+		}
+	}
+	
+	
+</script>
+  </head>
+  
+  <body>
+
+  </body>
+</html>

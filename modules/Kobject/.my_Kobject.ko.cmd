@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/modules/Kobject/my_Kobject.ko := arm-linux-ld -EL -r  -T /linux-2.6.32.2/scripts/module-common.lds --build-id -o /mnt/hgfs/modules/Kobject/my_Kobject.ko /mnt/hgfs/modules/Kobject/my_Kobject.o /mnt/hgfs/modules/Kobject/my_Kobject.mod.o

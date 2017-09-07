@@ -1,0 +1,15 @@
+﻿生成启动时间为 2017/2/13 11:43:06。
+     1>项目“E:\programming\C++\虚继承——虚函数\继承和虚继承时的内存布局\继承和虚继承时的内存布局.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (继承和虚继承时的内存布局.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源1.cpp"
+         源1.cpp
+       Link:
+         D:\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\programming\C++\虚继承——虚函数\Debug\继承和虚继承时的内存布局—看不懂.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\programming\C++\虚继承——虚函数\Debug\继承和虚继承时的内存布局—看不懂.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\programming\C++\虚继承——虚函数\Debug\继承和虚继承时的内存布局—看不懂.lib" /MACHINE:X86 "Debug\源.obj"
+         "Debug\源1.obj"
+         继承和虚继承时的内存布局.vcxproj -> E:\programming\C++\虚继承——虚函数\Debug\继承和虚继承时的内存布局—看不懂.exe
+     1>已完成生成项目“E:\programming\C++\虚继承——虚函数\继承和虚继承时的内存布局\继承和虚继承时的内存布局.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.31

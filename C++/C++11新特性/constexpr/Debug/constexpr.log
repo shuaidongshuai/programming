@@ -1,0 +1,15 @@
+﻿生成启动时间为 2017/3/19 19:48:59。
+     1>项目“E:\programming\C++\C++11新特性\constexpr\constexpr.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test1.cpp
+         test1.cpp
+     1>e:\programming\c++\c++11新特性\constexpr\test1.cpp(33): error C2144: 语法错误:“int”的前面应有“;”
+     1>e:\programming\c++\c++11新特性\constexpr\test1.cpp(33): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>e:\programming\c++\c++11新特性\constexpr\test1.cpp(40): error C2143: 语法错误 : 缺少“;”(在“const”的前面)
+     1>e:\programming\c++\c++11新特性\constexpr\test1.cpp(41): error C2065: “a”: 未声明的标识符
+     1>e:\programming\c++\c++11新特性\constexpr\test1.cpp(43): error C2065: “a”: 未声明的标识符
+     1>已完成生成项目“E:\programming\C++\C++11新特性\constexpr\constexpr.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.99

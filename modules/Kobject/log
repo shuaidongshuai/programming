@@ -1,0 +1,187 @@
+
+kobject.o:     file format elf32-littlearm
+
+Disassembly of section .text:
+
+00000000 <kobj_test_store>:
+   0:	e1a0c00d 	mov	ip, sp
+   4:	e92dd830 	push	{r4, r5, fp, ip, lr, pc}
+   8:	e24cb004 	sub	fp, ip, #4	; 0x4
+   c:	e59f001c 	ldr	r0, [pc, #28]	; 30 <kobj_test_store+0x30>
+  10:	e1a04002 	mov	r4, r2
+  14:	e1a05003 	mov	r5, r3
+  18:	ebfffffe 	bl	0 <printk>
+  1c:	e1a01004 	mov	r1, r4
+  20:	e59f000c 	ldr	r0, [pc, #12]	; 34 <kobj_test_store+0x34>
+  24:	ebfffffe 	bl	0 <printk>
+  28:	e1a00005 	mov	r0, r5
+  2c:	e89da830 	ldm	sp, {r4, r5, fp, sp, pc}
+  30:	00000000 	.word	0x00000000
+  34:	0000000c 	.word	0x0000000c
+
+00000038 <obj_test_release>:
+  38:	e1a0c00d 	mov	ip, sp
+  3c:	e92dd800 	push	{fp, ip, lr, pc}
+  40:	e24cb004 	sub	fp, ip, #4	; 0x4
+  44:	e59f0004 	ldr	r0, [pc, #4]	; 50 <obj_test_release+0x18>
+  48:	ebfffffe 	bl	0 <printk>
+  4c:	e89da800 	ldm	sp, {fp, sp, pc}
+  50:	00000018 	.word	0x00000018
+
+00000054 <cleanup_module>:
+  54:	e1a0c00d 	mov	ip, sp
+  58:	e92dd800 	push	{fp, ip, lr, pc}
+  5c:	e24cb004 	sub	fp, ip, #4	; 0x4
+  60:	e59f0010 	ldr	r0, [pc, #16]	; 78 <cleanup_module+0x24>
+  64:	ebfffffe 	bl	0 <printk>
+  68:	e59f000c 	ldr	r0, [pc, #12]	; 7c <cleanup_module+0x28>
+  6c:	ebfffffe 	bl	0 <kobject_del>
+  70:	e3a00000 	mov	r0, #0	; 0x0
+  74:	e89da800 	ldm	sp, {fp, sp, pc}
+  78:	00000030 	.word	0x00000030
+  7c:	00000000 	.word	0x00000000
+
+00000080 <init_module>:
+  80:	e1a0c00d 	mov	ip, sp
+  84:	e92dd800 	push	{fp, ip, lr, pc}
+  88:	e24cb004 	sub	fp, ip, #4	; 0x4
+  8c:	e59f001c 	ldr	r0, [pc, #28]	; b0 <init_module+0x30>
+  90:	ebfffffe 	bl	0 <printk>
+  94:	e59f1018 	ldr	r1, [pc, #24]	; b4 <init_module+0x34>
+  98:	e3a02000 	mov	r2, #0	; 0x0
+  9c:	e59f3014 	ldr	r3, [pc, #20]	; b8 <init_module+0x38>
+  a0:	e59f0014 	ldr	r0, [pc, #20]	; bc <init_module+0x3c>
+  a4:	ebfffffe 	bl	0 <kobject_init_and_add>
+  a8:	e3a00000 	mov	r0, #0	; 0x0
+  ac:	e89da800 	ldm	sp, {fp, sp, pc}
+  b0:	00000044 	.word	0x00000044
+  b4:	00000000 	.word	0x00000000
+  b8:	00000058 	.word	0x00000058
+  bc:	00000000 	.word	0x00000000
+
+000000c0 <kobj_test_show>:
+  c0:	e1a0c00d 	mov	ip, sp
+  c4:	e92dd830 	push	{r4, r5, fp, ip, lr, pc}
+  c8:	e24cb004 	sub	fp, ip, #4	; 0x4
+  cc:	e59f0034 	ldr	r0, [pc, #52]	; 108 <kobj_test_show+0x48>
+  d0:	e1a04001 	mov	r4, r1
+  d4:	e1a05002 	mov	r5, r2
+  d8:	ebfffffe 	bl	0 <printk>
+  dc:	e5941000 	ldr	r1, [r4]
+  e0:	e59f0024 	ldr	r0, [pc, #36]	; 10c <kobj_test_show+0x4c>
+  e4:	ebfffffe 	bl	0 <printk>
+  e8:	e59f1020 	ldr	r1, [pc, #32]	; 110 <kobj_test_show+0x50>
+  ec:	e5942000 	ldr	r2, [r4]
+  f0:	e1a00005 	mov	r0, r5
+  f4:	ebfffffe 	bl	0 <sprintf>
+  f8:	e5940000 	ldr	r0, [r4]
+  fc:	ebfffffe 	bl	0 <strlen>
+ 100:	e2800002 	add	r0, r0, #2	; 0x2
+ 104:	e89da830 	ldm	sp, {r4, r5, fp, sp, pc}
+ 108:	00000068 	.word	0x00000068
+ 10c:	00000074 	.word	0x00000074
+ 110:	00000084 	.word	0x00000084
+Disassembly of section .data:
+
+00000000 <ktype>:
+	...
+   8:	00000020 	andeq	r0, r0, r0, lsr #32
+
+0000000c <test_attr>:
+   c:	00000088 	andeq	r0, r0, r8, lsl #1
+  10:	00000000 	.word	0x00000000
+  14:	000001ff 	strdeq	r0, [r0], -pc
+
+00000018 <obj_test_sysops>:
+	...
+
+00000020 <def_attrs>:
+	...
+Disassembly of section .bss:
+
+00000000 <kobj>:
+	...
+Disassembly of section .modinfo:
+
+00000000 <__mod_license10>:
+   0:	6563696c 	.word	0x6563696c
+   4:	3d65736e 	.word	0x3d65736e
+   8:	6c617544 	.word	0x6c617544
+   c:	44534220 	.word	0x44534220
+  10:	4c50472f 	.word	0x4c50472f
+  14:	00000000 	.word	0x00000000
+
+00000018 <__mod_author9>:
+  18:	68747561 	.word	0x68747561
+  1c:	443d726f 	.word	0x443d726f
+  20:	64697661 	.word	0x64697661
+  24:	65695820 	.word	0x65695820
+  28:	00000000 	.word	0x00000000
+Disassembly of section .rodata.str1.4:
+
+00000000 <.rodata.str1.4>:
+   0:	65766168 	ldrbvs	r6, [r6, #-360]!
+   4:	726f7473 	rsbvc	r7, pc, #1929379840	; 0x73000000
+   8:	00000a65 	andeq	r0, r0, r5, ror #20
+   c:	74697277 	strbtvc	r7, [r9], #-631
+  10:	25203a65 	strcs	r3, [r0, #-2661]!
+  14:	00000a73 	andeq	r0, r0, r3, ror sl
+  18:	63697265 	cmnvs	r9, #1342177286	; 0x50000006
+  1c:	7365745f 	cmnvc	r5, #1593835520	; 0x5f000000
+  20:	72203a74 	eorvc	r3, r0, #475136	; 0x74000
+  24:	61656c65 	cmnvs	r5, r5, ror #24
+  28:	2e206573 	mcrcs	5, 1, r6, cr0, cr3, {3}
+  2c:	0000000a 	andeq	r0, r0, sl
+  30:	6a626f6b 	bvs	189bde4 <kobj_test_show+0x189bd24>
+  34:	20746365 	rsbscs	r6, r4, r5, ror #6
+  38:	74736574 	ldrbtvc	r6, [r3], #-1396
+  3c:	69786520 	ldmdbvs	r8!, {r5, r8, sl, sp, lr}^
+  40:	000a2e74 	andeq	r2, sl, r4, ror lr
+  44:	6a6f626b 	bvs	1bd89f8 <kobj_test_show+0x1bd8938>
+  48:	20746365 	rsbscs	r6, r4, r5, ror #6
+  4c:	74736574 	ldrbtvc	r6, [r3], #-1396
+  50:	696e6920 	stmdbvs	lr!, {r5, r8, fp, sp, lr}^
+  54:	000a2e74 	andeq	r2, sl, r4, ror lr
+  58:	6a626f6b 	bvs	189be0c <kobj_test_show+0x189bd4c>
+  5c:	5f746365 	svcpl	0x00746365
+  60:	74736574 	ldrbtvc	r6, [r3], #-1396
+  64:	00000000 	andeq	r0, r0, r0
+  68:	65766168 	ldrbvs	r6, [r6, #-360]!
+  6c:	6f687320 	svcvs	0x00687320
+  70:	000a2e77 	andeq	r2, sl, r7, ror lr
+  74:	72747461 	rsbsvc	r7, r4, #1627389952	; 0x61000000
+  78:	656d616e 	strbvs	r6, [sp, #-366]!
+  7c:	2e73253a 	mrccs	5, 3, r2, cr3, cr10, {1}
+  80:	0000000a 	andeq	r0, r0, sl
+  84:	000a7325 	andeq	r7, sl, r5, lsr #6
+  88:	6a626f6b 	bvs	189be3c <kobj_test_show+0x189bd7c>
+  8c:	6e6f635f 	mcrvs	3, 3, r6, cr15, cr15, {2}
+  90:	00676966 	rsbeq	r6, r7, r6, ror #18
+Disassembly of section .comment:
+
+00000000 <.comment>:
+   0:	43434700 	movtmi	r4, #14080	; 0x3700
+   4:	5328203a 	teqpl	r8, #58	; 0x3a
+   8:	6372756f 	cmnvs	r2, #465567744	; 0x1bc00000
+   c:	20797265 	rsbscs	r7, r9, r5, ror #4
+  10:	202b2b47 	eorcs	r2, fp, r7, asr #22
+  14:	6574694c 	ldrbvs	r6, [r4, #-2380]!
+  18:	30303220 	eorscc	r3, r0, r0, lsr #4
+  1c:	2d337138 	ldfcss	f7, [r3, #-224]!
+  20:	20293237 	eorcs	r3, r9, r7, lsr r2
+  24:	2e332e34 	mrccs	14, 1, r2, cr3, cr4, {1}
+  28:	Address 0x00000028 is out of bounds.
+
+Disassembly of section .ARM.attributes:
+
+00000000 <.ARM.attributes>:
+   0:	00002741 	andeq	r2, r0, r1, asr #14
+   4:	61656100 	cmnvs	r5, r0, lsl #2
+   8:	01006962 	tsteq	r0, r2, ror #18
+   c:	0000001d 	andeq	r0, r0, sp, lsl r0
+  10:	00543405 	subseq	r3, r4, r5, lsl #8
+  14:	01080206 	tsteq	r8, r6, lsl #4
+  18:	01140412 	tsteq	r4, r2, lsl r4
+  1c:	03170115 	tsteq	r7, #1073741829	; 0x40000005
+  20:	01190118 	tsteq	r9, r8, lsl r1
+  24:	021e021a 	andseq	r0, lr, #-1610612735	; 0xa0000001

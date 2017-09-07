@@ -1,0 +1,12 @@
+﻿生成启动时间为 2016/7/27 11:07:42。
+     1>项目“E:\programming\C++传智\20150612\constexpr\constexpr.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源.cpp"
+         源.cpp
+     1>e:\programming\c++传智\20150612\constexpr\源.cpp(4): error C2144: 语法错误:“int”的前面应有“;”
+     1>e:\programming\c++传智\20150612\constexpr\源.cpp(4): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>已完成生成项目“E:\programming\C++传智\20150612\constexpr\constexpr.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.42

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "内存池", "内存池\内存池.vcxproj", "{1833108E-D765-496B-975A-E9101FD6D770}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "队列使用内存池", "队列使用内存池\队列使用内存池.vcxproj", "{F780D23D-8C22-43C3-B52D-8B00359E0D0D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "重载new和delete问题", "重载new和delete问题\重载new和delete问题.vcxproj", "{77C7998F-1CD9-47B9-A35A-4EB4D2A448F8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "内存池_无内存泄漏2", "内存池_无内存泄漏2\内存池_无内存泄漏2.vcxproj", "{70B2D613-14ED-444A-B606-80080B57145C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Slab", "Slab\Slab.vcxproj", "{67DE1CF1-FB49-4EA9-B553-6669C1E92761}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1833108E-D765-496B-975A-E9101FD6D770}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1833108E-D765-496B-975A-E9101FD6D770}.Debug|Win32.Build.0 = Debug|Win32
+		{1833108E-D765-496B-975A-E9101FD6D770}.Release|Win32.ActiveCfg = Release|Win32
+		{1833108E-D765-496B-975A-E9101FD6D770}.Release|Win32.Build.0 = Release|Win32
+		{F780D23D-8C22-43C3-B52D-8B00359E0D0D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F780D23D-8C22-43C3-B52D-8B00359E0D0D}.Debug|Win32.Build.0 = Debug|Win32
+		{F780D23D-8C22-43C3-B52D-8B00359E0D0D}.Release|Win32.ActiveCfg = Release|Win32
+		{F780D23D-8C22-43C3-B52D-8B00359E0D0D}.Release|Win32.Build.0 = Release|Win32
+		{77C7998F-1CD9-47B9-A35A-4EB4D2A448F8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{77C7998F-1CD9-47B9-A35A-4EB4D2A448F8}.Debug|Win32.Build.0 = Debug|Win32
+		{77C7998F-1CD9-47B9-A35A-4EB4D2A448F8}.Release|Win32.ActiveCfg = Release|Win32
+		{77C7998F-1CD9-47B9-A35A-4EB4D2A448F8}.Release|Win32.Build.0 = Release|Win32
+		{70B2D613-14ED-444A-B606-80080B57145C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{70B2D613-14ED-444A-B606-80080B57145C}.Debug|Win32.Build.0 = Debug|Win32
+		{70B2D613-14ED-444A-B606-80080B57145C}.Release|Win32.ActiveCfg = Release|Win32
+		{70B2D613-14ED-444A-B606-80080B57145C}.Release|Win32.Build.0 = Release|Win32
+		{67DE1CF1-FB49-4EA9-B553-6669C1E92761}.Debug|Win32.ActiveCfg = Debug|Win32
+		{67DE1CF1-FB49-4EA9-B553-6669C1E92761}.Debug|Win32.Build.0 = Debug|Win32
+		{67DE1CF1-FB49-4EA9-B553-6669C1E92761}.Release|Win32.ActiveCfg = Release|Win32
+		{67DE1CF1-FB49-4EA9-B553-6669C1E92761}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

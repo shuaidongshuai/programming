@@ -1,0 +1,14 @@
+﻿//1.使.o文件是以相对路径编译的
+gcc -c -fPIC add.c sub.c 
+
+//2.创建静态库
+ar rcs libmy.a add.o sub.o //ar命令可以用来创建、修改库，也可以从库中提出单个模块
+							//c：创建一个库。不管库是否存在，都将创建。
+							//s：写入一个目标文件索引到库中，或者更新一个存在的目标文件索引。
+
+nm libmy.a看一下文件的符号
+
+//3.使用库
+gcc main.c ./lib/libmy.a -o main
+./main
+

@@ -1,0 +1,25 @@
+//不知道为什么 i 要 +1
+#include<stdio.h>
+void dong(int i)
+{
+	char c;
+	if(i==1)
+	{
+		c=getchar();
+		putchar(c);
+	}
+	else
+	{
+		c=getchar();
+		dong(i-1);
+		putchar(c);
+	}
+}
+int main()
+{ 
+	int i;
+	printf("你准备输入几个字符：");
+	scanf("%d",&i);
+	dong(i+1); 
+ } 
+// 答：因为输入 5 后 回车  把回车也算成了一个字符 

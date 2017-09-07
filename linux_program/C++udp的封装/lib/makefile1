@@ -1,0 +1,15 @@
+CC=gcc
+
+SRCS=mylib.c
+
+OBJS=$(SRCS:.c=.o)
+
+EXEC=libmylib.so
+
+start:$(OBJS)
+	$(CC) -o $(EXEC) $(OBJS) -shared #这是一个动态链接库
+.c.o:
+	$(CC) -o $@ -c $< -fPIC #生成位置无关的代码
+
+clean:
+	rm -rf $(OBJS)

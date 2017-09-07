@@ -1,0 +1,12 @@
+﻿生成启动时间为 2016/7/27 11:44:07。
+     1>项目“E:\programming\C++传智\20150612\inline命名空间\inline命名空间.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源.cpp"
+         源.cpp
+     1>e:\programming\c++传智\20150612\inline命名空间\源.cpp(16): warning C4091: “inline ”: 没有声明变量时忽略“int”的左侧
+     1>e:\programming\c++传智\20150612\inline命名空间\源.cpp(16): error C2143: 语法错误 : 缺少“;”(在“namespace”的前面)
+     1>已完成生成项目“E:\programming\C++传智\20150612\inline命名空间\inline命名空间.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.16

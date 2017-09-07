@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/linux_program/modules/hello.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /mnt/hgfs/linux_program/modules/hello.ko /mnt/hgfs/linux_program/modules/hello.o /mnt/hgfs/linux_program/modules/hello.mod.o

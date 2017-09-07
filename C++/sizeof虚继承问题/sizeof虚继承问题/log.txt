@@ -1,0 +1,179 @@
+源.cpp
+D:\visual studio\VC\INCLUDE\xlocale(337) : warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+class ?$_Is_integral@F	size(1):
+	+---
+	| +--- (base class ?$integral_constant@_N$00)
+	| +---
+	+---
+
+
+
+class ?$unary_function@FI	size(1):
+	+---
+	+---
+
+
+
+class ?$_Bitwise_hash@F	size(1):
+	+---
+	| +--- (base class ?$unary_function@FI)
+	| +---
+	+---
+
+
+
+class ?$hash@F	size(1):
+	+---
+	| +--- (base class ?$_Bitwise_hash@F)
+	| | +--- (base class ?$unary_function@FI)
+	| | +---
+	| +---
+	+---
+
+
+
+class ?$numeric_limits@F	size(1):
+	+---
+	| +--- (base class _Num_int_base)
+	| | +--- (base class _Num_base)
+	| | +---
+	| +---
+	+---
+
+
+
+class ?$remove_reference@F	size(1):
+	+---
+	+---
+
+
+
+class ?$_Get_align@F	size(6):
+	+---
+ 0	| _Elt0
+ 2	| _Elt1
+  	| <alignment member> (size=1)
+ 4	| _Elt2
+	+---
+
+
+
+class ?$alignment_of@F	size(1):
+	+---
+	| +--- (base class ?$integral_constant@I$01)
+	| +---
+	+---
+
+
+
+class __JUMP_BUFFER	size(64):
+	+---
+ 0	| Ebp
+ 4	| Ebx
+ 8	| Edi
+12	| Esi
+16	| Esp
+20	| Eip
+24	| Registration
+28	| TryLevel
+32	| Cookie
+36	| UnwindFunc
+40	| UnwindData
+	+---
+
+
+
+class _Facet_base	size(4):
+	+---
+ 0	| {vfptr}
+	+---
+
+_Facet_base::$vftable@:
+	| &_Facet_base_meta
+	|  0
+ 0	| &_Facet_base::{dtor} 
+ 1	| &_Facet_base::_Incref 
+ 2	| &_Facet_base::_Decref 
+
+_Facet_base::{dtor} this adjustor: 0
+_Facet_base::_Incref this adjustor: 0
+_Facet_base::_Decref this adjustor: 0
+_Facet_base::__delDtor this adjustor: 0
+_Facet_base::__vecDelDtor this adjustor: 0
+
+
+class _Fnarray	size(12):
+	+---
+ 0	| _Next
+ 4	| _Index
+ 8	| _Pfn
+	+---
+
+
+
+class F	size(20):
+	+---
+ 0	| {vbptr}
+ 4	| b
+	+---
+	+--- (virtual base E)
+ 8	| {vfptr}
+12	| a
+16	| b
+	+---
+
+F::$vbtable@:
+ 0	| 0
+ 1	| 8 (Fd(F+0)E)
+
+F::$vftable@:
+	| -8
+ 0	| &F::fun 
+
+F::fun this adjustor: 8
+
+vbi:	   class  offset o.vbptr  o.vbte fVtorDisp
+               E       8       0       4 0
+
+
+class ?$_Facetptr@V?$ctype@D@std@@	size(1):
+	+---
+	+---
+
+
+
+class ?$remove_reference@AAPAU_Fnarray@ios_base@std@@	size(1):
+	+---
+	+---
+
+
+
+class ?$_Facetptr@V?$ctype@_W@std@@	size(1):
+	+---
+	+---
+
+
+
+class ?$_Facetptr@V?$ctype@G@std@@	size(1):
+	+---
+	+---
+
+
+
+class ?$_Facetptr@V?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@	size(1):
+	+---
+	+---
+
+
+
+class ?$_Facetptr@V?$numpunct@D@std@@	size(1):
+	+---
+	+---
+
+
+
+Microsoft (R) Incremental Linker Version 12.00.40629.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:源.exe 
+源.obj 

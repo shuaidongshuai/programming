@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exe4j version="5.0.1" transformSequenceNumber="2">
+  <directoryPresets config="C:/Users/37916/Pictures/Camera Roll" />
+  <application name="123" distributionSourceDir="E:/programming/JAVA/exe文件/file">
+    <languages>
+      <principalLanguage id="en" customLocalizationFile="" />
+    </languages>
+  </application>
+  <executable name="记事本" type="2" iconSet="true" iconFile="D:/迅雷下载/ioc图标/42.ico" executableDir="." redirectStderr="true" stderrFile="error.log" stderrMode="overwrite" redirectStdout="false" stdoutFile="output.log" stdoutMode="overwrite" failOnStderrOutput="true" executableMode="1" changeWorkingDirectory="true" workingDirectory="." singleInstance="true" serviceStartType="2" serviceDependencies="" serviceDescription="" jreLocation="" executionLevel="asInvoker" checkConsoleParameter="false" globalSingleInstance="false" singleInstanceActivate="true" dpiAware="false" amd64="true">
+    <messageSet />
+    <versionInfo include="false" fileVersion="" fileDescription="" legalCopyright="" internalName="" productName="" companyName="" productVersion="" />
+  </executable>
+  <splashScreen show="true" width="0" height="0" bitmapFile="C:/Users/37916/Pictures/Camera Roll/心—东.png" windowsNative="false" textOverlay="true">
+    <text>
+      <statusLine x="20" y="20" text="欢迎来到东东联盟version %VERSION%" fontSize="8" fontColor="0,0,255" bold="false" />
+      <versionLine x="20" y="40" text="欢迎来到东东联盟" fontSize="8" fontColor="255,0,0" bold="false" />
+    </text>
+  </splashScreen>
+  <java mainClass="_22.gui_7_" vmParameters="-Dexe.path=${EXE4J_EXEDIR}" arguments="" allowVMPassthroughParameters="true" preferredVM="" bundleRuntime="true" minVersion="1.6" maxVersion="" allowBetaVM="false" jdkOnly="false">
+    <searchSequence>
+      <registry />
+      <envVar name="JAVA_HOME" />
+      <envVar name="JDK_HOME" />
+    </searchSequence>
+    <classPath>
+      <archive location="E:/programming/JAVA/exe文件/记事本.jar" failOnError="false" />
+    </classPath>
+    <nativeLibraryDirectories />
+  </java>
+  <includedFiles />
+  <unextractableFiles />
+</exe4j>

@@ -1,0 +1,25 @@
+﻿生成启动时间为 2016/10/25 13:18:25。
+     1>项目“E:\programming\vs\植物大战僵尸\植物大战僵尸MFC\植物大战僵尸MFC.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\植物大战僵尸MFC.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\visual studio\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\植物大战僵尸MFC.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt waigua.cpp "植物大战僵尸MFC.cpp" "植物大战僵尸MFCDlg.cpp"
+         waigua.cpp
+         植物大战僵尸MFC.cpp
+         植物大战僵尸MFCDlg.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0804" /IRelease\ /nologo /fo"Release\植物大战僵尸MFC.res" "植物大战僵尸MFC.rc" 
+       Link:
+         D:\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\programming\vs\植物大战僵尸\Release\植物大战僵尸MFC.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /manifest:embed /manifestinput:"D:\visual studio\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\programming\vs\植物大战僵尸\Release\植物大战僵尸MFC.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\programming\vs\植物大战僵尸\Release\植物大战僵尸MFC.lib" /MACHINE:X86 /SAFESEH "Release\植物大战僵尸MFC.res"
+         Release\stdafx.obj
+         Release\waigua.obj
+         "Release\植物大战僵尸MFC.obj"
+         "Release\植物大战僵尸MFCDlg.obj"
+         正在生成代码
+         已完成代码的生成
+         植物大战僵尸MFC.vcxproj -> E:\programming\vs\植物大战僵尸\Release\植物大战僵尸MFC.exe
+     1>已完成生成项目“E:\programming\vs\植物大战僵尸\植物大战僵尸MFC\植物大战僵尸MFC.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:26.53

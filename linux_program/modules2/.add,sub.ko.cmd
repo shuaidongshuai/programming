@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/linux_program/modules2/add,sub.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /mnt/hgfs/linux_program/modules2/add,sub.ko /mnt/hgfs/linux_program/modules2/add,sub.o /mnt/hgfs/linux_program/modules2/add,sub.mod.o

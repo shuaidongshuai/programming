@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "输入流", "输入输出流\输入输出流.vcxproj", "{1C17AA31-5E57-4136-AABE-35A83816DE70}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "输出流", "输出流\输出流.vcxproj", "{F600694D-5734-4090-8C3E-E925BCD0E84B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "文件读写", "文件读写\文件读写.vcxproj", "{FAF9E453-8659-464B-B769-CFBA4EEC1DF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C17AA31-5E57-4136-AABE-35A83816DE70}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1C17AA31-5E57-4136-AABE-35A83816DE70}.Debug|Win32.Build.0 = Debug|Win32
+		{1C17AA31-5E57-4136-AABE-35A83816DE70}.Release|Win32.ActiveCfg = Release|Win32
+		{1C17AA31-5E57-4136-AABE-35A83816DE70}.Release|Win32.Build.0 = Release|Win32
+		{F600694D-5734-4090-8C3E-E925BCD0E84B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F600694D-5734-4090-8C3E-E925BCD0E84B}.Debug|Win32.Build.0 = Debug|Win32
+		{F600694D-5734-4090-8C3E-E925BCD0E84B}.Release|Win32.ActiveCfg = Release|Win32
+		{F600694D-5734-4090-8C3E-E925BCD0E84B}.Release|Win32.Build.0 = Release|Win32
+		{FAF9E453-8659-464B-B769-CFBA4EEC1DF2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FAF9E453-8659-464B-B769-CFBA4EEC1DF2}.Debug|Win32.Build.0 = Debug|Win32
+		{FAF9E453-8659-464B-B769-CFBA4EEC1DF2}.Release|Win32.ActiveCfg = Release|Win32
+		{FAF9E453-8659-464B-B769-CFBA4EEC1DF2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+g++ -o server *.cpp -levent -ljson

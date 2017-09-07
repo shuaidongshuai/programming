@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+
+
+	/* function method(){
+		alert("xxx");
+	}
+	method(); */
+	
+	
+	/* var method = function(){
+		alert("yyy");
+	};
+	method(); */
+	
+	var fn = new Function("a","b","alert(a+b)");
+	fn(2,5);
+	
+	
+	
+	/* function fn(a,b,c){
+		//var sum = a+b+c;
+		//alert(sum);
+		//arguments是个数组 会将传递的实参进行封装
+		for(var i=0;i<arguments.length;i++){
+			alert(arguments[i]);
+		}
+	}
+	fn(1,2,4,8); */
+	
+	
+	
+	/* function fn(a,b){
+		return a+b;
+		//alert("xxxx");
+	}
+	alert(fn(2,3)); */
+	
+	 
+	
+	
+
+
+</script>
+
+
+
+</html>

@@ -1,0 +1,15 @@
+﻿生成启动时间为 2017/2/21 16:43:31。
+     1>项目“E:\programming\C++传智\二叉树\判断是否是完全二叉树,满二叉树\判断是否是完全二叉树,满二叉树.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源.cpp"
+         源.cpp
+     1>e:\programming\c++传智\二叉树\判断是否是完全二叉树,满二叉树\源.cpp(141): error C2144: 语法错误:“int”的前面应有“}”
+     1>e:\programming\c++传智\二叉树\判断是否是完全二叉树,满二叉树\源.cpp(141): error C2064: 项不会计算为接受 1 个参数的函数
+     1>e:\programming\c++传智\二叉树\判断是否是完全二叉树,满二叉树\源.cpp(141): error C2144: 语法错误:“int”的前面应有“)”
+     1>e:\programming\c++传智\二叉树\判断是否是完全二叉树,满二叉树\源.cpp(142): error C2065: “diff”: 未声明的标识符
+     1>e:\programming\c++传智\二叉树\判断是否是完全二叉树,满二叉树\源.cpp(142): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
+     1>已完成生成项目“E:\programming\C++传智\二叉树\判断是否是完全二叉树,满二叉树\判断是否是完全二叉树,满二叉树.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.23

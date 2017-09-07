@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/modules/Lcd/lcd2.ko := arm-linux-ld -EL -r  -T /linux-2.6.32.2/scripts/module-common.lds --build-id -o /mnt/hgfs/modules/Lcd/lcd2.ko /mnt/hgfs/modules/Lcd/lcd2.o /mnt/hgfs/modules/Lcd/lcd2.mod.o

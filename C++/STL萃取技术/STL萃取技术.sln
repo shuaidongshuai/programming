@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL萃取技术", "STL萃取技术\STL萃取技术.vcxproj", "{5694CF20-6897-4B35-B7EE-F23F12987477}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "yhp", "yhp\yhp.vcxproj", "{585DEA53-C918-4B3C-B041-09C87181AE12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5694CF20-6897-4B35-B7EE-F23F12987477}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5694CF20-6897-4B35-B7EE-F23F12987477}.Debug|Win32.Build.0 = Debug|Win32
+		{5694CF20-6897-4B35-B7EE-F23F12987477}.Release|Win32.ActiveCfg = Release|Win32
+		{5694CF20-6897-4B35-B7EE-F23F12987477}.Release|Win32.Build.0 = Release|Win32
+		{585DEA53-C918-4B3C-B041-09C87181AE12}.Debug|Win32.ActiveCfg = Debug|Win32
+		{585DEA53-C918-4B3C-B041-09C87181AE12}.Debug|Win32.Build.0 = Debug|Win32
+		{585DEA53-C918-4B3C-B041-09C87181AE12}.Release|Win32.ActiveCfg = Release|Win32
+		{585DEA53-C918-4B3C-B041-09C87181AE12}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

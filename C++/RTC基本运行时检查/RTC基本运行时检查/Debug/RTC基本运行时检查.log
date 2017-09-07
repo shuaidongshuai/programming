@@ -1,0 +1,15 @@
+﻿生成启动时间为 2016/11/17 10:57:12。
+     1>项目“E:\programming\C++\RTC基本运行时检查\RTC基本运行时检查\RTC基本运行时检查.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "源.c"
+         源.c
+     1>e:\programming\c++\rtc基本运行时检查\rtc基本运行时检查\源.c(25): warning C4101: “data1”: 未引用的局部变量
+     1>e:\programming\c++\rtc基本运行时检查\rtc基本运行时检查\源.c(32): warning C4013: “getchar”未定义；假设外部返回 int
+       Link:
+         D:\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\programming\C++\RTC基本运行时检查\Debug\RTC基本运行时检查.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\programming\C++\RTC基本运行时检查\Debug\RTC基本运行时检查.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\programming\C++\RTC基本运行时检查\Debug\RTC基本运行时检查.lib" /MACHINE:X86 "Debug\源.obj"
+         RTC基本运行时检查.vcxproj -> E:\programming\C++\RTC基本运行时检查\Debug\RTC基本运行时检查.exe
+     1>已完成生成项目“E:\programming\C++\RTC基本运行时检查\RTC基本运行时检查\RTC基本运行时检查.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.61

@@ -1,0 +1,54 @@
+package com.dong.test;
+
+class A{
+	
+}
+class B{
+	@Override
+	public int hashCode() {
+		return 1;
+	}
+}
+
+public class Test1 {
+	/*
+	一、在Object类中的定义为:
+		public native int hashCode();
+		是一个本地方法，返回的对象的地址值。
+		但是，同样的思路，在String等封装类中对此方法进行了重写。方法调用得到一个计算公式得到的 int值。*/
+	public static void main1(String[] args) {
+		String s1 = "dong";
+		String s2 = "dong";
+		Object o1 = new Object();
+		Object o2 = new Object();
+		System.out.println("o1 = "+o1.hashCode());
+		System.out.println("o2 = "+o2.hashCode());
+		System.out.println("s1 = "+s1.hashCode());
+		System.out.println("s2 = "+s2.hashCode());
+		System.out.println("-------------------------");
+		System.out.println(s1.equals(s2));
+		System.out.println(o1.equals(o2));
+	}
+	public static void main2(String[] args) {
+		Integer a = new Integer(1);
+		Integer b = new Integer(1);
+		Integer c = new Integer(2);
+		System.out.println(a.hashCode());
+		System.out.println(b.hashCode());
+		System.out.println(c.hashCode());
+		System.out.println("----------------");
+		System.out.println(a.equals(b));
+		System.out.println(a.equals(c));
+	}
+	public static void main(String[] args) {
+		A a = new A();
+		A aa = new A();
+		B b = new B();
+		B bb = new B();
+		System.out.println(a.hashCode());
+		System.out.println(aa.hashCode());
+		
+		System.out.println(a.equals(aa));
+		System.out.println(b.equals(bb));
+	}
+}

@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/modules/modules通信/add_sub/add_sub.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /mnt/hgfs/modules/modules通信/add_sub/add_sub.ko /mnt/hgfs/modules/modules通信/add_sub/add_sub.o /mnt/hgfs/modules/modules通信/add_sub/add_sub.mod.o

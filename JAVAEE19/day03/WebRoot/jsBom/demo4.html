@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+
+<script type="text/javascript">
+	var time = 5;
+	var timer;
+	timer = setInterval(
+		function(){
+			var second = document.getElementById("second");
+			if(time>=1){
+				second.innerHTML = time;
+				time--;
+			}else{
+				clearInterval(timer);
+				location.href="../jsCore/demo10.html";
+			}
+		},
+		1000
+	);
+</script>
+
+
+</head>
+<body>
+	恭喜您注册成功，<span id="second" style="color: red;">5</span>秒后跳转到首页，如果不跳转请<a href="../jsCore/demo10.html">点击这里</a>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Frameset.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+  </head>
+  <!-- 1、框架标签
+		frameset:
+			属性：
+				rows；按行划分
+				cols：按列划分
+				划分格式： rows="120,*"
+		frame:
+			属性：
+				name：名称，方便target根据name值进行定位
+				src:加载的页面地址； -->
+  <frameset rows="100,*">
+  	<frame src="top.html">
+  	<frameset cols="120,*">
+  		<frame src="left.html">
+  		<frame name="right" src="right.html">
+  	</frameset>
+  </frameset>
+  
+</html>

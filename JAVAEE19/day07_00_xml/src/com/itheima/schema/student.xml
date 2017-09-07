@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 
+	1、编写根标签
+	2、引入实例名称空间 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	3、引入名称空间 xsi:schemaLocation="http://www.itcast.cn/xml student.xsd"	
+	4、引入默认的名称空间
+ -->
+
+<students 
+	xmlns="http://www.itheima.cn/xml"
+	xsi:schemaLocation="http://www.itheima.cn/xml student.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+	<student number="itheima_1001">
+		<name>asfd</name>
+		<age>12</age>
+		<sex>male</sex>
+	</student>
+	
+</students>

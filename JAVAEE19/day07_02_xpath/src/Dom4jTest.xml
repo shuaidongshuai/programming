@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+	<book lang="eng">
+		<title>Harry Potter</title>
+		<price>29.99</price>
+	</book>
+	<book>
+		<title>学习 XML</title>
+		<price>39.95</price>
+	</book>
+	<hot>
+		<book lang="cn">
+			<title> Learning java </title>
+			<price>30.0</price>
+		</book>
+		<book>
+			<title>Learning sun</title>
+			<price>39.95</price>
+		</book>
+	</hot>
+	<recommend>
+		<book lang="eng">
+			<title>Learning php</title>
+			<price>39.95</price>
+		</book>
+	</recommend>
+	<worst>
+		<book lang="cn">
+			<title>Learning .net</title>
+			<price>39.95</price>
+		</book>
+	</worst>
+	<owner>zhangsan</owner>
+</bookstore>

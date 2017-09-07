@@ -1,0 +1,1 @@
+cmd_/mnt/hgfs/modules/从0开始编写LED驱动/first_drv.ko := arm-linux-ld -EL -r  -T /linux-2.6.32.2/scripts/module-common.lds --build-id -o /mnt/hgfs/modules/从0开始编写LED驱动/first_drv.ko /mnt/hgfs/modules/从0开始编写LED驱动/first_drv.o /mnt/hgfs/modules/从0开始编写LED驱动/first_drv.mod.o
