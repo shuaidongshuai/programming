@@ -71,6 +71,12 @@ int main( int argc, char* argv[] )
 
     int listenfd = socket( AF_INET, SOCK_STREAM, 0 );
     assert( listenfd >= 0 );
+	
+	int reuse = 1;
+    if (setsockopt(listenfd, SOL_SOCKET, SO_REUSEADDR, &reuse, sizeof(reuse)) == -1) {
+        return -1;
+    }
+	
     struct linger tmp = { 1, 0 };
     //setsockopt( listenfd, SOL_SOCKET, SO_LINGER, &tmp, sizeof( tmp ) );
 	/*
