@@ -1,5 +1,6 @@
-myHttp:main.cpp http_conn.cpp
-	g++ -g -o myHttp $^ -pthread
-.PYONY:clean
+object = http_conn.o myHttp.o
+myHttp: $(object)
+	g++ -o myHttp $(object) -pthread
+.PHONY: clean
 clean:
-	rm -rf myHttp
+	-rm myHttp $(object)

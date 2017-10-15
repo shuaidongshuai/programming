@@ -480,13 +480,6 @@ void Processpool::run_parent()
 
 */
 /*
-fcntl函数可以改变已打开的文件性质
-int fcntl(int fd, int cmd); 
-int fcntl(int fd, int cmd, long arg); 
-int fcntl(int fd, int cmd, struct flock *lock);
-参数cmd:
-F_GETFL 取得文件描述符状态旗标
-
 int sigfillset(sigset_t * set);
 sigfillset()用来将参数set信号集初始化，然后把所有的信号加入到此信号集里即将所有的信号标志位置为1
 成功时则返回0；如果有错误则返回-1，并设置errno的值，如果errno的值为EFAULT，则表示参数set指针地址无法存取。
@@ -505,9 +498,6 @@ signal(SIGCHLD, SIG_IGN);
 
 */
 /*
- waitpid():  on  success,  returns  the  process  ID  of  the child whose state has changed; if WNOHANG was specified and one or more
-       child(ren) specified by pid exist, but have not yet changed state, then 0 is returned.  On error, -1 is returned.
-	   
 1.SIGINT SIGTERM 区别
 前者与字符ctrl+c关联，后者没有任何控制字符关联。
 前者只能结束前台进程，后者则不是。

@@ -1,16 +1,15 @@
 #include <iostream> 
-#include <algorithm>
+#include <cstdlib>
 #include <cstring>
+#include <cstdio>
+#include <cmath>
+#include <typeinfo>
 using namespace std;
-struct s
-{
-	int x: 1;
-    char y: 1;
-    
-    char z: 1;
-};
-int main()
-{
-	cout<<sizeof(s)<<endl;
-}
-
+void func1(char *e)
+{ char *p1 = (char *)malloc(100);
+ sprintf(p1,"%s'.",e); 
+local_log(p1); 
+} 
+int main(){
+	func1("hello");
+} 

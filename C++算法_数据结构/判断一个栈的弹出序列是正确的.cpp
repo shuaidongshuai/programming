@@ -15,7 +15,7 @@ bool IsPopOrder(T *pPush,T *pPop,int len)
 	{
 		while(*pPush != *pPop)
 		{
-			if(pPush - firstPush >= len)//为了避免pPop中出现pPush中没有的东西 
+			if(pPush - firstPush >= len) 
 				return false;
 			s.push(*pPush);
 			pPush++;

@@ -4,10 +4,11 @@ using namespace std;
 template<typename T>
 class Singleton
 {
-public:
+private:
 	Singleton(){}
-	~Singleton(){}
+	virtual ~Singleton(){}
 	static T *instance;
+public:
 	static T *getInstence(){ return instance; }
 };
 template<typename T>
@@ -19,6 +20,7 @@ private:
 	A(){}
 	~A(){}
 	friend Singleton<A>;
+	//friend A *Singleton1<A>::getInstance();//这样也可以
 public:
 	int data;
 	void show(){ cout << "A data = " << data << endl; }

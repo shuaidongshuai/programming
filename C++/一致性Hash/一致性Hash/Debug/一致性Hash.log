@@ -1,0 +1,64 @@
+﻿生成启动时间为 2017/10/1 12:14:35。
+     1>项目“E:\programming\C++\一致性Hash\一致性Hash\一致性Hash.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CNode_s.cpp ConHash.cpp main.cpp md5.cpp util_rbtree.cpp
+         util_rbtree.cpp
+         md5.cpp
+     1>e:\programming\c++\一致性hash\一致性hash\md5.cpp(132): error C2065: “md5_state_t”: 未声明的标识符
+     1>e:\programming\c++\一致性hash\一致性hash\md5.cpp(132): error C2065: “pms”: 未声明的标识符
+     1>e:\programming\c++\一致性hash\一致性hash\md5.cpp(132): error C2059: 语法错误:“const”
+     1>e:\programming\c++\一致性hash\一致性hash\md5.cpp(133): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\programming\c++\一致性hash\一致性hash\md5.cpp(133): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\programming\c++\一致性hash\一致性hash\md5.cpp(314): error C2065: “md5_state_t”: 未声明的标识符
+     1>e:\programming\c++\一致性hash\一致性hash\md5.cpp(314): error C2065: “pms”: 未声明的标识符
+     1>e:\programming\c++\一致性hash\一致性hash\md5.cpp(315): error C2448: “md5_init”: 函数样式初始值设定项类似函数定义
+     1>e:\programming\c++\一致性hash\一致性hash\md5.cpp(324): error C2065: “md5_state_t”: 未声明的标识符
+     1>e:\programming\c++\一致性hash\一致性hash\md5.cpp(324): error C2065: “pms”: 未声明的标识符
+     1>e:\programming\c++\一致性hash\一致性hash\md5.cpp(324): error C2059: 语法错误:“const”
+     1>e:\programming\c++\一致性hash\一致性hash\md5.cpp(325): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\programming\c++\一致性hash\一致性hash\md5.cpp(325): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>e:\programming\c++\一致性hash\一致性hash\md5.cpp(362): error C2065: “md5_state_t”: 未声明的标识符
+     1>e:\programming\c++\一致性hash\一致性hash\md5.cpp(362): error C2065: “pms”: 未声明的标识符
+     1>e:\programming\c++\一致性hash\一致性hash\md5.cpp(362): error C2065: “md5_byte_t”: 未声明的标识符
+     1>e:\programming\c++\一致性hash\一致性hash\md5.cpp(362): error C2146: 语法错误: 缺少“)”(在标识符“digest”的前面)
+     1>e:\programming\c++\一致性hash\一致性hash\md5.cpp(362): error C2182: “md5_finish”: 非法使用“void”类型
+     1>e:\programming\c++\一致性hash\一致性hash\md5.cpp(362): error C2059: 语法错误:“)”
+     1>e:\programming\c++\一致性hash\一致性hash\md5.cpp(363): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>e:\programming\c++\一致性hash\一致性hash\md5.cpp(363): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+         main.cpp
+     1>e:\programming\c++\一致性hash\一致性hash\cnode_s.h(4): error C2011: “CNode_s”:“class”类型重定义
+                 e:\programming\c++\一致性hash\一致性hash\cnode_s.h(4) : 参见“CNode_s”的声明
+     1>e:\programming\c++\一致性hash\一致性hash\chashfun.h(4): error C2011: “CHashFun”:“class”类型重定义
+                 e:\programming\c++\一致性hash\一致性hash\chashfun.h(4) : 参见“CHashFun”的声明
+     1>e:\programming\c++\一致性hash\一致性hash\cvirtualnode_s.h(4): error C2011: “CVirtualNode_s”:“class”类型重定义
+                 e:\programming\c++\一致性hash\一致性hash\cvirtualnode_s.h(4) : 参见“CVirtualNode_s”的声明
+     1>e:\programming\c++\一致性hash\一致性hash\main.cpp(35): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>e:\programming\c++\一致性hash\一致性hash\main.cpp(38): error C2061: 语法错误: 标识符“CMD5HashFun”
+     1>e:\programming\c++\一致性hash\一致性hash\main.cpp(43): error C2027: 使用了未定义类型“CNode_s”
+                 e:\programming\c++\一致性hash\一致性hash\cnode_s.h(4) : 参见“CNode_s”的声明
+     1>e:\programming\c++\一致性hash\一致性hash\main.cpp(43): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
+         ConHash.cpp
+     1>e:\programming\c++\一致性hash\一致性hash\cnode_s.h(4): error C2011: “CNode_s”:“class”类型重定义
+                 e:\programming\c++\一致性hash\一致性hash\cnode_s.h(4) : 参见“CNode_s”的声明
+     1>e:\programming\c++\一致性hash\一致性hash\conhash.cpp(22): error C2027: 使用了未定义类型“CNode_s”
+                 e:\programming\c++\一致性hash\一致性hash\cnode_s.h(4) : 参见“CNode_s”的声明
+     1>e:\programming\c++\一致性hash\一致性hash\conhash.cpp(22): error C2227: “->getVNodeCount”的左边必须指向类/结构/联合/泛型类型
+     1>e:\programming\c++\一致性hash\一致性hash\conhash.cpp(28): error C2027: 使用了未定义类型“CNode_s”
+                 e:\programming\c++\一致性hash\一致性hash\cnode_s.h(4) : 参见“CNode_s”的声明
+     1>e:\programming\c++\一致性hash\一致性hash\conhash.cpp(28): error C2227: “->getIden”的左边必须指向类/结构/联合/泛型类型
+     1>e:\programming\c++\一致性hash\一致性hash\conhash.cpp(28): error C2660: “strcpy”: 函数不接受 1 个参数
+     1>e:\programming\c++\一致性hash\一致性hash\conhash.cpp(59): error C2027: 使用了未定义类型“CNode_s”
+                 e:\programming\c++\一致性hash\一致性hash\cnode_s.h(4) : 参见“CNode_s”的声明
+     1>e:\programming\c++\一致性hash\一致性hash\conhash.cpp(59): error C2227: “->getIden”的左边必须指向类/结构/联合/泛型类型
+     1>e:\programming\c++\一致性hash\一致性hash\conhash.cpp(59): error C2660: “strcpy”: 函数不接受 1 个参数
+     1>e:\programming\c++\一致性hash\一致性hash\conhash.cpp(60): error C2027: 使用了未定义类型“CNode_s”
+                 e:\programming\c++\一致性hash\一致性hash\cnode_s.h(4) : 参见“CNode_s”的声明
+     1>e:\programming\c++\一致性hash\一致性hash\conhash.cpp(60): error C2227: “->getVNodeCount”的左边必须指向类/结构/联合/泛型类型
+         CNode_s.cpp
+         正在生成代码...
+     1>e:\programming\c++\一致性hash\一致性hash\util_rbtree.cpp(72): error C4703: 使用了可能未初始化的本地指针变量“y”
+     1>已完成生成项目“E:\programming\C++\一致性Hash\一致性Hash\一致性Hash.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.39

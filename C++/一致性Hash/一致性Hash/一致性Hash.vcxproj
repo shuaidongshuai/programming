@@ -10,6 +10,23 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CNode_s.cpp" />
+    <ClCompile Include="ConHash.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="md5.cpp" />
+    <ClCompile Include="util_rbtree.cpp" />
+    <ClCompile Include="VirtualNode_s.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CConHash.h" />
+    <ClInclude Include="CHashFun.h" />
+    <ClInclude Include="CMD5HashFun .h" />
+    <ClInclude Include="CNode_s.h" />
+    <ClInclude Include="CVirtualNode_s.h" />
+    <ClInclude Include="md5.h" />
+    <ClInclude Include="util_rbtree.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{F933179A-D130-4E0C-B79E-71CC243B23F9}</ProjectGuid>
     <RootNamespace>一致性Hash</RootNamespace>
@@ -63,23 +80,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="CConHash.h" />
-    <ClInclude Include="CHashFun.h" />
-    <ClInclude Include="CMD5HashFun .h" />
-    <ClInclude Include="CNode_s.h" />
-    <ClInclude Include="CVirtualNode_s.h" />
-    <ClInclude Include="md5.h" />
-    <ClInclude Include="util_rbtree.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="CNode_s.cpp" />
-    <ClCompile Include="ConHash.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="md5.cpp" />
-    <ClCompile Include="util_rbtree.cpp" />
-    <ClCompile Include="VirtualNode_s.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

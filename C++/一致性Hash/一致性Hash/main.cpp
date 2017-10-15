@@ -3,7 +3,7 @@
 #include"CVirtualNode_s.h" 
 #include"CHashFun.h" 
 #include"CConHash.h"
-#include "CHashFun.h"
+#include"CHashFun.h"
 #include<string.h> 
 #include<time.h> 
 

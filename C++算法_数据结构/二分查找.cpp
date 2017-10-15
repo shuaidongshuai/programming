@@ -18,7 +18,7 @@ int BinarySearch(vector<int> v, int key){
 	}
 	return -1;
 }
-//查找第一个比key大的元素
+//查找第一个比key大的元素(也是找相同key 最左边的那个)
 int BinarySearch2(vector<int> v, int key){
 	int l = 0, r = v.size() - 1, mid;
 	while (l <= r){
@@ -36,9 +36,9 @@ int BinarySearch2(vector<int> v, int key){
 	return l;
 }
 int main() {
-	int arr[] = { 203, 39, 186, 207, 83, 80, 89, 237, 247 };
+	int arr[] = { 1, 2, 3, 6, 6, 6, 7, 8, 9};
 	int n = sizeof(arr) / sizeof(int);
 	vector<int> v(arr, arr + n);
-	cout << BinarySearch2(v, 248) << endl;
+	cout << BinarySearch2(v, 4) << endl;
 	system("pause");
 }

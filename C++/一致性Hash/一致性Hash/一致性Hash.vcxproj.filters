@@ -15,29 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CConHash.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CHashFun.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CMD5HashFun .h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CNode_s.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CVirtualNode_s.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="md5.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="util_rbtree.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="CNode_s.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -56,5 +33,28 @@
     <ClCompile Include="VirtualNode_s.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CConHash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CHashFun.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CMD5HashFun .h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CNode_s.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CVirtualNode_s.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util_rbtree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

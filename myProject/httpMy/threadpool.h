@@ -1,4 +1,4 @@
-#ifndef THREADPOOL_H
+ï»¿#ifndef THREADPOOL_H
 #define THREADPOOL_H
 
 #include <list>
@@ -20,15 +20,15 @@ private:
     void run();
 
 private:
-	/*×î´óÏß³ÌÊı*/
+	/*æœ€å¤§çº¿ç¨‹æ•°*/
     int m_thread_number;
-	/*×î´óÇëÇóÊı*/
+	/*æœ€å¤§è¯·æ±‚æ•°*/
     int m_max_requests;
-	/*ËùÓĞ¹¤×÷ÈÎÎñÁ´±í*/
+	/*æ‰€æœ‰å·¥ä½œä»»åŠ¡é“¾è¡¨*/
     std::list< T* > m_workqueue;
-	/*»¥³âËø*/
+	/*äº’æ–¥é”*/
     locker m_queuelocker;
-	/*ĞÅºÅÁ¿*/
+	/*ä¿¡å·é‡*/
     sem m_queuestat;
     pthread_t* m_threads;//typedef unsigned long int pthread_t;
     bool m_stop;
@@ -43,12 +43,12 @@ threadpool< T >::threadpool( int thread_number, int max_requests ) :
         throw std::exception();
     }
 
-    m_threads = new pthread_t[ m_thread_number ];//Ïàµ±ÓÚÉêÇë m_thread_number ¸öÏß³Ìid
+    m_threads = new pthread_t[ m_thread_number ];//ç›¸å½“äºç”³è¯· m_thread_number ä¸ªçº¿ç¨‹id
     if( ! m_threads )
     {
         throw std::exception();
     }
-	/*´´½¨Ïß³Ì³Ø*/
+	/*åˆ›å»ºçº¿ç¨‹æ± */
     for ( int i = 0; i < thread_number; ++i )
     {
         //printf( "create the %dth thread\n", i );
@@ -57,7 +57,7 @@ threadpool< T >::threadpool( int thread_number, int max_requests ) :
             delete [] m_threads;
             throw std::exception();
         }
-        if( pthread_detach( m_threads[i] ) )//¸ÃÏß³ÌÔËĞĞ½áÊøºó»á×Ô¶¯ÊÍ·ÅËùÓĞ×ÊÔ´
+        if( pthread_detach( m_threads[i] ) )//è¯¥çº¿ç¨‹è¿è¡Œç»“æŸåä¼šè‡ªåŠ¨é‡Šæ”¾æ‰€æœ‰èµ„æº
         {
             delete [] m_threads;
             throw std::exception();
@@ -72,13 +72,13 @@ threadpool< T >::~threadpool()
     m_stop = true;
 }
 
-/*¶ÔĞÅºÅÁ¿½øĞĞ¼Ó²Ù×÷ ºÍ ÍùÈÎÎñ¶ÓÁĞÖĞ¼ÓÈÎÎñ*/
+/*å¯¹ä¿¡å·é‡è¿›è¡ŒåŠ æ“ä½œ å’Œ å¾€ä»»åŠ¡é˜Ÿåˆ—ä¸­åŠ ä»»åŠ¡*/
 template< typename T >
 bool threadpool< T >::append( T* request ,bool is_read)
 {
-	/*°ÑÈÎÎñ¼ÓÈë¶ÓÁĞĞèÒª¼ÓËø*/
-    //m_queuelocker.lock();//ÒòÎªÎÒÃÇÖ»ÓĞÒ»¸ö½ø³ÌÀ´¼ÓÈÎÎñ£¬ËùÒÔ²»ĞèÒª¼ÓËø
-    if ( m_workqueue.size() > m_max_requests )//ÅĞ¶Ïµ±Ç°¹¤×÷ÈÎÎñÊÇ·ñ´ïµ½×î´ó
+	/*æŠŠä»»åŠ¡åŠ å…¥é˜Ÿåˆ—éœ€è¦åŠ é”*/
+    //m_queuelocker.lock();//å› ä¸ºæˆ‘ä»¬åªæœ‰ä¸€ä¸ªè¿›ç¨‹æ¥åŠ ä»»åŠ¡ï¼Œæ‰€ä»¥ä¸éœ€è¦åŠ é”
+    if ( m_workqueue.size() > m_max_requests )//åˆ¤æ–­å½“å‰å·¥ä½œä»»åŠ¡æ˜¯å¦è¾¾åˆ°æœ€å¤§
     {
         //m_queuelocker.unlock();
         return false;
@@ -86,11 +86,11 @@ bool threadpool< T >::append( T* request ,bool is_read)
 	request->is_read = is_read;
     m_workqueue.push_back( request );
     //m_queuelocker.unlock();
-    m_queuestat.post();//ĞÅºÅÁ¿+1
+    m_queuestat.post();//ä¿¡å·é‡+1
     return true;
 }
 
-/*ËùÓĞ×ÓÏß³Ì¶¼ÔÚÕâ¿ªÊ¼ÔËĞĞ*/
+/*æ‰€æœ‰å­çº¿ç¨‹éƒ½åœ¨è¿™å¼€å§‹è¿è¡Œ*/
 template< typename T >
 void* threadpool< T >::worker( void* arg )
 {
@@ -104,27 +104,27 @@ void threadpool< T >::run()
 {
     while ( ! m_stop )
     {
-		/*Ö»ÒªÏß³ÌÅÜµ½Õâ£¬ĞÅºÅÁ¿¾Í-1 , Èç¹ûĞÅºÅÁ¿Îª0¾Í×èÈûÔÚÕâ£¬ËµÃ÷Ã»ÓĞÈÎÎñµ½À´*/
+		/*åªè¦çº¿ç¨‹è·‘åˆ°è¿™ï¼Œä¿¡å·é‡å°±-1 , å¦‚æœä¿¡å·é‡ä¸º0å°±é˜»å¡åœ¨è¿™ï¼Œè¯´æ˜æ²¡æœ‰ä»»åŠ¡åˆ°æ¥*/
         m_queuestat.wait();
-		/*»ñÈ¡ÈÎÎñĞèÒª¼ÓËø£¬²»ÄÜ¶à¸öÏß³Ì»ñÈ¡Í¬Ò»¸öÈÎÎñ*/
+		/*è·å–ä»»åŠ¡éœ€è¦åŠ é”ï¼Œä¸èƒ½å¤šä¸ªçº¿ç¨‹è·å–åŒä¸€ä¸ªä»»åŠ¡*/
         m_queuelocker.lock();
         if ( m_workqueue.empty() )
         {
             m_queuelocker.unlock();
             continue;
         }
-        T* request = m_workqueue.front();//È¡ÈÎÎñ¶ÓÁĞµÄµÚÒ»¸ö
+        T* request = m_workqueue.front();//å–ä»»åŠ¡é˜Ÿåˆ—çš„ç¬¬ä¸€ä¸ª
         m_workqueue.pop_front();
         m_queuelocker.unlock();
-        if ( ! request )//ÇëÇó²»Îª¿Õ
+        if ( ! request )//è¯·æ±‚ä¸ä¸ºç©º
         {
             continue;
         }
-		/*ÅĞ¶ÏÊÇÄÄÖÖÈÎÎñ*/
+		/*åˆ¤æ–­æ˜¯å“ªç§ä»»åŠ¡*/
 		if(request->is_read)
 		{
 			if(request->http_read())
-				request->process();//µ÷ÓÃuserµÄprocessº¯Êı£¬Ò²¾ÍÊÇµ÷ÓÃhttp_conn.cppÀïÃæµÄprocess
+				request->process();//è°ƒç”¨userçš„processå‡½æ•°ï¼Œä¹Ÿå°±æ˜¯è°ƒç”¨http_conn.cppé‡Œé¢çš„process
 			else
 				request->close_conn();
 		}
@@ -138,13 +138,13 @@ void threadpool< T >::run()
 
 #endif
 /*
-´´½¨Ò»¸öÏß³ÌÄ¬ÈÏµÄ×´Ì¬ÊÇjoinable, Èç¹ûÒ»¸öÏß³Ì½áÊøÔËĞĞµ«Ã»ÓĞ±»join,ÔòËüµÄ×´Ì¬ÀàËÆÓÚ½ø³ÌÖĞµÄZombie Process,
-¼´»¹ÓĞÒ»²¿·Ö×ÊÔ´Ã»ÓĞ±»»ØÊÕ£¨ÍË³ö×´Ì¬Âë£©£¬ËùÒÔ´´½¨Ïß³ÌÕßÓ¦¸Ãpthread_joinÀ´µÈ´ıÏß³ÌÔËĞĞ½áÊø£¬²¢¿ÉµÃµ½Ïß³ÌµÄÍË³ö´úÂë£¬»ØÊÕÆä×ÊÔ´£¨ÀàËÆÓÚwait,waitpid)
-µ«ÊÇµ÷ÓÃpthread_join(pthread_id)ºó£¬Èç¹û¸ÃÏß³ÌÃ»ÓĞÔËĞĞ½áÊø£¬µ÷ÓÃÕß»á±»×èÈû£¬ÔÚÓĞĞ©Çé¿öÏÂÎÒÃÇ²¢²»Ï£ÍûÈç´Ë£¬
-±ÈÈçÔÚWeb·şÎñÆ÷ÖĞµ±Ö÷Ïß³ÌÎªÃ¿¸öĞÂÀ´µÄÁ´½Ó´´½¨Ò»¸ö×ÓÏß³Ì½øĞĞ´¦ÀíµÄÊ±ºò£¬Ö÷Ïß³Ì²¢²»Ï£ÍûÒòÎªµ÷ÓÃpthread_join¶ø×èÈû£¨ÒòÎª»¹Òª¼ÌĞø´¦ÀíÖ®ºóµ½À´µÄÁ´½Ó£©£¬
-ÕâÊ±¿ÉÒÔÔÚ×ÓÏß³ÌÖĞ¼ÓÈë´úÂë
+åˆ›å»ºä¸€ä¸ªçº¿ç¨‹é»˜è®¤çš„çŠ¶æ€æ˜¯joinable, å¦‚æœä¸€ä¸ªçº¿ç¨‹ç»“æŸè¿è¡Œä½†æ²¡æœ‰è¢«join,åˆ™å®ƒçš„çŠ¶æ€ç±»ä¼¼äºè¿›ç¨‹ä¸­çš„Zombie Process,
+å³è¿˜æœ‰ä¸€éƒ¨åˆ†èµ„æºæ²¡æœ‰è¢«å›æ”¶ï¼ˆé€€å‡ºçŠ¶æ€ç ï¼‰ï¼Œæ‰€ä»¥åˆ›å»ºçº¿ç¨‹è€…åº”è¯¥pthread_joinæ¥ç­‰å¾…çº¿ç¨‹è¿è¡Œç»“æŸï¼Œå¹¶å¯å¾—åˆ°çº¿ç¨‹çš„é€€å‡ºä»£ç ï¼Œå›æ”¶å…¶èµ„æºï¼ˆç±»ä¼¼äºwait,waitpid)
+ä½†æ˜¯è°ƒç”¨pthread_join(pthread_id)åï¼Œå¦‚æœè¯¥çº¿ç¨‹æ²¡æœ‰è¿è¡Œç»“æŸï¼Œè°ƒç”¨è€…ä¼šè¢«é˜»å¡ï¼Œåœ¨æœ‰äº›æƒ…å†µä¸‹æˆ‘ä»¬å¹¶ä¸å¸Œæœ›å¦‚æ­¤ï¼Œ
+æ¯”å¦‚åœ¨WebæœåŠ¡å™¨ä¸­å½“ä¸»çº¿ç¨‹ä¸ºæ¯ä¸ªæ–°æ¥çš„é“¾æ¥åˆ›å»ºä¸€ä¸ªå­çº¿ç¨‹è¿›è¡Œå¤„ç†çš„æ—¶å€™ï¼Œä¸»çº¿ç¨‹å¹¶ä¸å¸Œæœ›å› ä¸ºè°ƒç”¨pthread_joinè€Œé˜»å¡ï¼ˆå› ä¸ºè¿˜è¦ç»§ç»­å¤„ç†ä¹‹ååˆ°æ¥çš„é“¾æ¥ï¼‰ï¼Œ
+è¿™æ—¶å¯ä»¥åœ¨å­çº¿ç¨‹ä¸­åŠ å…¥ä»£ç 
 pthread_detach(pthread_self())
-»òÕß¸¸Ïß³Ìµ÷ÓÃ
-pthread_detach(thread_id)£¨·Ç×èÈû£¬¿ÉÁ¢¼´·µ»Ø£©
-Õâ½«¸Ã×ÓÏß³ÌµÄ×´Ì¬ÉèÖÃÎªdetached,Ôò¸ÃÏß³ÌÔËĞĞ½áÊøºó»á×Ô¶¯ÊÍ·ÅËùÓĞ×ÊÔ´¡£
+æˆ–è€…çˆ¶çº¿ç¨‹è°ƒç”¨
+pthread_detach(thread_id)ï¼ˆéé˜»å¡ï¼Œå¯ç«‹å³è¿”å›ï¼‰
+è¿™å°†è¯¥å­çº¿ç¨‹çš„çŠ¶æ€è®¾ç½®ä¸ºdetached,åˆ™è¯¥çº¿ç¨‹è¿è¡Œç»“æŸåä¼šè‡ªåŠ¨é‡Šæ”¾æ‰€æœ‰èµ„æºã€‚
 */

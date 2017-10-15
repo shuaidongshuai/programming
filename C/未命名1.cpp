@@ -1,10 +1,15 @@
-#include<iostream>
+#include <iostream>
+#include <string>
 using namespace std;
-int main()
-{
-    int a=  10;
-	printf("%x\n",a); 
-	printf("%2x\n",a); 
-	printf("%02x\n",a); 
-    return 0;
+
+class A{
+public:
+	string s = "hello";
+	void show(){cout<<s<<endl;}
+};
+A test(){ A(); }
+int main(){
+	string str("hello dong");
+	for(auto c : str)
+		cout<<c;
 }
