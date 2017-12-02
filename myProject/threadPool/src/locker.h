@@ -8,7 +8,7 @@
 class Sem{
 public:
 	Sem(){
-		if(sem_init(&sem, 0, 0))
+		if(sem_init(&sem, 0, 0))//2.非0可以在多进程线程中共享 3.信号量初始值
 			throw std::exception();
 	}
 	~Sem(){

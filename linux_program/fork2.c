@@ -24,12 +24,4 @@ int main(void)
 		printf("parent return child PID=%d\tparent process PID=%d\n",pid,getpid());
 	}
 	return 0;
-	
-	
-	
-	
-	
-	
-	
-	
 }

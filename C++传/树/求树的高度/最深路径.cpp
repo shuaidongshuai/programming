@@ -8,10 +8,9 @@ void DeepPathTree(Node *node, vector<int> &v){
 	if (!node || !node->left && !node->right){
 		return;
 	}
-	int leftNum = 
 }
 
-int main(){
+int main2(){
 	int val;
 	Tree root = NULL;
 	//先创建一棵树 

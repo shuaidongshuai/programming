@@ -1,9 +1,34 @@
-﻿object= nginx.o keepAlive.o 
-nginx: $(object)
-	g++ -o nginx $(object)
-keepAlive.o: common.h
-nginx.o: Processpool.h
+﻿GTEST_CPPFLAG1=-IconsHash
+GTEST_CPPFLAG2=-Ieasyloggingpp
+GTEST_CPPFLAG3=-Iproto
+# GTEST_CPPFLAG4=-Isrc
+LIB=lib
+object=DtbtNginx.o Nginx.o inNginx.pb.o ConsistentHash.o md5.o MD5HashFunc.o Node.o easylogging++.o 
+myDtbtNginx: $(object)
+	g++ -std=c++11 -o myDtbtNginx $(LIB)/DtbtNginx.o $(LIB)/Nginx.o $(LIB)/inNginx.pb.o \
+	$(LIB)/ConsistentHash.o $(LIB)/md5.o $(LIB)/MD5HashFunc.o $(LIB)/Node.o $(LIB)/easylogging++.o -lprotobuf
 
+DtbtNginx.o:
+	g++ -std=c++11 -g -c src/DtbtNginx.cc -o $(LIB)/DtbtNginx.o $(GTEST_CPPFLAG2) $(GTEST_CPPFLAG1) $(GTEST_CPPFLAG3)
+Nginx.o:
+	g++ -std=c++11 -g -c src/Nginx.cc -o $(LIB)/Nginx.o $(GTEST_CPPFLAG2) $(GTEST_CPPFLAG3)
+
+inNginx.pb.o:
+	g++ -std=c++11 -g -c proto/inNginx.pb.cc -o $(LIB)/inNginx.pb.o
+	
+ConsistentHash.o:
+	g++ -std=c++11 -g -c consHash/ConsistentHash.cpp -o $(LIB)/ConsistentHash.o
+md5.o:
+	g++ -std=c++11 -g -c consHash/md5.cpp -o $(LIB)/md5.o
+MD5HashFunc.o:
+	g++ -std=c++11 -g -c consHash/MD5HashFunc.cpp -o $(LIB)/MD5HashFunc.o
+Node.o:
+	g++ -std=c++11 -g -c consHash/Node.cpp -o $(LIB)/Node.o
+
+easylogging++.o:
+	g++ -std=c++11 -g -c easyloggingpp/easylogging++.cc -o $(LIB)/easylogging++.o
+
+	
 .PHONY:clean				#使用说明  make clean 
 clean:					#	  就可以执下面语句
-	rm -f *.o nginx client server1 server2 server3 server4 server5
+	rm -f myDtbtNginx $(LIB)/*.o

@@ -6,8 +6,6 @@ typedef struct dong{
 	char a;
 	struct dong *next;
 }*Node, No;
-
-
 void insert(Node root, Node node)
 {
 	if (node == NULL)
@@ -15,7 +13,6 @@ void insert(Node root, Node node)
 	node->next = root->next;
 	root->next = node;
 }
-
 Node create()
 {
 	Node root = new No;
@@ -30,7 +27,6 @@ Node create()
 	}
 	return root;
 }
-
 void print(Node l)
 {
 	l = l->next;
@@ -41,35 +37,36 @@ void print(Node l)
 	}
 	cout << endl;
 }
-
-void reverse_print(Node node)
-{
+////////////////递归/////////////////////
+void reverse_print(Node node){
+	if(!node) return; 
 	node = node->next;
 	if(node == NULL)
-		return ;
+		return;
 	reverse_print(node);
 	cout<<node->a<<"  ";
 }
-void rever_print2(Node node)
-{
-	Node temp = node;
-	Node temp2 = NULL;
-	while(temp2 != node)
-	{
-		while(temp != temp2)
-		{
-			temp2 = temp;
-			temp = temp->next;
-		}
-		cout<<temp2->a<<"   ";
+////////////////非递归///////////////////// 
+void reverse_print2(Node head){
+	if(!head || !head->next) return;
+	Node flag = NULL;
+	Node node = head->next;//带头结点 
+	while(flag != head->next){
+		while(node->next != flag)
+			node = node->next;
+		cout<<node->a<<"  ";
+		flag = node;
+		node = head->next;
 	}
 }
-
-int main()
-{
+//abcdefg$ 
+int main(){
 	Node root = create();
+	cout<<"////////////////正常/////////////////////"<<endl; 
 	print(root);
+	cout<<"////////////////递归/////////////////////"<<endl; 
 	reverse_print(root);
 	cout<<endl;
-	reverse_print(root);
+	cout<<"////////////////非递归/////////////////////"<<endl; 
+	reverse_print2(root);
 }

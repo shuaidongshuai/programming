@@ -1,6 +1,7 @@
 ﻿#include "http_conn.h"
 
 const char* ok_200_title = "OK";
+const char* error_301_title = "Found Other";
 const char* error_400_title = "Bad Request";
 const char* error_400_form = "Your request has bad syntax or is inherently impossible to satisfy.\n";
 const char* error_403_title = "Forbidden";
@@ -171,18 +172,20 @@ http_conn::HTTP_CODE http_conn::parse_request_line( char* text )
     {
         return BAD_REQUEST;
     }
-    *m_url++ = '\0';
-
     char* method = text;
-    if ( strcasecmp( method, "GET" ) == 0 )
+    if ( strcasecmp( method, "GET" ) == 0 )//只支持get请求
     {
         m_method = GET;
     }
     else
     {
+		//测试用--把post请求打印日志
+		// FILE *fp = fopen("log/postRequest.text","w+");  
+		// fwrite(text, 1024, 1, fp);  
+        // fclose(fp);
         return BAD_REQUEST;
     }
-
+	*m_url++ = '\0';
     m_url += strspn( m_url, " \t" );
     m_version = strpbrk( m_url, " \t" );
     if ( ! m_version )
@@ -191,7 +194,7 @@ http_conn::HTTP_CODE http_conn::parse_request_line( char* text )
     }
     *m_version++ = '\0';
     m_version += strspn( m_version, " \t" );
-    if ( strcasecmp( m_version, "HTTP/1.1" ) != 0 )
+    if ( strcasecmp( m_version, "HTTP/1.1" ) != 0 && strcasecmp( m_version, "HTTP/1.0" ) != 0)
     {
         return BAD_REQUEST;
     }
@@ -206,8 +209,10 @@ http_conn::HTTP_CODE http_conn::parse_request_line( char* text )
     {
         return BAD_REQUEST;
     }
-
 	++m_url;//这样可以去掉/
+	//判断需不需要重定位--因为文件的传输不用当前服务器
+	//if(strstr(m_url, ".exe") || strstr(m_url, ".pdf"))
+	
     m_check_state = CHECK_STATE_HEADER;
     return NO_REQUEST;
 }
@@ -444,7 +449,7 @@ bool http_conn::http_write()
 		return false;
 	} 
 }
-
+////////////////////////////////////////////////////////////////////
 bool http_conn::add_response( const char* format, ... )
 {
     if( m_write_idx >= WRITE_BUFFER_SIZE )
@@ -462,41 +467,53 @@ bool http_conn::add_response( const char* format, ... )
     va_end( arg_list );
     return true;
 }
-
+//////////////////////添加请求消息行/////////////////////////////
 bool http_conn::add_status_line( int status, const char* title )
 {
     return add_response( "%s %d %s\r\n", "HTTP/1.1", status, title );
 }
-
-bool http_conn::add_headers( int content_len )
+//////////////////////添加请求消息头/////////////////////////////
+bool http_conn::add_headers( int content_len, const char *location)
 {
     add_content_length( content_len );
     add_linger();
+	//支持重定向技术
+	if(location)
+		add_Location(location);
     add_blank_line();
 }
-
+//内容长度
 bool http_conn::add_content_length( int content_len )
 {
     return add_response( "Content-Length: %d\r\n", content_len );
 }
-
+//keep-alive
 bool http_conn::add_linger()
 {
     return add_response( "Connection: %s\r\n", ( m_linger == true ) ? "keep-alive" : "close" );
 }
-
+//重定向
+bool http_conn::add_Location(const char *otherUrl)
+{
+	return add_response( "Location: %s\r\n", otherUrl );
+}
+//////////////////////添加空行/////////////////////////////
 bool http_conn::add_blank_line()
 {
     return add_response( "%s", "\r\n" );
 }
-
+//////////////////添加请求正文(用于错误响应)////////////////
 bool http_conn::add_content( const char* content )
 {
     return add_response( "%s", content );
 }
-
+//写响应 行 头 体
 bool http_conn::process_write( HTTP_CODE ret )
 {
+	// add_status_line( 302, error_301_title );
+    // add_headers( strlen( error_301_title ) );
+	// add_content( error_301_form );
+	// return true;
     switch ( ret )
     {
         case INTERNAL_ERROR:
@@ -562,7 +579,6 @@ bool http_conn::process_write( HTTP_CODE ret )
             return false;
         }
     }
-
     return true;
 }
 
@@ -578,12 +594,12 @@ void http_conn::process()
     }
 	
 	/*准备写入的内容*/
-    bool write_ret = process_write( read_ret );
+    bool write_ret = process_write( read_ret );//写响应头部
     if ( ! write_ret )
     {
         close_conn();
     }
 	/*监听写事件★★★需要写给客户端*/
-    modfd( m_epollfd, m_sockfd, EPOLLOUT );
+    modfd( m_epollfd, m_sockfd, EPOLLOUT );//写入http或者二进制文件
 }
 

@@ -16,7 +16,7 @@ T *Singleton<T>::instance = new T;
 
 class A
 {
-private:
+protected:
 	A(){}
 	~A(){}
 	friend Singleton<A>;

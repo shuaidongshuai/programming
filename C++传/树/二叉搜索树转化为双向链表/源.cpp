@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <stack>
 using namespace std;
 
 typedef struct NODE{
@@ -36,7 +37,7 @@ void Convert(Node *node, Node *&pre)
 	if (node->right)
 		Convert(node->right, pre);
 }
-
+//µÝ¹é
 Node *Convert(Node *node)
 {
 	if (!node)
@@ -49,6 +50,33 @@ Node *Convert(Node *node)
 		pre = pre->left;
 	return pre;
 }
+//·ÇµÝ¹é
+Node *Convert2(Node *node){
+	if (!node)
+		return NULL;
+	stack<Node *> s;
+	Node *root = NULL, *pre = NULL;
+	while (!s.empty() || node){
+		while (node){
+			s.push(node);
+			node = node->left;
+		}
+		node = s.top();
+		s.pop();
+		if (!root){
+			root = pre = node;
+			root->left = NULL;
+		}
+		else{
+			node->left = pre;
+			pre->right = node;
+			pre = node;//×¢Òâ preÒª¸úÉÏÀ´
+		}
+		node = node->right;
+	}
+	return root;
+}
+///////////////////////////////²âÊÔ//////////////////////////////////
 void print(Node *node)
 {
 	if (node)
@@ -58,8 +86,8 @@ void print(Node *node)
 		print(node->right);
 	}
 }
-int main()
-{
+//µÝ¹é
+void test1(){
 	char *str1 = "421##3##865##7###";
 	Node *node1 = Create(str1);
 	print(node1);
@@ -70,5 +98,23 @@ int main()
 		cout << node->val << " ";
 		node = node->right;
 	}
+	cout << endl;
+}
+//·ÇµÝ¹é
+void test2(){
+	char *str1 = "421##3##865##7###";
+	Node *node1 = Create(str1);
+	cout << "--------------------------" << endl;
+	Node *node = Convert2(node1);
+	while (node){
+		cout << node->val << " ";
+		node = node->right;
+	}
+	cout << endl;
+}
+int main()
+{
+	test1();
+	test2();
 	system("pause");
 }

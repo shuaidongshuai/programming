@@ -8,7 +8,6 @@ struct LinkNode
 	char val;
 	LinkNode *next;
 };
-
 LinkNode *create(char *str)
 {
 	if (!str)
@@ -42,25 +41,21 @@ LinkNode *reverseList(LinkNode *head)
 	return pre;
 }
 //递归
-LinkNode *resverseList2(LinkNode *pre,LinkNode *node)
+LinkNode *reverseList2(LinkNode *pre,LinkNode *cur)
 {
-	LinkNode *head = NULL;
-	if(node)
-	{
-		head = resverseList2(node,node->next);
-		node->next = pre;
+	LinkNode *head = NULL;//注意要把头结点带出来 
+	if(cur){
+		head = reverseList2(cur,cur->next);
+		cur->next = pre;
 	}
 	else
-	{
 		head = pre;
-	}
 	return head;
 }
-LinkNode *resverseList2(LinkNode *head)
+LinkNode *reverseList2(LinkNode *head)
 {
-	if(!head)
-		return NULL;
-	return resverseList2(NULL,head);
+	if(!head) return NULL;
+	return reverseList2(NULL,head);
 } 
 
 void print(LinkNode *head)
@@ -78,7 +73,7 @@ int main()
 	print(head);
 	LinkNode *reHead = reverseList(head);
 	print(reHead);
-	LinkNode *reHead2 = reverseList(reHead);
+	LinkNode *reHead2 = reverseList2(reHead);
 	print(reHead2);
 }
 

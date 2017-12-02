@@ -13,8 +13,10 @@ int g_status = invalue;
 
 int my_atoi(char *str)
 {
-	if(!str | !*str)
+	if(!str || !*str)
 		return 0;
+	while(*str == ' ')//atoi()会扫描,跳过前面的空格字符
+		++str;
 	long long sum = 0;
 	bool fu = false;
 	if(*str == '-')
@@ -36,7 +38,7 @@ int my_atoi(char *str)
 				return 0;
 		}
 		else
-			return 0;
+			break;
 	}
 	if(fu)
 		sum = 0 - sum;
@@ -44,19 +46,23 @@ int my_atoi(char *str)
 	return int(sum);
 }
 
+void print(char *str){
+	cout<<my_atoi(str)<<endl;
+	cout<<atoi(str)<<endl;
+	cout<<"--------------------"<<endl;	
+}
 int main()
 {
 	char *str1 = "+123";
-	char *str2 = "-123";
-	char *str3 = "+";
+	print(str1);
 	
-	cout<<my_atoi(str1) + 1<<endl;
-	cout<<atoi(str1) + 1<<endl;
-
-	cout<<my_atoi(str2) + 1<<endl;
-	cout<<atoi(str2) + 1<<endl;
-
-	cout<<my_atoi(str3) + 1<<endl;
-	cout<<atoi(str3) + 1<<endl;
+	str1 = "   -111   22 fads";
+	print(str1);
+	
+	str1 = ""; 
+	print(str1);
+	
+	str1 = NULL;
+	print(str1);
 }
 

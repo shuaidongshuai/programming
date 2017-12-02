@@ -29,13 +29,16 @@ void FindContinuousSequence(int n)
 		sum += ++max;
 	}
 }
+//时间复杂度为 O(logN) 
 void FindContinuousSequence2(int n)
 {
-	int min, max, count = 1, sum = 0;
+	int min, max, count = 2;
 	do
 	{
-		min = n / ++count - (count - 1) / 2;
+		min = n / count - (count - 1) / 2;
 		max = min + count - 1;
+		++count;
+		int sum = 0;
 		for (int i = min; min>0 && i <= max; ++i)
 			sum += i;
 		if (sum == n)
@@ -43,10 +46,8 @@ void FindContinuousSequence2(int n)
 			printadd(min, max, sum);
 			cout<<"--------------------------------------------------------------------"<<endl;
 		}
-		sum = 0;
 	} while (min > 0);
 }
-
 void test1(int a)
 {
 	struct timeb startTime , endTime;

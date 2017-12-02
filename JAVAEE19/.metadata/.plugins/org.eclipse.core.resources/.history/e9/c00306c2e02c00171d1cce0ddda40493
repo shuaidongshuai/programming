@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="protectWife_server_game">
-        <property name="context-root" value="/protectWife_server_game"/>
-        <property name="java-output-path" value="/protectWife_server_game/WebRoot/WEB-INF/classes"/>
-    </wb-module>
-</project-modules>

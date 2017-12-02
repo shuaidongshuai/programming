@@ -1,0 +1,4 @@
+ π”√g++±‡“Î
+$ g++ server.cc people.pb.cc -o s -lprotobuf  
+$ g++ client.cc people.pb.cc -o c -lprotobuf
+

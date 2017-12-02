@@ -13,6 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{094AF71A-C277-4C53-A7EE-0E50457B302B}</ProjectGuid>
     <RootNamespace>判断是否是完全二叉树满二叉树</RootNamespace>
+    <ProjectName>判断完全、满、平衡二叉树</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

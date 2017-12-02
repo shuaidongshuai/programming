@@ -65,9 +65,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="test.cpp" />
+    <ClCompile Include="Morris遍历.cpp" />
+    <ClCompile Include="Tree.h" />
     <ClCompile Include="二叉排序树逆序输出.cpp" />
     <ClCompile Include="源.cpp" />
+    <ClCompile Include="用栈非递归.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="51" version="2.0">
+<workbench progressCount="49" version="2.0">
 <workbenchAdvisor/>
 <window height="735" maximized="true" width="1024" x="242" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -49,33 +49,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="User.java" partName="User.java" path="E:/programming/JAVAEE19/protectWife_server_game/src/com/dong/user/User.java" title="User.java" tooltip="protectWife_server_game/src/com/dong/user/User.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/protectWife_server_game/src/com/dong/user/User.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="149" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Server.java" partName="Server.java" path="E:/programming/JAVAEE19/protectWife_server_game/src/com/dong/Game/Server.java" title="Server.java" tooltip="protectWife_server_game/src/com/dong/Game/Server.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/protectWife_server_game/src/com/dong/Game/Server.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1942" selectionTopPixel="723"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Dao.java" partName="Dao.java" path="E:/programming/JAVAEE19/protectWife_server_game/src/com/dong/dao/Dao.java" title="Dao.java" tooltip="protectWife_server_game/src/com/dong/dao/Dao.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/protectWife_server_game/src/com/dong/dao/Dao.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1234" selectionTopPixel="400"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DbUtils.java" partName="DbUtils.java" path="E:/programming/JAVAEE19/zhaoPing/src/com/dong/dbutils/DbUtils.java" title="DbUtils.java" tooltip="zhaoPing/src/com/dong/dbutils/DbUtils.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/zhaoPing/src/com/dong/dbutils/DbUtils.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="30" selectionOffset="665" selectionTopPixel="171"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DbUtils.java" partName="DbUtils.java" path="E:/programming/JAVAEE19/protectWife_server_game/src/com/dong/dbutils/DbUtils.java" title="DbUtils.java" tooltip="protectWife_server_game/src/com/dong/dbutils/DbUtils.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/protectWife_server_game/src/com/dong/dbutils/DbUtils.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestDong.java" partName="TestDong.java" path="E:/programming/JAVA/图论/图论JDBC/作业1/com/dong/test/TestDong.java" title="TestDong.java" tooltip="图论JDBC_1/作业1/com/dong/test/TestDong.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/图论JDBC_1/作业1/com/dong/test/TestDong.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="585" selectionTopPixel="80"/>
 </editor>
 </editors>
 <views>
@@ -243,6 +223,9 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -293,7 +276,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
+<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.genuitec.myeclipse.perspective.MyEclipsePerspectiveFactory" id="com.genuitec.myeclipse.perspective.myeclipseperspective" label="MyEclipse Java Enterprise"/>
 <alwaysOnActionSet id="com.genuitec.myeclipse.actions.deploytools"/>
@@ -396,14 +379,14 @@
 <view id="uky.article.imageviewer.views.ImageView"/>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
 <fastViewBars>
-<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@6a3b1937" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="0">
-<fastViews>
-<view id="org.eclipse.ui.views.ContentOutline" ratio="0.18707739"/>
-</fastViews>
-</fastViewBar>
 <fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@4df4a05d" orientation="512" selectedTabId="org.eclipse.ui.views.PropertySheet" style="0">
 <fastViews>
 <view id="org.eclipse.ui.views.PropertySheet" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@6a3b1937" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.18707739"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
@@ -435,8 +418,8 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="bottom" ratio="0.74371856" ratioLeft="444" ratioRight="153" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="com.genuitec.eclipse.ast.deploy.core.serverview" appearance="2" expanded="2">
+<info folder="true" part="bottom" ratio="0.7386935" ratioLeft="441" ratioRight="156" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
@@ -643,8 +626,6 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" id="org.jboss.tools.common.model.ui.editor.EditorPartWrapper" path="/protectWife_server_game/WebRoot/WEB-INF/web.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/protectWife_server_game/src/user/User.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/protectWife_server_game/src/com/dong/user/User.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" path="/protectWife_server_game/src/dbinfo.properties"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/protectWife_server_game/src/com/dong/Game/Server.java"/>
@@ -655,146 +636,153 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/protectWife_server_game/src/com/dong/dbutils/DbUtils.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/protectWife_server_game/src/com/dong/user/User.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/protectWife_server_game/src/com/dong/dao/Dao.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/图论JDBC_1/作业1/com/dong/test/TestDong.java"/>
 </editors>
-<item historyLabel="User.java" index="1">
-<position info="not_deleted" x="16" y="0"/>
-</item>
-<item historyLabel="web.xml" index="0"/>
-<item historyLabel="User.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="dbinfo.properties" index="3"/>
-<item historyLabel="User.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Server.java" index="4">
-<position info="not_deleted" x="2066" y="0"/>
-</item>
-<item historyLabel="Server.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="DbUtils.java" index="5">
+<item historyLabel="DbUtils.java" index="3">
 <position info="not_deleted" x="405" y="0"/>
 </item>
-<item historyLabel="dbinfo.properties" index="3"/>
-<item historyLabel="DbUtils.java" index="5">
-<position info="not_deleted" x="405" y="0"/>
-</item>
-<item historyLabel="Dao.java" index="6">
+<item historyLabel="Dao.java" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="DbUtils.java" index="5">
+<item historyLabel="DbUtils.java" index="3">
 <position info="not_deleted" x="405" y="0"/>
 </item>
-<item historyLabel="Dao.java" index="6">
+<item historyLabel="Dao.java" index="4">
 <position info="not_deleted" x="1450" y="0"/>
 </item>
-<item historyLabel="Server.java" index="4">
+<item historyLabel="Server.java" index="2">
 <position/>
 </item>
-<item historyLabel="User.java" index="2">
+<item historyLabel="User.java" index="0">
 <position info="not_deleted" x="113" y="0"/>
 </item>
-<item historyLabel="Server.java" index="4">
+<item historyLabel="Server.java" index="2">
 <position/>
 </item>
-<item historyLabel="User.java" index="2">
+<item historyLabel="User.java" index="0">
 <position/>
 </item>
-<item historyLabel="User.java" index="7">
+<item historyLabel="User.java" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="User.java" index="2">
+<item historyLabel="User.java" index="0">
 <position info="not_deleted" x="149" y="0"/>
 </item>
-<item historyLabel="Server.java" index="4">
+<item historyLabel="Server.java" index="2">
 <position/>
 </item>
-<item historyLabel="Server.java" index="4">
+<item historyLabel="Server.java" index="2">
 <position/>
 </item>
-<item historyLabel="Server.java" index="4">
+<item historyLabel="Server.java" index="2">
 <position/>
 </item>
-<item historyLabel="Dao.java" index="6">
+<item historyLabel="Dao.java" index="4">
 <position info="not_deleted" x="352" y="3"/>
 </item>
-<item historyLabel="User.java" index="2">
+<item historyLabel="User.java" index="0">
 <position info="not_deleted" x="149" y="0"/>
 </item>
-<item historyLabel="Server.java" index="4">
+<item historyLabel="Server.java" index="2">
 <position/>
 </item>
-<item historyLabel="Dao.java" index="6">
+<item historyLabel="Dao.java" index="4">
 <position info="not_deleted" x="375" y="7"/>
 </item>
-<item historyLabel="Dao.java" index="6">
+<item historyLabel="Dao.java" index="4">
 <position info="not_deleted" x="630" y="0"/>
 </item>
-<item historyLabel="Dao.java" index="6">
+<item historyLabel="Dao.java" index="4">
 <position info="not_deleted" x="1218" y="0"/>
 </item>
-<item historyLabel="Server.java" index="4">
+<item historyLabel="Server.java" index="2">
 <position/>
 </item>
-<item historyLabel="Dao.java" index="6">
+<item historyLabel="Dao.java" index="4">
 <position info="not_deleted" x="943" y="0"/>
 </item>
-<item historyLabel="Server.java" index="4">
+<item historyLabel="Server.java" index="2">
 <position info="not_deleted" x="1945" y="0"/>
 </item>
-<item historyLabel="Dao.java" index="6">
+<item historyLabel="Dao.java" index="4">
 <position info="not_deleted" x="909" y="0"/>
 </item>
-<item historyLabel="Server.java" index="4">
+<item historyLabel="Server.java" index="2">
 <position info="not_deleted" x="1888" y="0"/>
 </item>
-<item historyLabel="Dao.java" index="6">
+<item historyLabel="Dao.java" index="4">
 <position info="not_deleted" x="798" y="43"/>
 </item>
-<item historyLabel="User.java" index="2">
+<item historyLabel="User.java" index="0">
 <position info="not_deleted" x="149" y="0"/>
 </item>
-<item historyLabel="DbUtils.java" index="5">
+<item historyLabel="DbUtils.java" index="3">
 <position info="not_deleted" x="405" y="0"/>
 </item>
-<item historyLabel="Server.java" index="4">
+<item historyLabel="Server.java" index="2">
 <position info="not_deleted" x="1461" y="0"/>
 </item>
-<item historyLabel="Dao.java" index="6">
+<item historyLabel="Dao.java" index="4">
 <position info="not_deleted" x="798" y="43"/>
 </item>
-<item historyLabel="DbUtils.java" index="5">
+<item historyLabel="DbUtils.java" index="3">
 <position info="not_deleted" x="405" y="0"/>
 </item>
-<item historyLabel="Server.java" index="4">
+<item historyLabel="Server.java" index="2">
 <position info="not_deleted" x="1832" y="0"/>
 </item>
-<item historyLabel="Dao.java" index="6">
+<item historyLabel="Dao.java" index="4">
 <position info="not_deleted" x="472" y="34"/>
 </item>
-<item historyLabel="DbUtils.java" index="8">
+<item historyLabel="DbUtils.java" index="6">
 <position info="not_deleted" x="665" y="30"/>
 </item>
-<item historyLabel="dbinfo.properties" index="3"/>
-<item historyLabel="DbUtils.java" index="8">
+<item historyLabel="dbinfo.properties" index="1"/>
+<item historyLabel="DbUtils.java" index="6">
 <position info="not_deleted" x="665" y="30"/>
 </item>
-<item historyLabel="Server.java" index="4">
+<item historyLabel="Server.java" index="2">
 <position info="not_deleted" x="1759" y="0"/>
 </item>
-<item historyLabel="DbUtils.java" index="9">
+<item historyLabel="DbUtils.java" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="dbinfo.properties" index="3"/>
-<item historyLabel="User.java" index="10">
+<item historyLabel="dbinfo.properties" index="1"/>
+<item historyLabel="User.java" index="8">
 <position info="not_deleted" x="149" y="0"/>
 </item>
-<item historyLabel="Dao.java" index="11">
+<item historyLabel="Dao.java" index="9">
 <position info="not_deleted" x="472" y="34"/>
 </item>
-<item active="true" historyLabel="Dao.java" index="11">
-<position info="not_deleted" x="926" y="7"/>
+<item historyLabel="Dao.java" index="9">
+<position info="not_deleted" x="1234" y="0"/>
+</item>
+<item historyLabel="TestDong.java" index="10">
+<position info="not_deleted" x="1417" y="0"/>
+</item>
+<item historyLabel="TestDong.java" index="10">
+<position/>
+</item>
+<item historyLabel="TestDong.java" index="10">
+<position info="not_deleted" x="1415" y="0"/>
+</item>
+<item historyLabel="TestDong.java" index="10">
+<position/>
+</item>
+<item historyLabel="TestDong.java" index="10">
+<position/>
+</item>
+<item historyLabel="TestDong.java" index="10">
+<position/>
+</item>
+<item historyLabel="TestDong.java" index="10">
+<position/>
+</item>
+<item historyLabel="TestDong.java" index="10">
+<position/>
+</item>
+<item active="true" historyLabel="TestDong.java" index="10">
+<position/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -817,6 +805,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestDong.java" tooltip="图论JDBC_1/作业1/com/dong/test/TestDong.java">
+<persistable path="/图论JDBC_1/作业1/com/dong/test/TestDong.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" name="dbinfo.properties" tooltip="protectWife_server_game/src/dbinfo.properties">
 <persistable path="/protectWife_server_game/src/dbinfo.properties"/>
 </file>
@@ -858,9 +849,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="login.jsp" tooltip="cmd3c/WebRoot/login.jsp">
 <persistable path="/cmd3c/WebRoot/login.jsp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="reg.jsp" tooltip="cmd3c/WebRoot/reg.jsp">
-<persistable path="/cmd3c/WebRoot/reg.jsp"/>
 </file>
 </mruList>
 </workbench>

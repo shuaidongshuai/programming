@@ -1,17 +1,21 @@
-#include <stdio.h>
 #include <iostream>
+#include <string>
 using namespace std;
 
-char *test()
-{
-	char str[] = "hello";
-	return str;
-} 
+class A{
+public:
+	void test(){
+		cout<<"test A"<<endl;
+	}
+};
+class B:public A{
+public:
+	void test(){
+		cout<<"B test"<<endl;
+	}
+};
 
-int main()
-{
-	char *p = test();
-	//printf("%s",p);
-	cout<<p<<endl;
+int main(){
+	A *a = new B;
+	a->test();
 }
-

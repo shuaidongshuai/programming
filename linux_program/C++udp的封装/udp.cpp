@@ -28,7 +28,7 @@ int socket_send(const char *IP)
 	struct  sockaddr_in addr;
 	memset(&addr, 0, sizeof(addr));//初始化
 	addr.sin_family = AF_INET;//代表要用哪个Tcp/IP协议
-	addr.sin_port = htons(8080);//host to net short
+	addr.sin_port = htons(8888);//host to net short
 	addr.sin_addr.s_addr = inet_addr(IP);
 	//printf("%d", inet_addr("127.0.0.1"));//1 00000000 00000000 01111111
 										// 1.0.0.127
@@ -64,7 +64,7 @@ int socket_recv()
 	struct  sockaddr_in addr;
 	memset(&addr, 0, sizeof(addr));
 	addr.sin_family = AF_INET;
-	addr.sin_port = htons(8080);
+	addr.sin_port = htons(8888);
 	addr.sin_addr.s_addr = htonl(INADDR_ANY);//接收端不需要指定具体IP
 	int rc = 0;
 	if (bind(st, (struct sockaddr *)&addr, sizeof(addr)) != -1)//将端口号和程序绑定

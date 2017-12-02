@@ -1,0 +1,7 @@
+当把char*传入ParseFromString时，会把char*转换成string类型，会在第一个'\0'的地方，把这个缓冲区给截断，导致数据不全
+正确的做法如下：
+Person p;
+char *pData;//这个是包缓冲
+num = recv(fd, buf, MAXDATASIZE, 0);
+string strData(pData, num + 1);
+bool bRet = p.ParseFromString(strData);

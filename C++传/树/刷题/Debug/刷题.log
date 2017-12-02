@@ -1,0 +1,21 @@
+﻿生成启动时间为 2017/11/14 18:51:51。
+     1>项目“E:\programming\C++传\树\刷题\刷题.vcxproj”在节点 3 上(Build 个目标)。
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "求树的最低的高度.cpp"
+         求树的最低的高度.cpp
+     1>e:\programming\c++传\树\刷题\求树的最低的高度.cpp(7): error C2061: 语法错误: 标识符“TreeNode”
+     1>e:\programming\c++传\树\刷题\求树的最低的高度.cpp(8): error C2065: “root”: 未声明的标识符
+     1>e:\programming\c++传\树\刷题\求树的最低的高度.cpp(8): error C2065: “NULL”: 未声明的标识符
+     1>e:\programming\c++传\树\刷题\求树的最低的高度.cpp(10): error C2065: “root”: 未声明的标识符
+     1>e:\programming\c++传\树\刷题\求树的最低的高度.cpp(10): error C2227: “->left”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>e:\programming\c++传\树\刷题\求树的最低的高度.cpp(10): error C2660: “Solution::run”: 函数不接受 1 个参数
+     1>e:\programming\c++传\树\刷题\求树的最低的高度.cpp(11): error C2065: “root”: 未声明的标识符
+     1>e:\programming\c++传\树\刷题\求树的最低的高度.cpp(11): error C2227: “->right”的左边必须指向类/结构/联合/泛型类型
+                 类型是“unknown-type”
+     1>e:\programming\c++传\树\刷题\求树的最低的高度.cpp(11): error C2660: “Solution::run”: 函数不接受 1 个参数
+     1>已完成生成项目“E:\programming\C++传\树\刷题\刷题.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.51

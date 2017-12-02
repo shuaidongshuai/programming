@@ -18,10 +18,16 @@
     <ClCompile Include="源.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="test.cpp">
+    <ClCompile Include="二叉排序树逆序输出.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="二叉排序树逆序输出.cpp">
+    <ClCompile Include="Morris遍历.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="用栈非递归.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

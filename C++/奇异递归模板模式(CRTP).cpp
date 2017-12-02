@@ -41,6 +41,7 @@
 /*
 下面是使用CRTP（Curiously Recurring Template Pattern）来实现多与上面对应功能的静多态代码：
 */
+#if 0
 template <class Derived>
 class Base {
 public:
@@ -73,5 +74,35 @@ int main()
     pBase2->method();
     delete pBase2;
     
+    return 0;
+}
+#endif
+///////////////////////////////////////////////
+template <class Derived>
+class Base {
+public:
+	int a;
+	Base(int a):a(a){}
+	void print()
+	{
+		static_cast<Derived*>(this)->print();//用这种方式代替多态 
+	}
+};
+class A : public Base<A> {
+public:
+	int b;
+	A(int a, int b):b(b), Base<A>(a){}
+     void print() {
+    	std::cout << a << " " << b << std::endl;
+     }
+};
+void test(Base<A> *pBase){
+	pBase->print(); //10 20
+}
+int main()
+{
+    Base<A> *pBase = new A(10, 20);
+    test(pBase);
+    delete pBase;
     return 0;
 }

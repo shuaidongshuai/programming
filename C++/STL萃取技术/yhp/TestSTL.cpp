@@ -107,4 +107,5 @@ void main()
 	yhp::advance(p,5);
 	cout<<*p<<endl;
 	yhp::advance(s,5);
+	system("pause");
 }

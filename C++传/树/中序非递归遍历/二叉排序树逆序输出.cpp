@@ -1,12 +1,7 @@
 #include <iostream>
 #include <cstring>
+#include "Tree.h"
 using namespace std;
-
-typedef struct NODE{
-	char val;
-	struct NODE *left, *right;
-	NODE(char val) :val(val), left(NULL), right(NULL){}
-}Node, *Tree;
 
 bool addNode(Tree &t, char a)
 {
@@ -52,7 +47,7 @@ void reversePrint(Node *node)
 		reversePrint(node->left);
 	}
 }
-int main()
+int main2()
 {
 	char *a = "4213657";
 	Node *root = create(a);
@@ -60,4 +55,5 @@ int main()
 	cout << endl;
 	reversePrint(root);
 	getchar();
+	return 0;
 }

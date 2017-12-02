@@ -76,6 +76,6 @@ void print(char *str,int n,int index)
 } 
 int main()
 {
-	//PrintToMax(3);
-	printToMax2(3);
+	PrintToMax(3);
+	//printToMax2(3);
 }

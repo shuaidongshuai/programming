@@ -2,16 +2,13 @@
 #include <iostream>
 #include <stack>
 using namespace std;
-
 template<class _Ty>
 const _Ty & Max(const _Ty &a, const _Ty &b)
 {
 	return a>b ? a : b;
 }
-
 typedef char ElemType;
 #define  END '#'
-
 typedef struct BtNode  // BinaryTreeNode
 {
 	//BtNode *parent;
@@ -19,7 +16,6 @@ typedef struct BtNode  // BinaryTreeNode
 	BtNode *leftchild;
 	ElemType data;
 }BtNode, *BinaryTree;
-
 BtNode * _Buynode()
 {
 	BtNode *s = (BtNode*)malloc(sizeof(BtNode));
@@ -27,7 +23,6 @@ BtNode * _Buynode()
 	memset(s, 0, sizeof(BtNode));
 	return s;
 }
-
 BtNode * CreateTree2(ElemType *&str)
 {
 	BtNode *s = NULL;
@@ -41,41 +36,39 @@ BtNode * CreateTree2(ElemType *&str)
 	return s;
 }
 
-/*完全二叉树*/
+/*判断完全二叉树*/
 bool Is_Comp_BinaryTree(BtNode *p)
 {
 	queue<BtNode *> q;
 	q.push(p);
-	bool tag = 0;//用于标识是否出现第一个空孩子
+	bool tag = 0;//用于标识是否出现第一个空孩子，出现空后，不能再出现不为空的节点
 	while (!q.empty())
 	{
 		p = q.front();
 		q.pop();
-		if (p->leftchild != NULL)
-		{
+		if (p->leftchild != NULL){
 			if (tag)
 				return false;
 			q.push(p->leftchild);
 		}
 		else
-		{
 			tag = 1;
-		}
-		if (p->rightchild != NULL)
-		{
+		if (p->rightchild != NULL){
 			if (tag)
 				return false;
 			q.push(p->rightchild);
 		}
 		else
-		{
 			tag = 1;
-		}
 	}
 	return true;
 }
-/*判断满二叉树在网上也没有找到具体的代码，自己又两种方法1,先求出高度和节点数，满二叉树  2^高度 - 1 = 节点数
-													方法2,见如下代码  利用的是求深度的思想*/
+/*
+判断满二叉树  在网上也没有找到具体的代码，自己想的
+方法1:先求出高度和节点数，满二叉树  2^高度 - 1 = 节点数
+方法2:见如下代码  利用的是求深度的思想
+方法3:非递归，每一层加一个标记，要么全为NULL，要么全不为NULL
+*/
 int isEqualHight_sys(BinaryTree root,bool &tag)
 {
 	if (!root) return 0;
@@ -92,7 +85,6 @@ bool isEqualHight(BinaryTree root)
 	if (tag) return false;
 	return true;
 }
-/////////////////////////////////////////////////////////////////////
 int max(int a, int b)
 {
 	return a > b ? a : b;
@@ -108,6 +100,7 @@ bool isEqualHight2(BinaryTree root)
 		getDepth(root->leftchild) == getDepth(root->rightchild) && 
 		isEqualHight2(root->leftchild) && isEqualHight2(root->rightchild));
 }
+/*判断平衡二叉树*/
 /*最开始是像下面这样写的，不过后来想想有问题，当左右两边不等高，but左边出现两次不等高，那么就会产生false = false 返回左边就变成了true == 右边true*/
 //bool isEqualHight(BinaryTree root)
 //{
@@ -136,12 +129,11 @@ bool IsBalanced2(BinaryTree root,int &depth)
 	if (!root)
 		return true;
 	int leftDepth, rightDepth;
-	if (IsBalanced2(root, leftDepth) && IsBalanced2(root, rightDepth))//先进行后序遍历的递归操作，第一次进来是最左边那个节点
-	{
+	//先到最下面
+	if (IsBalanced2(root, leftDepth) && IsBalanced2(root, rightDepth)){
 		//判断是否高度差1
 		int diff = leftDepth - rightDepth;
-		if (diff >= -1 || diff <= 1)
-		{
+		if (diff >= -1 || diff <= 1){
 			depth = (leftDepth > rightDepth ? leftDepth : rightDepth) + 1;//高度加1，因为是引用，会返回给上一层
 			return true;
 		}
@@ -153,6 +145,7 @@ bool IsBalanced2(BinaryTree root)
 	int dep = 0;
 	return IsBalanced2(root,dep);
 }
+///////////////////////////////////////////////////////
 void prePrint(BinaryTree root)
 {
 	if (root)
@@ -162,7 +155,6 @@ void prePrint(BinaryTree root)
 		prePrint(root->rightchild);
 	}
 }
-
 void main()
 {
 	ElemType *str1 = "ABDH###E##CF##G##";

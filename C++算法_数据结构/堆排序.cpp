@@ -6,14 +6,14 @@ void swap(int &a, int &b){
 	b ^= a;
 	a ^= b;
 }
-/* å°æ ¹å † */
-//æ’å…¥
+/* Ğ¡¸ù¶Ñ */
+//²åÈë
 void InsertHeap(int *arr, int i){
 	if(!arr || i < 0)
 		return;
 	int fa = (i - 1) / 2;
 	int temp = arr[i];
-	while(i > 0){//ä¸ºå•¥åªåˆ¤æ–­å­èŠ‚ç‚¹ï¼Ÿ å› ä¸ºåªè¦i>0ï¼Œçˆ¶èŠ‚ç‚¹å°±ä¸å¯èƒ½ä¸ºè´Ÿæ•°
+	while(i > 0){//ÎªÉ¶Ö»ÅĞ¶Ï×Ó½Úµã£¿ ÒòÎªÖ»Òªi>0£¬¸¸½Úµã¾Í²»¿ÉÄÜÎª¸ºÊı
 		if(temp > arr[fa])
 			break;
 		arr[i] = arr[fa];
@@ -22,17 +22,17 @@ void InsertHeap(int *arr, int i){
 	}
 	arr[i] = temp;
 }
-//å¤´ç»“ç‚¹ä¸‹æ²‰
+//Í·½áµãÏÂ³Á
 void HeadDownHead(int *arr, int n){
 	if(!arr || n < 0)
 		return;
-	int i = 0;//å¤´ç»“ç‚¹
-	int l_child = 2 * i + 1;//å·¦å­©å­
+	int i = 0;//Í·½áµã
+	int l_child = 2 * i + 1;//×óº¢×Ó
 	int temp = arr[i];
 	while(l_child < n){
-		//åˆ¤æ–­å·¦å³èŠ‚ç‚¹å“ªä¸ªæ›´å°
+		//ÅĞ¶Ï×óÓÒ½ÚµãÄÄ¸ö¸üĞ¡
 		if(l_child + 1 < n && arr[l_child + 1] < arr[l_child])
-			++l_child;//å·¦èŠ‚ç‚¹å˜ä¸ºå³èŠ‚ç‚¹
+			++l_child;//×ó½Úµã±äÎªÓÒ½Úµã
 		if(temp < arr[l_child])
 			break;
 		arr[i] = arr[l_child];
@@ -41,20 +41,20 @@ void HeadDownHead(int *arr, int n){
 	}
 	arr[i] = temp;
 }
-//æ’åº
+//ÅÅĞò
 void HeadSort(int *arr, int n){
 	if(!arr || n <= 0)
 		return;
-	//å…ˆæ’å…¥
+	//ÏÈ²åÈë
 	for(int i = 0; i < n; ++i)
 		InsertHeap(arr,i);
-	//ç„¶åå¯ä»¥æ’åºäº†(å°æ ¹å †  æ˜¯ä»å¤§åˆ°å°æ’åº)
+	//È»ºó¿ÉÒÔÅÅĞòÁË(Ğ¡¸ù¶Ñ  ÊÇ´Ó´óµ½Ğ¡ÅÅĞò)
 	for(int i = n - 1; i > 0; --i){
 		swap(arr[i], arr[0]);
 		HeadDownHead(arr,i);
 	}
 }
-///////////////////////æµ‹è¯•///////////////////////////////
+///////////////////////²âÊÔ///////////////////////////////
 void test1()
 {
 	int arr[] = { 5, 8, 1, 6, 3, 4, 2, 9, 7 };

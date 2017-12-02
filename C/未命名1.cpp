@@ -4,12 +4,22 @@ using namespace std;
 
 class A{
 public:
-	string s = "hello";
-	void show(){cout<<s<<endl;}
+	A(){
+		test();
+	}
+	virtual void test(){
+		cout<<"A test"<<endl;
+	}
 };
-A test(){ A(); }
+class B:public A{
+public:
+	B(){
+		test();		
+	}
+	virtual void test(){
+		cout<<"B test"<<endl;
+	}
+};
 int main(){
-	string str("hello dong");
-	for(auto c : str)
-		cout<<c;
+	B b;
 }
