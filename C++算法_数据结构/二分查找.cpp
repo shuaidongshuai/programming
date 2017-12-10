@@ -53,13 +53,26 @@ int BinarySearch3(vector<int> v, int key){
 	//return l - 1;//这里要 -1 ★★★★★★★上面是由于r-1才跳出循环的  下面是l+1才跳出循环的  所以需要 l - 1 
 	return r;	//换成r也行 
 }
-int main() {
+void test1(){
 	int arr[] = { 0, 1, 2, 3, 6, 6, 6, 6, 7, 8, 9};
 	int n = sizeof(arr) / sizeof(int);
 	vector<int> v(arr, arr + n);
 	for(int i = 0; i < n; ++i)
 		cout<<i<<"->"<<arr[i]<<endl;
-	cout << BinarySearch2(v, 6) << endl;
-	cout << BinarySearch3(v, 6) << endl;
-	system("pause");
+	cout << "找6最左边的角标：" << BinarySearch2(v, 6) << endl;
+	cout << "找6最右边的角标：" << BinarySearch3(v, 6) << endl;
+}
+void test2(){
+	int arr[] = { 0, 3, 6, 10, 12};
+	int n = sizeof(arr) / sizeof(int);
+	vector<int> v(arr, arr + n);
+	for(int i = 0; i < n; ++i)
+		cout<<i<<"->"<<arr[i]<<endl;
+	cout << "找第一个比8大的角标：" << BinarySearch2(v, 8) << endl;
+	cout << "找第一个比8小的角标：" << BinarySearch3(v, 8) << endl;
+}
+
+int main() {
+	test1();
+	test2();
 }
