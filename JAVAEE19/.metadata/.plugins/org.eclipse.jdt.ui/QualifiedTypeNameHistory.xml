@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.dong.io.ReadText"/>
 <fullyQualifiedTypeName name="java.io.Serializable"/>
 <fullyQualifiedTypeName name="java.util.ResourceBundle"/>
 <fullyQualifiedTypeName name="java.lang.Class"/>
@@ -60,4 +59,5 @@
 <fullyQualifiedTypeName name="org.apache.commons.beanutils.BeanUtils"/>
 <fullyQualifiedTypeName name="com.sun.org.apache.commons.beanutils.BeanUtils"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.Cloneable"/>
 </qualifiedTypeNameHistroy>

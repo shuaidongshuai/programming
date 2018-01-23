@@ -1,0 +1,30 @@
+下载源码包，解压，编译安装
+
+地址：https://github.com/google/protobuf/releases
+
+选择Source code (tar.gz)下载
+
+tar -zxvf protobuf-3.1.0.tar.gz -C /usr/local/
+cd protobuf-3.1.0/
+# 如果使用的不是源码，而是release版本 (已经包含gmock和configure脚本)，可以略过这一步
+./autogen.sh		//如果有问题看提示，去下载一个gmock
+# 指定安装路径
+./configure --prefix=/usr/local/protobuf
+#编译
+make
+# 测试，这一步很耗时间
+make check
+make install
+# refresh shared library cache.
+ldconfig
+
+设置一下环境变量 /etc/profile
+
+# (动态库搜索路径) 程序加载运行期间查找动态链接库时指定除了系统默认路径之外的其他路径
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/protobuf/lib
+# (静态库搜索路径) 程序编译期间查找动态链接库时指定查找共享库的路径
+export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/protobuf/lib
+export CPLUS_INCLUDE_PATH=/usr/local/protobuf/include:$CPLUS_INCLUDE_PATH
+export PATH=$PATH:/usr/local/protobuf/bin
+
+source /etc/profile

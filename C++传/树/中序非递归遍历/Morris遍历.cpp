@@ -11,7 +11,7 @@ void MidMorris(Node *root){
 			cout << cur->val << "   ";
 			cur = cur->right;
 		}
-		else{//有右孩子肯定有前驱节点指向自己
+		else{//有左孩子肯定有前驱节点指向自己
 			pre = cur->left;
 			while (pre->right && pre->right != cur)//!=cur是因为之前可以已经指向了cur
 				pre = pre->right;

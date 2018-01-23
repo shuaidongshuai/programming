@@ -130,7 +130,7 @@ void testMap(){
 	 */
 	for(auto it = m.begin(); it != m.end(); ++it){
 		if(2 == it->first)
-			m.insert(it, pair<int, int>(6, 60));//insert的效率比【】高，少了一次遍历 
+			m.insert(it, pair<int, int>(6, 60));//insert的效率比【】高
 	}
 	printMap(m);
 	cout<<"删除key6"<<endl;

@@ -1,0 +1,22 @@
+class Person implements Cloneable{  
+	public int age ;  
+    public String name;  
+      
+    public Person(int age, String name) {  
+        this.age = age;  
+        this.name = name;  
+    }  
+    @Override  
+    protected Object clone() throws CloneNotSupportedException {  
+        return (Person)super.clone();  
+    }  
+}     
+public class PriNum {
+	public static void main(String[] args) throws CloneNotSupportedException {
+		Person p = new Person(23, "zhang");  
+		Person p1 = (Person) p.clone();  
+		p1.name = "dong";
+		  
+		System.out.println(p.name);
+	}
+}

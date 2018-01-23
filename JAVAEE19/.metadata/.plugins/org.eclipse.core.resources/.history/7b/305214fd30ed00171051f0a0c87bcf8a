@@ -1,0 +1,16 @@
+class Person {  
+	public int age ;  
+    public String name;  
+      
+    public Person(int age, String name) {  
+        this.age = age;  
+        this.name = name;  
+    }  
+}     
+public class PriNum {
+	public static void main(String[] args) throws CloneNotSupportedException {
+		String a = "hello";
+		String b = "hello";
+		System.out.println(a == b);
+	}
+}

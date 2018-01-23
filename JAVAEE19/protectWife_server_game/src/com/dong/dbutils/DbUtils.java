@@ -14,13 +14,13 @@ public class DbUtils {
 	private static String password;
 	
 	static{
-		//¼ÓÔØpropertiesÎÄ¼ş
+		//åŠ è½½propertiesæ–‡ä»¶
 		ResourceBundle bundle = ResourceBundle.getBundle("dbinfo");
 		driverClass = bundle.getString("driverClass");
 		url = bundle.getString("url");
 		username = bundle.getString("username");
 		password = bundle.getString("password");
-		//ÔÚ¾²Ì¬¿éÖĞÖ±½Ó×¢²áÇı¶¯
+		//åœ¨é™æ€å—ä¸­ç›´æ¥æ³¨å†Œé©±åŠ¨
 		try {
 			Class.forName(driverClass);
 		} catch (ClassNotFoundException e) {
@@ -32,9 +32,9 @@ public class DbUtils {
 	public static Connection getConnection() throws SQLException{
 		return DriverManager.getConnection(url,username,password);
 	}
-	//¹Ø±Õ×ÊÔ´µÄ·½·¨
+	//å…³é—­èµ„æºçš„æ–¹æ³•
 	public static void closeAll(ResultSet rs,Statement state,Connection conn){
-		//¹Ø±ÕµÄÊ±ºò£¬ÅĞ¶ÏÊÇ·ñÎª¿Õ
+		//å…³é—­çš„æ—¶å€™ï¼Œåˆ¤æ–­æ˜¯å¦ä¸ºç©º
 		if (rs != null) {
 			try {
 				rs.close();
