@@ -1,24 +1,18 @@
-#include<iostream>
-#include <cstring>
+#include <iostream>
+#include <ctime>
 using namespace std;
-
-class A {
+class A{
 public:
-	A() = default;
-	A(const A &a) = default;
-	~A() = default;
-	A &operator=(A &a) = default;
-//	const A *operator&() = default;
-//	const A *operator&() const = default;
-	
-	A(A &&) = default;
-	A &operator=(A &&a) = default;
-};
-template <typename T> 
-void test(T a){
-a = 432;
-a = fdsa;
-}
-int main(){
-	 
+	A(){
+		cout<<"a"<<endl;
+	}
+}; 
+
+int main(void)
+{
+	char *p = "hello \0 dong";
+    string s(p, 11);
+    cout<<s<<endl;
+
+    return 0;
 }

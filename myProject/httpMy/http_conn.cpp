@@ -599,7 +599,7 @@ void http_conn::process()
     {
         close_conn();
     }
-	/* 监听写事件★★★需要写给客户端 */
+	/*监听写事件★★★需要写给客户端*/
     modfd( m_epollfd, m_sockfd, EPOLLOUT );//写入http或者二进制文件
 }
 

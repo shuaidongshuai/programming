@@ -1,49 +1,17 @@
-class Professor implements Cloneable     
-{    
-     String name;    
-     int age;    
-     Professor(String name,int age)    
-     {    
-        this.name=name;    
-        this.age=age;    
-     }
-	protected Object clone() throws CloneNotSupportedException {
-		return super.clone();
-	}    
-}    
-class Student implements Cloneable    
-{    
-     String name;// 常量对象。    
-     int age;    
-     Professor p;// 学生1和学生2的引用值都是一样的。    
-     Student(String name,int age,Professor p)    
-     {    
-        this.name=name;    
-        this.age=age;    
-        this.p=p;    
-     }    
-    public Object clone()    
-     {    
-         Student o=null;    
-        try    
-         {    
-             o=(Student)super.clone();    
-//           o.p=(Professor)p.clone();//加上这句话就是深拷贝，没有这句话就是浅拷贝
-         }    
-        catch(CloneNotSupportedException e)    
-         {    
-             System.out.println(e.toString());    
-         }    
-        return o;    
-     }
-}    
+/*
+ * 判断101-200之间有多少个素数，并输出所有素数。素数又叫质数，就是除了1和它本身之外，在没有整数能被它整除的数。也就是素数只有两个因子。类名PriNum
+ */
 public class PriNum {
-	public static void main(String[] args) throws CloneNotSupportedException {
-		Professor p=new Professor("wangwu",50);    
-	       Student s1=new Student("zhangsan",18,p);    
-	       Student s2=(Student)s1.clone();    
-	       s2.p.name="lisi";    
-	       System.out.println("name="+s1.p.name);
-	       /*加上：name=wangwu  没加：name=lisi */
+	public static void main(String[] args) {
+		int count = 0;
+		for(int i = 101;i<=200;i++){
+			for(int j = 2;j <= Math.sqrt(i);j++){
+				if(i % j == 0){
+					count++;
+					break;
+				}
+			}
+		}
+		System.out.println("101-200之间有"+count+"个素数");
 	}
 }

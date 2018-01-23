@@ -6,7 +6,7 @@ class Singleton
 {
 private:
 	Singleton(){}
-	virtual ~Singleton(){}	//只允许在堆上创建对象
+	virtual ~Singleton(){}
 	static T *instance;
 public:
 	static T *getInstence(){ return instance; }
