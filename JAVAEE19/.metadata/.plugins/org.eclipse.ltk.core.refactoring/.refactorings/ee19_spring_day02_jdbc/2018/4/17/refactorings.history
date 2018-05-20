@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;beans.xml&apos; to &apos;ee19_spring_day2_jdbc_dong/src/com.dong.dbcp&apos;&#x0D;&#x0A;- Original project: &apos;ee19_spring_day02_jdbc&apos;&#x0D;&#x0A;- Destination element: &apos;ee19_spring_day2_jdbc_dong/src/com.dong.dbcp&apos;&#x0D;&#x0A;- Original element: &apos;beans.xml&apos;" description="Copy file" destination="=ee19_spring_day2_jdbc_dong/src&lt;com.dong.dbcp" element1="src/com/itheima/c_dbcp/beans.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1524370213353" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       					   http://www.springframework.org/schema/beans/spring-beans.xsd
+       					   http://www.springframework.org/schema/aop 
+       					   http://www.springframework.org/schema/aop/spring-aop.xsd
+       					   http://www.springframework.org/schema/context 
+       					   http://www.springframework.org/schema/context/spring-context.xsd
+       					   http://www.springframework.org/schema/tx 
+       					   http://www.springframework.org/schema/tx/spring-tx.xsd">
+	<!-- 加载properties文件 -->
+	<context:property-placeholder location="classpath:jdbcInfo.properties"/>
+	
+	<!-- 创建数据源 -->
+	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+		<property name="driverClass" value="${jdbc.driverClass}"></property>
+		<property name="jdbcUrl" value="${jdbc.jdbcUrl}"></property>
+		<property name="user" value="${jdbc.user}"></property>
+		<property name="password" value="${jdbc.password}"></property>
+	</bean>
+	
+	<!-- dao中注入数据源  -->
+	<bean id="accountDao" class="com.dong.dao.impl.AccountDaoImpl">
+		<property name="dataSource" ref="dataSource"></property>
+	</bean>
+
+	<!-- service中注入dao -->
+	<bean id="accountService" class="com.dong.service.impl.AccountServiceImpl">
+		<property name="accountDao" ref="accountDao"></property>
+	</bean>
+
+	<!-- 事务管理  -->
+	<!-- 1.事务管理器,注入数据源 -->
+	<bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource"></property>
+	</bean>
+	
+<!-- ———————————————————基于xml——————————————————— -->
+	<!-- 2.事务详情(事务通知)
+	在aop筛选基础上，对ABC三个确定使用什么样的事务。例如：AC读写、B只读 等
+	<tx:attributes> 用于配置事务详情（属性属性）
+		<tx:method name=""/> 详情具体配置
+			propagation 传播行为 ， REQUIRED：必须；REQUIRES_NEW:必须是新的
+			isolation 隔离级别
+			
+	<tx:advice id="txAdvice" transaction-manager="txManager">
+		<tx:attributes>
+			<tx:method name="transfer" propagation="REQUIRED" isolation="DEFAULT"/>
+		</tx:attributes>
+	</tx:advice>
+
+	<aop:config>
+		<aop:advisor advice-ref="txAdvice" pointcut="execution(* com.dong.service.AccountService.*(..))"/>
+	</aop:config>
+	 -->
+	
+<!-- ———————————————————基于注解——————————————————— -->
+	<!-- 2.将管理器交予spring 
+		transaction-manager 配置事务管理器
+		proxy-target-class
+			true ： 底层强制使用cglib 代理
+	-->
+	<tx:annotation-driven transaction-manager="txManager"/>
+	
+</beans>

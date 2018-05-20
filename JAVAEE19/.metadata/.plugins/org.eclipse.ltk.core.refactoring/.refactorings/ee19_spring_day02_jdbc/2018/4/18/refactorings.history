@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;mysql-connector-java-5.1.28-bin.jar&apos; to &apos;lib&apos;&#x0D;&#x0A;- Original project: &apos;ee19_spring_day02_jdbc&apos;&#x0D;&#x0A;- Destination element: &apos;lib&apos;&#x0D;&#x0A;- Original element: &apos;mysql-connector-java-5.1.28-bin.jar&apos;" description="Copy file" element1="WebRoot/WEB-INF/lib/mysql-connector-java-5.1.28-bin.jar" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1525067365370" target="/ee19_mybatis_generator_dong/WebRoot/WEB-INF/lib" units="0" version="1.0"/>
+</session>

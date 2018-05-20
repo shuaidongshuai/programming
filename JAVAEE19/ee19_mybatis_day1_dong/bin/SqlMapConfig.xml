@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- SqlMapConfig.xml的配置内容和顺序如下（顺序不能乱）：
+Properties（属性）
+Settings（全局参数设置）
+typeAliases（类型别名）
+typeHandlers（类型处理器）
+objectFactory（对象工厂）
+plugins（插件）
+environments（环境信息集合）
+	environment（单个环境信息）
+		transactionManager（事物）
+		dataSource（数据源）
+mappers（映射器）
+ -->
+<configuration>
+	<!-- 加载配置文件 -->
+	<properties resource="dbinfo.properties"></properties>
+
+	<!-- 配置mybatis的环境信息 -->
+	<environments default="development">
+		<environment id="development">
+			<!-- 配置JDBC事务控制，由mybatis进行管理 -->
+			<transactionManager type="JDBC"></transactionManager>
+			<!-- 配置数据源，采用dbcp连接池 -->
+			<dataSource type="POOLED">
+				<property name="driver" value="${jdbc.driver}"/>
+				<property name="url" value="${jdbc.url}"/>
+				<property name="username" value="${jdbc.username}"/>
+				<property name="password" value="${jdbc.password}"/>
+			</dataSource>
+		</environment>
+	</environments>
+	
+	<!-- 加载mapper -->
+	<mappers>
+		 <!-- 这样加载  xml没有位置限制  -->
+		<mapper resource="mapper/User.xml"/>
+		<!-- <mapper resource="mapper/UserMapper.xml"/>	 -->
+		
+		<!-- 批量加载映射文件,但是xml必须放和映射文件同名、放在同一个包下面-->
+		<package name="com.dong.mapper" />
+	</mappers>
+</configuration>
+
+

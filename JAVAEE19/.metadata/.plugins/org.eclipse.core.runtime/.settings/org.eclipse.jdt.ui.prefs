@@ -1,11 +1,13 @@
-#Tue Apr 04 13:02:13 CST 2017
+#Tue May 01 20:52:02 CST 2018
+spelling_user_dictionary_encoding=UTF-8
+spelling_ignore_digits=true
 sp_cleanup.remove_unnecessary_casts=true
 sp_cleanup.remove_trailing_whitespaces_ignore_empty=false
-org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 sp_cleanup.use_blocks=false
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 sp_cleanup.make_private_fields_final=true
 sp_cleanup.never_use_parentheses_in_expressions=true
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.sql.Driver"><rhs name\="com.mysql.jdbc.Driver"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.LinkedList"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.LinkedList"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.LinkedList"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.Date"><rhs name\="java.sql.Date"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.sql.Date"/><rhs name\="java.util.LinkedList"/></lhs><lhs name\="java.sql.Date"><rhs name\="java.sql.Date"/></lhs><lhs name\="java.awt.Paint"><rhs name\="java.awt.Color"/></lhs><lhs name\="java.awt.Transparency"><rhs name\="java.awt.Color"/></lhs><lhs name\="java.awt.Color"><rhs name\="java.awt.Color"/></lhs><lhs name\="java.awt.Font"><rhs name\="java.awt.Font"/></lhs><lhs name\="cn.dsna.util.images.ValidateCode"><rhs name\="cn.dsna.util.images.ValidateCode"/></lhs><lhs name\="java.util.Deque"><rhs name\="java.util.LinkedList"/></lhs><lhs name\="java.util.Queue"><rhs name\="java.util.LinkedList"/></lhs><lhs name\="java.util.AbstractSequentialList"><rhs name\="java.util.LinkedList"/></lhs><lhs name\="java.util.AbstractList"><rhs name\="java.util.LinkedList"/></lhs><lhs name\="java.util.AbstractCollection"><rhs name\="java.util.LinkedList"/></lhs><lhs name\="java.util.LinkedList"><rhs name\="java.util.LinkedList"/></lhs><lhs name\="com.dong.dao.UserDao"><rhs name\="com.dong.dao.impl.UserDaoImpl"/></lhs><lhs name\="java.lang.Enum"><rhs name\="org.apache.zookeeper.CreateMode"/></lhs></history>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.sql.Driver"><rhs name\="com.mysql.jdbc.Driver"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.LinkedList"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.LinkedList"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.LinkedList"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.Date"><rhs name\="java.sql.Date"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.sql.Date"/><rhs name\="java.util.LinkedList"/><rhs name\="java.util.ArrayList"/><rhs name\="java.text.SimpleDateFormat"/></lhs><lhs name\="java.sql.Date"><rhs name\="java.sql.Date"/></lhs><lhs name\="java.awt.Paint"><rhs name\="java.awt.Color"/></lhs><lhs name\="java.awt.Transparency"><rhs name\="java.awt.Color"/></lhs><lhs name\="java.awt.Color"><rhs name\="java.awt.Color"/></lhs><lhs name\="java.awt.Font"><rhs name\="java.awt.Font"/></lhs><lhs name\="cn.dsna.util.images.ValidateCode"><rhs name\="cn.dsna.util.images.ValidateCode"/></lhs><lhs name\="java.util.Deque"><rhs name\="java.util.LinkedList"/></lhs><lhs name\="java.util.Queue"><rhs name\="java.util.LinkedList"/></lhs><lhs name\="java.util.AbstractSequentialList"><rhs name\="java.util.LinkedList"/></lhs><lhs name\="java.util.AbstractList"><rhs name\="java.util.LinkedList"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractCollection"><rhs name\="java.util.LinkedList"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.LinkedList"><rhs name\="java.util.LinkedList"/></lhs><lhs name\="com.dong.dao.UserDao"><rhs name\="com.dong.dao.impl.UserDaoImpl"/></lhs><lhs name\="java.lang.Enum"><rhs name\="org.apache.zookeeper.CreateMode"/><rhs name\="org.springframework.transaction.annotation.Propagation"/><rhs name\="org.springframework.transaction.annotation.Isolation"/></lhs><lhs name\="com.dong.factory.UserService"><rhs name\="com.dong.factory.UserServiceImpl"/></lhs><lhs name\="org.springframework.core.env.EnvironmentCapable"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="org.springframework.beans.factory.ListableBeanFactory"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="org.springframework.beans.factory.HierarchicalBeanFactory"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="org.springframework.context.MessageSource"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="org.springframework.context.ApplicationEventPublisher"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="org.springframework.core.io.support.ResourcePatternResolver"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="org.springframework.beans.factory.BeanFactory"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="org.springframework.core.io.ResourceLoader"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="org.springframework.context.ApplicationContext"><rhs name\="org.springframework.context.support.ClassPathXmlApplicationContext"/></lhs><lhs name\="com.dong.service.AccountService"><rhs name\="com.dong.service.impl.AccountServiceImpl"/></lhs><lhs name\="java.util.RandomAccess"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.ArrayList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.Map"><rhs name\="java.util.HashMap"/></lhs><lhs name\="com.dong.domain.Items"><rhs name\="com.dong.domain.Items"/></lhs><lhs name\="java.text.DateFormat"><rhs name\="java.text.SimpleDateFormat"/></lhs><lhs name\="java.text.Format"><rhs name\="java.text.SimpleDateFormat"/></lhs><lhs name\="java.text.SimpleDateFormat"><rhs name\="java.text.SimpleDateFormat"/></lhs><lhs name\="java.util.Random"><rhs name\="java.util.Random"/></lhs></history>
 sp_cleanup.always_use_this_for_non_static_field_access=false
 sp_cleanup.never_use_blocks=false
 sp_cleanup.organize_imports=true
@@ -13,11 +15,13 @@ sp_cleanup.remove_unused_private_fields=true
 spelling_locale_initialized=true
 org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 org.eclipse.jdt.ui.editor.tab.width=
+spelling_ignore_urls=true
 sp_cleanup.always_use_parentheses_in_expressions=false
 sp_cleanup.remove_unnecessary_nls_tags=false
 fontPropagated=true
 sp_cleanup.add_missing_override_annotations_interface_methods=true
 sp_cleanup.on_save_use_additional_actions=false
+spelling_ignore_single_letters=true
 sp_cleanup.correct_indentation=false
 sp_cleanup.qualify_static_field_accesses_with_declaring_class=false
 sp_cleanup.remove_unused_private_types=true
@@ -28,7 +32,9 @@ sp_cleanup.sort_members_all=false
 useAnnotationsPrefPage=true
 proposalOrderMigrated=true
 sp_cleanup.use_this_for_non_static_field_access=false
+spelling_ignore_java_strings=true
 sp_cleanup.format_source_code=false
+spelling_ignore_ampersand_in_properties=true
 sp_cleanup.remove_unused_private_methods=true
 tabWidthPropagated=true
 sp_cleanup.use_parentheses_in_expressions=false
@@ -40,6 +46,8 @@ sp_cleanup.add_missing_annotations=true
 sp_cleanup.qualify_static_member_accesses_through_instances_with_declaring_class=true
 eclipse.preferences.version=1
 useQuickDiffPrefPage=true
+spelling_ignore_non_letters=true
+spelling_ignore_sentence=true
 sp_cleanup.remove_unused_imports=false
 sp_cleanup.remove_unused_local_variables=false
 sp_cleanup.make_variable_declarations_final=true
@@ -57,14 +65,16 @@ sp_cleanup.add_missing_nls_tags=false
 content_assist_number_of_computers=17
 sp_cleanup.always_use_blocks=true
 org.eclipse.jdt.ui.formatterprofiles.version=12
+spelling_ignore_upper=true
 sp_cleanup.remove_trailing_whitespaces=false
 org.eclipse.jface.textfont=1|Consolas|12.0|0|WINDOWS|1|-16|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
 sp_cleanup.use_this_for_non_static_method_access_only_if_necessary=true
 sp_cleanup.remove_private_constructors=true
-sp_cleanup.make_local_variable_final=false
 sp_cleanup.make_parameters_final=false
+sp_cleanup.make_local_variable_final=false
 org.eclipse.jdt.ui.javadoclocations.migrated=true
 sp_cleanup.add_serial_version_id=false
+spelling_ignore_mixed=true
 sp_cleanup.add_default_serial_version_id=true
 sp_cleanup.use_this_for_non_static_method_access=false
 sp_cleanup.use_this_for_non_static_field_access_only_if_necessary=true

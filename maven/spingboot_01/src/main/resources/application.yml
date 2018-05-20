@@ -1,0 +1,27 @@
+spring:
+  profiles:
+    active: dev
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  messages:
+    encoding: UTF-8
+
+server:
+  tomcat:
+    uri-encoding: UTF-8
+
+#logger配置---在yml中可配置的东西比较少---最好用xml文件
+#logging:
+#  pattern:
+#    console: "%d -- %msg%n" #控制台信息 %d时间 %msg消息 %n换行
+#  file: E:\programming\maven\spingboot_01\dong.log  #输出到文件
+#  level:
+#    com.dong.LoggerTest: debug  #级别
+
+#自定义配置
+book:
+  author: 罗贯中
+

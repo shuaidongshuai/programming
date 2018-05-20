@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dong.mapper.UserMapper">
+	
+	<select id="findUserById" parameterType="int" resultType="com.dong.po.User">
+		select * from user where id = #{id}
+	</select>
+	
+	<!-- 延迟加载(需要在全局配置文件中添加配置) -->
+	<resultMap type="com.dong.po.OrdersExt" id="lazyLoadingRstMap">
+		<!-- 订单信息 -->
+		<id column="id" property="id"/>
+		<result column="user_id" property="userId"/>
+		<result column="number" property="number"/>
+		<result column="createtime" property="createtime"/>
+		<result column="note" property="note"/>
+		<!-- 
+			对于每个订单，我们想知道他的User信息，得再次查询 
+			Orders和User是一对一所以要用 association
+		-->
+		<!-- select：指定关联查询的查询statement（即查询用户的statement的id），然后将查询结果，封装到property属性指定的变量中
+			 column：通过column指定的列所查询出的结果，作为select指的statement的入参
+			   注意：如果select指定的statement，入参需要多个值，需要在column中{col1=prop1,col2=prop2}
+		 -->
+		<association property="user" select="com.dong.mapper.UserMapper.findUserById"
+			column="user_id"></association>
+	</resultMap>
+	<select id="findOrderAndUserLazyLoading" resultMap="lazyLoadingRstMap">
+		select * from orders
+	</select>
+	
+</mapper>

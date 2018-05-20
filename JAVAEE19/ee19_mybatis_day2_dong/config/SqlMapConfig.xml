@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- SqlMapConfig.xml的配置内容和顺序如下（顺序不能乱）：
+Properties（属性）
+Settings（全局参数设置）
+typeAliases（类型别名）
+typeHandlers（类型处理器）
+objectFactory（对象工厂）
+plugins（插件）
+environments（环境信息集合）
+mappers（映射器）
+ -->
+<configuration>
+	<properties resource="dbinfo.properties"></properties>
+	
+	<settings>
+		<!-- 开启延迟加载 value默认true -->
+		<setting name="lazyLoadingEnabled" value="true"/>
+		<!-- 开启积极的懒加载，默认true -->
+		<setting name="aggressiveLazyLoading" value="false"/>
+	</settings>
+	
+	<environments default="development">
+		<environment id="development">
+			<transactionManager type="JDBC"></transactionManager>
+			<dataSource type="POOLED">
+				<property name="driver" value="${jdbc.driver}"/>
+				<property name="url" value="${jdbc.url}"/>
+				<property name="username" value="${jdbc.username}"/>
+				<property name="password" value="${jdbc.password}"/>
+			</dataSource>
+		</environment>
+	</environments>
+	
+	<mappers>
+		<package name="com.dong.mapper" />
+	</mappers>
+</configuration>
+
+

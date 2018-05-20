@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=day12_myUser/D:\/myEclipse10\/Common\/binary\/com.sun.java.jdk.win32.x86_64_1.6.0.013\/jre\/lib\/rt.jar&lt;java.lang(Object.class[Object" modifiers="33" timestamp="1239114430000"/>
+<typeInfo handle="=ee19_spring_day2_aop_dong/src&lt;com.dong.aspect{UserService.java[UserService" modifiers="513" timestamp="1524319908298"/>
+<typeInfo handle="=ee19_spring_day2_jdbc_dong/E:\/programming\/JAVAEE19\/ee19_spring_day2_jdbc_dong\/WebRoot\/WEB-INF\/lib\/com.springsource.org.apache.commons.dbcp-1.2.2.osgi.jar&lt;org.apache.commons.dbcp(BasicDataSource.class[BasicDataSource" modifiers="33" timestamp="1524369465740"/>
+<typeInfo handle="=ee19_mybatis_day3_dong/lib\/mybatis-spring-1.2.2.jar&lt;org.mybatis.spring(SqlSessionFactoryBean.class[SqlSessionFactoryBean" modifiers="33" timestamp="1450859284000"/>
+<typeInfo handle="=ee19_mybatis_day3_dong/lib\/mybatis-spring-1.2.2.jar&lt;org.mybatis.spring.mapper(MapperFactoryBean.class[MapperFactoryBean" modifiers="33" timestamp="1450859284000"/>
+<typeInfo handle="=ee19_mybatis_day3_dong/lib\/mybatis-spring-1.2.2.jar&lt;org.mybatis.spring.mapper(MapperScannerConfigurer.class[MapperScannerConfigurer" modifiers="33" timestamp="1450859284000"/>
+<typeInfo handle="=ee19_springmvc_day1_dong/D:\/myEclipse10\/Common\/binary\/com.sun.java.jdk.win32.x86_64_1.6.0.013\/jre\/lib\/rt.jar&lt;javax.sound.midi(ControllerEventListener.class[ControllerEventListener" modifiers="1537" timestamp="1239114430000"/>
+<typeInfo handle="=ee19_springmvc_day1_dong/D:\/myEclipse10\/Common\/binary\/com.sun.java.jdk.win32.x86_64_1.6.0.013\/jre\/lib\/rt.jar&lt;javax.naming.ldap(Control.class[Control" modifiers="1537" timestamp="1239114430000"/>
+<typeInfo handle="=ee19_springmvc_day1_dong/src&lt;com.dong.controller{UserController.java[UserController" modifiers="1" timestamp="1524890552977"/>
+<typeInfo handle="=ee19_spring_day2_jdbc_dong/E:\/programming\/JAVAEE19\/ee19_spring_day2_jdbc_dong\/WebRoot\/WEB-INF\/lib\/spring-tx-3.2.0.RELEASE.jar&lt;org.springframework.jca.endpoint(GenericMessageEndpointFactory$InternalResourceException.class[InternalResourceException" modifiers="9" timestamp="1524369498617"/>
+<typeInfo handle="=ee19_springmvc_day1_dong/E:\/programming\/JAVAEE19\/ee19_springmvc_day1_dong\/WebRoot\/WEB-INF\/lib\/spring-webmvc-3.2.0.RELEASE.jar&lt;org.springframework.web.servlet.view(InternalResourceViewResolver.class[InternalResourceViewResolver" modifiers="33" timestamp="1450920325000"/>
+<typeInfo handle="=ee19_springmvc_day1_dong/E:\/programming\/JAVAEE19\/ee19_springmvc_day1_dong\/WebRoot\/WEB-INF\/lib\/spring-web-3.2.0.RELEASE.jar&lt;org.springframework.web.filter(CharacterEncodingFilter.class[CharacterEncodingFilter" modifiers="33" timestamp="1450920325000"/>
+<typeInfo handle="=ee19_springmvc_day3_dong/src&lt;com.dong.service{ItemsService.java[ItemsService" modifiers="513" timestamp="1525080141761"/>
 </typeInfoHistroy>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ee19_spring_day2_aop_dong">
+        <wb-resource deploy-path="/" source-path="/WebRoot"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="java-output-path" value="/ee19_spring_day2_aop_dong/WebRoot/WEB-INF/classes"/>
+        <property name="context-root" value="/ee19_spring_day2_jdbc_dong"/>
+    </wb-module>
+</project-modules>

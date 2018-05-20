@@ -1,0 +1,16 @@
+2018-05-20 18:15:51,844 - Starting LoggerTest on dong with PID 1248 (started by ☆东★ in E:\programming\maven\spingboot_01)
+2018-05-20 18:15:51,846 - The following profiles are active: dev
+2018-05-20 18:15:52,057 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@50313382: startup date [Sun May 20 18:15:52 CST 2018]; root of context hierarchy
+2018-05-20 18:15:57,879 - Mapped "{[/test]}" onto public java.lang.String com.dong.controller.Test.test()
+2018-05-20 18:15:57,882 - Mapped "{[/demo1]}" onto public java.lang.String com.dong.springBoot.Demo1.hello()
+2018-05-20 18:15:57,884 - Mapped "{[/returnJson]}" onto public com.dong.domain.User com.dong.springBoot.Demo2.returnJson()
+2018-05-20 18:15:57,885 - Mapped "{[/fastJson]}" onto public void com.dong.springBoot.Demo2.fastJson(javax.servlet.http.HttpServletResponse)
+2018-05-20 18:15:57,901 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-20 18:15:57,904 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-20 18:15:58,278 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@50313382: startup date [Sun May 20 18:15:52 CST 2018]; root of context hierarchy
+2018-05-20 18:16:02,092 - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-05-20 18:16:02,163 - Started LoggerTest in 13.651 seconds (JVM running for 18.571)
+2018-05-20 18:16:02,857 - name: 东 ,password: 123456
+2018-05-20 18:16:02,858 - name: 东, password: 123456
+2018-05-20 18:16:02,858 - warn...
+2018-05-20 18:16:02,872 - Closing org.springframework.web.context.support.GenericWebApplicationContext@50313382: startup date [Sun May 20 18:15:52 CST 2018]; root of context hierarchy

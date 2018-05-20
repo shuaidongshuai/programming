@@ -1,4 +1,4 @@
-﻿生成启动时间为 2017/12/7 20:04:15。
+﻿生成启动时间为 2018/2/5 18:29:46。
      1>项目“E:\programming\C++\test\test\test.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源.cpp"
@@ -6,9 +6,10 @@
        Link:
          D:\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\programming\C++\test\Debug\test.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\programming\C++\test\Debug\test.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\programming\C++\test\Debug\test.lib" /MACHINE:X86 "Debug\源.obj"
          "Debug\源1.obj"
+         LINK : 没有找到 E:\programming\C++\test\Debug\test.exe 或上一个增量链接没有生成它；正在执行完全链接
          test.vcxproj -> E:\programming\C++\test\Debug\test.exe
      1>已完成生成项目“E:\programming\C++\test\test\test.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:01.86
+已用时间 00:00:44.81

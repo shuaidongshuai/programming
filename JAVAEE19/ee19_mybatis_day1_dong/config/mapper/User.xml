@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 
+	namespace：命名空间，它的作用就是对SQL进行分类化管理，可以理解为SQL隔离
+	注意：使用mapper代理开发时，namespace有特殊且重要的作用
+ -->
+<mapper namespace="com.dong">
+
+	<!-- 根据用户ID，查询用户信息 -->
+	<!-- 
+		[id]：statement的id，要求在命名空间内唯一  
+		[parameterType]：入参的java类型
+		[resultType]：查询出的单条结果集对应的java类型
+		[#{}]： 表示一个占位符?
+		[#{id}]：表示该占位符待接收参数的名称为id。注意：如果参数为简单类型时，#{}里面的参数名称可以是任意定义
+	 -->
+	<select id="findUserById" parameterType="int" resultType="com.dong.po.User">
+		SELECT * FROM day06 WHERE id = #{id}
+	</select>
+	
+	<!-- resultType查询出来的列名必须和类中属性名一致
+			resultMap就是针对上面问题而提出来的
+	id标签：专门为查询结果中唯一列映射
+	result标签：映射查询结果中的普通列
+	-->
+	<resultMap type="com.dong.po.User" id="UserRstMap">
+		<id column="id2" property="id" />
+		<result column="name2" property="name" />
+		<result column="score2" property="score" />
+	</resultMap>
+	<!-- 针对别名这种情况，必须使用resultMap -->
+	<select id="findUserByIdRstMap" parameterType="int" resultMap="UserRstMap">
+		Select id id2,name name2,score score2 from day06 where id = #{id}
+	</select>
+	
+	<!-- 根据用户名称模糊查询用户列表 -->
+	<!-- ${}：表示一个sql的连接符 -->
+	<!-- ${value}：里面的value表示输入参数的参数名称，如果该参数是简单类型，那么${}里面的参数名称必须是value -->
+	<!-- ${}这种写法存在sql注入的风险，所以要慎用！！但是在一些场景下，必须使用${}，比如排序时，动态传入排序的列名，${}会原样输出，不加解释 -->
+	<select id="findUsersByName" parameterType="java.lang.String" resultType="com.dong.po.User">
+		SELECT * FROM day06 WHERE name LIKE '%${value}%'
+	</select>
+	
+	<!-- 添加用户 -->
+	<!-- selectKey：查询主键，在标签内需要输入查询主键的sql -->
+	<!-- order：指定查询主键的sql和insert语句的执行顺序，相当于insert语句来说 -->
+	<!-- LAST_INSERT_ID：该函数是mysql的函数，获取自增主键的ID，它必须配合insert语句一起使用 -->
+	<insert id="insertUser" parameterType="com.dong.po.User">
+		<selectKey keyProperty="id" resultType="int" order="AFTER">
+			SELECT LAST_INSERT_ID() 
+		</selectKey>
+	
+		INSERT INTO day06(NAME, score, PASSWORD) VALUE( #{name}, #{score}, #{password} )
+	</insert>
+	
+	
+	<!-- 定义sql片段————相当于一个宏定义
+		sql片段内，最好不用将where和select关键字声明在内（这样通用性会更强，利用率会提高）
+	 -->
+	 <sql id="mySql">
+	 	<!-- if标签：可以对输入的参数进行判断   test:指定判断表达式 -->
+		<if test="user != null">
+			<if test="user.name != null and user.name != '' ">
+				AND	name like '%${user.name}%'
+			</if>
+			<if test="user.id != 0">
+				AND id = #{user.id}
+			</if>
+		</if>
+		<!--collection：表示pojo中集合属性的属性名称
+			item:为遍历出的结果声明一个变量名称
+			open：遍历开始时，需要拼接的字符串
+			close:遍历结束时，需要拼接的字符串
+			separator：遍历中间需要拼接的连接符 
+		-->
+		<if test="idList != null">
+			AND id in
+			<foreach collection="idList" item="i" open="(" close=")" separator=",">
+				#{i}
+			</foreach>
+		</if>
+	 </sql>
+	<!-- 查询多个用户(可以根据id查，也可以模糊查询name，甚至可以同时查询多个id) -->
+	<select id="findUsersById" parameterType="com.dong.po.Users" resultType="com.dong.po.User">
+		select * from day06
+		<!-- where标签：默认去掉后面第一个AND，如果没有参数，则把自己干掉 -->
+		<where>
+			<include refid="mySql"></include>
+		</where>
+	</select>
+	
+	
+	<!-- 下面插入不能用，因为数据库里面的主键但是int自增的 -->
+	<!-- 自增主键之UUID（Mysql） -->
+	<insert id="insertUser2" parameterType="com.dong.po.User">
+		<selectKey keyProperty="id" resultType="string" order="BEFORE">
+			SELECT UUID()
+		</selectKey>
+		INSERT INTO day06(id, NAME,score,PASSWORD) VALUE( #{id}, #{name}, #{score}, #{password} )
+	</insert>
+	
+	<!-- 自增主键之UUID（Oracle） -->
+	<insert id="insertUser3" parameterType="com.dong.po.User">
+		<selectKey keyProperty="id" resultType="int" order="BEFORE">
+			SELECT seq.nextval FROM dual
+		</selectKey>
+		INSERT INTO day06(id, NAME,score,PASSWORD) VALUE( #{id}, #{name}, #{score}, #{password} )
+	</insert>
+	
+</mapper>

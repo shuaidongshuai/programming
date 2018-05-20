@@ -1,47 +1,33 @@
 #include <iostream>
-#include <vector>
-#include <map>
+#include <vector> 
 using namespace std;
 
-int main(){
-	int n;
-	cin>>n;
-	int num = 0, count = 0, old = 0;
-	int *arr = new int[n];
-	for(int i = 0; i < n; ++i){
-		cin>>arr[i];
-		if(num == arr[i]){
-			++count;
+class A{
+public:
+	A(){
+		cout <<"¹¹Ôì"<<endl; 
+	}	
+	~A(){
+		cout << "~A()"<<endl;
+	}
+};
+void printVVI(vector<vector<int>> vv){
+	auto vvit = vv.begin();
+	while(vvit != vv.end()){
+		auto vit = (*vvit).begin();
+		while(vit != (*vvit).end()){
+			cout << *vit++ << " ";
 		}
-		else if(!count){
-			if(old > num)
-				old = num;
-			num = arr[i];
-			++count;
-		}
-		else
-			--count;
+		vvit++; 
+		cout << endl;
 	}
-	int c1 = 0, c2 = 0;
-	for(int i = 0; i < n; ++i){
-		if(arr[i] == old)
-			++c1;
-		else if(arr[i] == num)
-			++c2;
-	}
-	if(c1 >= c2){
-		cout<<old<<endl;
-	}
-	else
-		cout<<num<<endl;
 }
-/*
-6
-123
-466
-789
-456
-123
-890
-*/
-
+int main(){
+	vector<vector<int>> res;
+	vector<int> v;
+    v.push_back(1);
+    v.push_back(2);
+    res.push_back(v);
+    printVVI(res); 
+	cout<<"---"<<endl;
+}

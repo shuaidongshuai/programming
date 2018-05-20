@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;js&apos; to &apos;WEB-INF&apos;&#x0D;&#x0A;- Original project: &apos;springmvc19_day02_02&apos;&#x0D;&#x0A;- Destination element: &apos;WEB-INF&apos;&#x0D;&#x0A;- Original element: &apos;js&apos;" description="Copy folder" element1="WebRoot/js" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1524926003285" target="/ee19_springmvc_day2_dong/WebRoot/WEB-INF" units="0" version="1.0"/>
+</session>

@@ -1,7 +1,7 @@
-#Tue Apr 04 13:03:26 CST 2017
+#Sun Apr 22 10:05:56 CST 2018
 redhatTextOccurrenceIndication=false
 eclipse.preferences.version=1
 occurrenceIndicationInVerticalRuler=true
 overviewRuler_migration=migrated_3.1
 lineNumberRuler=true
-occurrenceIndicationColor=0,128,0
+occurrenceIndicationColor=0,128,255

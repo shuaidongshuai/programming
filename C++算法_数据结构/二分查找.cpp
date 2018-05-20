@@ -35,7 +35,7 @@ int BinarySearch2(vector<int> v, int key){
 	}
 	return l;
 }
-//查找第一个比key大的元素(找相同key 最右边的那个)
+//查找第一个比key大的元素(找相同key 最右边的那个) -- 这两个功能不能同时满足
 int BinarySearch3(vector<int> v, int key){
 	int l = 0, r = v.size() - 1, mid;
 	while (l <= r){
@@ -51,7 +51,8 @@ int BinarySearch3(vector<int> v, int key){
 		l = -1;
 	}
 	//return l - 1;//这里要 -1 ★★★★★★★上面是由于r-1才跳出循环的  下面是l+1才跳出循环的  所以需要 l - 1 
-	return r;	//换成r也行 
+	return r;	//找相同key 最右边的那个
+	return l;	//查找第一个比key大的元素
 }
 void test1(){
 	int arr[] = { 0, 1, 2, 3, 6, 6, 6, 6, 7, 8, 9};

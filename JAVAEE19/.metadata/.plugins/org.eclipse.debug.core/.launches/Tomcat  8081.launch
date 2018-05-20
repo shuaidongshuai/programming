@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.genuitec.eclipse.wdt.jsp.debug.localServer">
+<booleanAttribute key="IS_LAUNCH_CONFIG_SERVER_TYPE" value="true"/>
+<stringAttribute key="LAUNCH_IS_TEMPORARY" value="false"/>
+<stringAttribute key="SERVER_BUNDLE_NAME_ATTR" value="com.genuitec.eclipse.easie.tomcat7"/>
+<stringAttribute key="SERVER_CLASS_NAME_ATTR" value="com.genuitec.eclipse.easie.tomcat7.Tomcat7"/>
+<stringAttribute key="SERVER_DEPLOY_BASE_DIR_ATTR" value="D:/tomcat-7.0.52_2"/>
+<stringAttribute key="SERVER_ICON_PATH" value="platform:/plugin/com.genuitec.eclipse.easie.tomcat_9.0.0.me201108091322/icons/tomcat_logo.gif"/>
+<stringAttribute key="SERVER_TYPE_ID" value="Tomcat  8081"/>
+<stringAttribute key="SERVER_TYPE_NAME" value="Tomcat  8081"/>
+<listAttribute key="org.eclipse.jdt.launching.CLASSPATH">
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;runtimeClasspathEntry containerPath=&quot;org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/Sun JDK 1.6.0_13&quot; path=&quot;1&quot; type=&quot;4&quot;/&gt;&#13;&#10;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;runtimeClasspathEntry externalArchive=&quot;D:/tomcat-7.0.52_2/bin/bootstrap.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;&#13;&#10;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;runtimeClasspathEntry externalArchive=&quot;D:/tomcat-7.0.52_2/bin/tomcat-juli.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;&#13;&#10;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;runtimeClasspathEntry externalArchive=&quot;D:/myEclipse10/Common/binary/com.sun.java.jdk.win32.x86_64_1.6.0.013/lib/tools.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;&#13;&#10;"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_CLASSPATH" value="false"/>
+<stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/Sun JDK 1.6.0_13"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.apache.catalina.startup.Bootstrap"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="start"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dcatalina.home=D:&quot;/tomcat-7.0.52_2&quot; -Dcatalina.base=D:&quot;/tomcat-7.0.52_2&quot; -Djava.endorsed.dirs=D:&quot;/tomcat-7.0.52_2/common/endorsed&quot; -Djava.io.tmpdir=D:&quot;/tomcat-7.0.52_2/temp&quot; -Djava.library.path=D:&quot;/myEclipse10/Common/binary/com.sun.java.jdk.win32.x86_64_1.6.0.013/bin;D:/tomcat-7.0.52_2/bin&quot; -Dsun.io.useCanonCaches=false"/>
+<stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="D:/tomcat-7.0.52_2/bin"/>
+<stringAttribute key="process_factory_id" value="com.genuitec.eclipse.core.ui.console.CustomConsoleProcessFactory"/>
+</launchConfiguration>

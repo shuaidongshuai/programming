@@ -1,17 +1,13 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 int main()
 {
-	int c,r,m,n,a,b;
-	scanf("%d,%d",&m,&n);
-	a=m,b=n;
-	if(m<n)
-	{
-		c=m;m=n;n=c;
+	int m, n, temp;
+	cin >> m >> n;
+	while(n){
+		temp = n;
+		n = m % n;
+		m = temp;
 	}
-	r=m%n;
-	while(r!=0)
-	{
-		m=n;n=r;r=m%n;
-	 } 
-	 printf("%d,%d",n,a*b/n);
+	cout << m << endl;
 }

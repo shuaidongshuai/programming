@@ -1,0 +1,50 @@
+<classpath>
+  <container id="ee19_spring_day02_aop!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="E:/study_materials/JavaEE/【阶段04】Spring3/day34-spring--day02/代码/ee19_spring_day02_aop/WebRoot/WEB-INF/lib/spring-core-3.2.0.RELEASE.jar">
+      <source-attachment-path>E:/study_materials/JavaEE/【阶段04】Spring3/jar/spring-framework-3.2.0.RELEASE/libs/spring-core-3.2.0.RELEASE-sources.jar</source-attachment-path>
+    </entry>
+  </container>
+  <container id="ee19_spring_day01!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="E:/study_materials/JavaEE/【阶段04】Spring3/day33-spring--day01/代码/ee19_spring_day01/WebRoot/WEB-INF/lib/spring-beans-3.2.0.RELEASE.jar">
+      <source-attachment-path>E:/study_materials/JavaEE/【阶段04】Spring3/day33-spring--day01/spring--day00/jar/spring-framework-3.2.0.RELEASE/libs/spring-beans-3.2.0.RELEASE-sources.jar</source-attachment-path>
+    </entry>
+  </container>
+  <container id="ee19_spring_day02_jdbc!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="E:/study_materials/JavaEE/【阶段04】Spring3/day34-spring--day02/代码/ee19_spring_day02_jdbc/WebRoot/WEB-INF/lib/spring-jdbc-3.2.0.RELEASE.jar">
+      <source-attachment-path>E:/study_materials/JavaEE/【阶段04】Spring3/jar/spring-framework-3.2.0.RELEASE/libs/spring-jdbc-3.2.0.RELEASE-sources.jar</source-attachment-path>
+    </entry>
+  </container>
+  <container id="ee19_springmvc_day2_dong!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="E:/programming/JAVAEE19/ee19_springmvc_day2_dong/WebRoot/WEB-INF/lib/spring-webmvc-3.2.0.RELEASE.jar">
+      <source-attachment-path>E:/study_materials/JavaEE/【阶段12】springmvc/res/jar/spring-framework-3.2.0.RELEASE/libs/spring-webmvc-3.2.0.RELEASE-sources.jar</source-attachment-path>
+    </entry>
+    <entry id="E:/programming/JAVAEE19/ee19_springmvc_day2_dong/WebRoot/WEB-INF/lib/spring-web-3.2.0.RELEASE.jar">
+      <source-attachment-path>E:/study_materials/JavaEE/【阶段12】springmvc/res/jar/spring-framework-3.2.0.RELEASE/libs/spring-web-3.2.0.RELEASE-sources.jar</source-attachment-path>
+    </entry>
+  </container>
+  <container id="ee19_spring_day03_tx3!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="E:/study_materials/JavaEE/【阶段04】Spring3/day35-spring--day03/代码/ee19_spring_day03_tx3/WebRoot/WEB-INF/lib/spring-tx-3.2.0.RELEASE.jar">
+      <source-attachment-path>E:/study_materials/JavaEE/【阶段04】Spring3/jar/spring-framework-3.2.0.RELEASE/libs/spring-tx-3.2.0.RELEASE-sources.jar</source-attachment-path>
+    </entry>
+  </container>
+  <container id="ee19_spring_day3_tx_dong!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="E:/programming/JAVAEE19/ee19_spring_day3_tx_dong/WebRoot/WEB-INF/lib/spring-tx-3.2.0.RELEASE.jar">
+      <source-attachment-path>E:/study_materials/JavaEE/【阶段04】Spring3/jar/spring-framework-3.2.0.RELEASE/libs/spring-tx-3.2.0.RELEASE-sources.jar</source-attachment-path>
+    </entry>
+  </container>
+  <container id="ee19_springmvc_day1_dong!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="E:/programming/JAVAEE19/ee19_springmvc_day1_dong/WebRoot/WEB-INF/lib/spring-webmvc-3.2.0.RELEASE.jar">
+      <source-attachment-path>E:/study_materials/JavaEE/【阶段12】springmvc/res/jar/spring-framework-3.2.0.RELEASE/libs/spring-webmvc-3.2.0.RELEASE-sources.jar</source-attachment-path>
+    </entry>
+  </container>
+  <container id="ee19_spring_day2_aop_dong!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="E:/programming/JAVAEE19/ee19_spring_day2_aop_dong/WebRoot/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar">
+      <source-attachment-path>E:/study_materials/JavaEE/【阶段04】Spring3/day33-spring--day01/spring--day00/jar/org.aspectj/com.springsource.org.aspectj.weaver/1.6.8.RELEASE/com.springsource.org.aspectj.weaver-sources-1.6.8.RELEASE.jar</source-attachment-path>
+    </entry>
+  </container>
+  <container id="ee19_spring_day03_tx4!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="E:/study_materials/JavaEE/【阶段04】Spring3/day35-spring--day03/代码/ee19_spring_day03_tx4/WebRoot/WEB-INF/lib/spring-jdbc-3.2.0.RELEASE.jar">
+      <source-attachment-path>E:/study_materials/JavaEE/【阶段04】Spring3/jar/spring-framework-3.2.0.RELEASE/libs/spring-jdbc-3.2.0.RELEASE-sources.jar</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

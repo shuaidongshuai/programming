@@ -25,11 +25,11 @@ void print(Node *node){
 	}
 }
 bool HaveRoll(Node *node){
-	if(!node)
-		return false;
 	Node *n1,*n2;
 	n1 = n2 = node;
 	do{
+		if(!n2)
+			return false;
 		n1 = n1->next;
 		n2 = n2->next;
 		if(!n2)

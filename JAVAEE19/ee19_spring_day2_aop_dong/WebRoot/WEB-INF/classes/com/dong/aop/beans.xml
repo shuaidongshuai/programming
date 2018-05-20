@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       					   http://www.springframework.org/schema/beans/spring-beans.xsd
+       					   http://www.springframework.org/schema/aop 
+       					   http://www.springframework.org/schema/aop/spring-aop.xsd">
+	
+	<!-- 目标类 -->
+	<bean id="UserService" class="com.dong.aop.UserServiceImpl"></bean>
+	<!-- 切面类 -->
+	<bean id="MyAspect" class="com.dong.aop.MyAspect"></bean>
+	<!-- aop编程 -->
+	<aop:config>
+		<aop:pointcut expression="execution(* com.dong.aop.UserServiceImpl.*(..))" id="MyPointcut"/>
+		<aop:advisor advice-ref="MyAspect" pointcut-ref="MyPointcut"/>
+	</aop:config>
+</beans>

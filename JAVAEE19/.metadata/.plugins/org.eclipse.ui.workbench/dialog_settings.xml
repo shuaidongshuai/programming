@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<list key="workingset_selection_history">
+		<item value="maven"/>
+		<item value="JavaEE"/>
+	</list>
 	<section name="WorkbenchPreferenceDialogSettings">
-		<item value="8" key="DIALOG_Y_ORIGIN"/>
-		<item value="535" key="DIALOG_X_ORIGIN"/>
+		<item value="83" key="DIALOG_Y_ORIGIN"/>
+		<item value="-23" key="DIALOG_X_ORIGIN"/>
 	</section>
 	<section name="NewWizardAction">
 		<item value="org.eclipse.jst.jsp.ui.internal.wizard.NewJSPWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.jdt.ui.java"/>
-			<item value="org.eclipse.jdt.ui.java/org.eclipse.jdt.junit"/>
-			<item value="org.eclipse.emf.codegen.ui.JETNewWizards"/>
-			<item value="org.eclipse.wst.jsdt.ui.java"/>
 			<item value="com.genuitec.eclipse.myeclipse"/>
 			<item value="com.genuitec.eclipse.myeclipse/com.genuitec.eclipse.myeclipse.web"/>
 			<item value="com.genuitec.eclipse.myeclipse/com.genuitec.eclipse.myeclipse.webstruts"/>
@@ -24,12 +24,14 @@
 		<item value="345" key="DIALOG_WIDTH"/>
 		<item value="com.genuitec.eclipse.ast.deploy.core.serverview" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
 		<item value="71" key="DIALOG_Y_ORIGIN"/>
-		<item value="519" key="DIALOG_X_ORIGIN"/>
 		<item value="452" key="DIALOG_HEIGHT"/>
+		<item value="519" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
 		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="com.genuitec.eclipse.views.myEclipseJEECategory"/>
 		</list>
+	</section>
+	<section name="EditorSelectionDialog">
 	</section>
 	<section name="ImportExportAction">
 		<item value="org.eclipse.ui.wizards.import.ExternalProject" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>

@@ -1,0 +1,23 @@
+server:
+    port: 8080
+
+spring:
+    http:
+        encoding:
+            charset: UTF-8  # Charset of HTTP requests and responses. Added to the "Content-Type" header if not set explicitly.
+            enabled: true
+            force: true
+    messages:
+        encoding: UTF-8
+    datasource:
+        url: jdbc:mysql://127.0.0.1:3306/dong?useUnicode=true&characterEncoding=UTF-8
+        username: root
+        password: dong
+        # 使用druid数据源
+        type: com.alibaba.druid.pool.DruidDataSource # Fully qualified name of the connection pool implementation to use. By default, it is auto-detected from the classpath
+        driver-class-name: com.mysql.jdbc.Driver
+
+#公共配置与profiles选择无关 mapperLocations指的路径是src/main/resources
+mybatis:
+    mapper-locations: classpath:mapper/*.xml
+    type-aliases-package: com.dong.domain

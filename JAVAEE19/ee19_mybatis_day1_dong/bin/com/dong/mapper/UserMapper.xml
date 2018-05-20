@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 
+1、	mapper接口的全限定名要 和 mapper映射文件的 "namespace" 值一致。
+2、	mapper接口的方法名称要 和  "statement的id" 一致。
+3、	mapper接口的方法参数类型要 和 "parameterType" 的值一致，而且它的参数是一个。
+4、	mapper接口的方法返回值类型要 和  "resultType" 的值一致。
+ -->
+<mapper namespace="com.dong.mapper.UserMapper">
+
+	<!-- 根据用户ID，查询用户信息 -->
+	<select id="findUserById" parameterType="int" resultType="com.dong.po.User">
+		SELECT * FROM day06 WHERE id = #{id}
+	</select>
+	
+	<!-- 根据用户名称模糊查询用户列表 -->
+	<select id="findUsersByName" parameterType="java.lang.String" resultType="com.dong.po.User">
+		SELECT * FROM day06 WHERE name LIKE '%${value}%'
+	</select>
+	
+	<!-- 添加用户 -->
+	<insert id="insertUser" parameterType="com.dong.po.User">
+		<selectKey keyProperty="id" resultType="int" order="AFTER">
+			SELECT LAST_INSERT_ID() 
+		</selectKey>
+	
+		INSERT INTO day06(NAME, score, PASSWORD) VALUE( #{name}, #{score}, #{password} )
+	</insert>
+
+</mapper>

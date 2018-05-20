@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="ee19_springmvc_day3_dong"
+  id="myeclipse.1525054282090"
+  context-root="/ee19_springmvc_day3_dong"
+  j2ee-spec="6.0"
+  archive="ee19_springmvc_day3_dong.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

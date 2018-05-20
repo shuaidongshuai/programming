@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;spring-orm-3.2.0.RELEASE.jar&apos; to &apos;lib&apos;&#x0D;&#x0A;- Original project: &apos;ee19_spring_day03_tx4&apos;&#x0D;&#x0A;- Destination element: &apos;lib&apos;&#x0D;&#x0A;- Original element: &apos;spring-orm-3.2.0.RELEASE.jar&apos;" description="Copy file" element1="WebRoot/WEB-INF/lib/spring-orm-3.2.0.RELEASE.jar" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1524399108990" target="/ee19_spring_day3_tx_dong/WebRoot/WEB-INF/lib" units="0" version="1.0"/>
+</session>
