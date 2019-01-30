@@ -1,0 +1,4 @@
+﻿
+class Manager:
+	"""Class Manager"""
+	

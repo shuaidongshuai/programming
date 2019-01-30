@@ -1,0 +1,344 @@
+2019-01-22 17:08:39  [ background-preinit:0 ] - [ INFO ]  HV000001: Hibernate Validator 6.0.13.Final
+2019-01-22 17:08:40  [ restartedMain:1274 ] - [ INFO ]  Starting DongblogApplication on dong with PID 4380 (E:\programming\JAVA\dongblog\target\classes started by ☆东★ in E:\programming\JAVA\dongblog)
+2019-01-22 17:08:40  [ restartedMain:1277 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2019-01-22 17:08:40  [ restartedMain:1690 ] - [ INFO ]  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-22 17:08:40  [ restartedMain:1691 ] - [ INFO ]  For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-22 17:08:47  [ restartedMain:8273 ] - [ INFO ]  Tomcat initialized with port(s): 8000 (http)
+2019-01-22 17:08:47  [ restartedMain:8650 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 6959 ms
+2019-01-22 17:08:50  [ restartedMain:11081 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-22 17:08:50  [ restartedMain:11112 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-22 17:08:50  [ restartedMain:11116 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-22 17:08:50  [ restartedMain:11122 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-22 17:08:50  [ restartedMain:11125 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-22 17:08:50  [ restartedMain:11127 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-22 17:08:50  [ restartedMain:11522 ] - [ INFO ]  Creating filter chain: Ant [pattern='/css/**'], []
+2019-01-22 17:08:50  [ restartedMain:11522 ] - [ INFO ]  Creating filter chain: Ant [pattern='/fonts/**'], []
+2019-01-22 17:08:50  [ restartedMain:11522 ] - [ INFO ]  Creating filter chain: Ant [pattern='/images/**'], []
+2019-01-22 17:08:50  [ restartedMain:11522 ] - [ INFO ]  Creating filter chain: Ant [pattern='/js/**'], []
+2019-01-22 17:08:50  [ restartedMain:11523 ] - [ INFO ]  Creating filter chain: Ant [pattern='/favicon.ico'], []
+2019-01-22 17:08:50  [ restartedMain:11523 ] - [ INFO ]  Creating filter chain: Ant [pattern='/markdown/**'], []
+2019-01-22 17:08:50  [ restartedMain:11523 ] - [ INFO ]  Creating filter chain: Ant [pattern='/mavonEditor/**'], []
+2019-01-22 17:08:50  [ restartedMain:11693 ] - [ INFO ]  Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3a2fd0d9, org.springframework.security.web.context.SecurityContextPersistenceFilter@6682ad8, org.springframework.security.web.header.HeaderWriterFilter@12c837df, org.springframework.security.web.authentication.logout.LogoutFilter@295697dc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@c3b733, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@51f891c7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@232e48a1, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@62451542, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@63f99932, org.springframework.security.web.session.SessionManagementFilter@114c4e13, org.springframework.security.web.access.ExceptionTranslationFilter@196d5346, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1f0ca553]
+2019-01-22 17:08:51  [ restartedMain:12161 ] - [ INFO ]  Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-22 17:08:51  [ restartedMain:12505 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-22 17:08:51  [ restartedMain:12691 ] - [ INFO ]  Adding welcome page template: index
+2019-01-22 17:08:53  [ restartedMain:14704 ] - [ INFO ]  LiveReload server is running on port 35729
+2019-01-22 17:08:54  [ restartedMain:14902 ] - [ INFO ]  Tomcat started on port(s): 8000 (http) with context path ''
+2019-01-22 17:08:54  [ restartedMain:14915 ] - [ INFO ]  Started DongblogApplication in 15.361 seconds (JVM running for 19.272)
+2019-01-22 17:09:11  [ http-nio-8000-exec-1:32798 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-01-22 17:09:11  [ http-nio-8000-exec-1:32843 ] - [ INFO ]  Completed initialization in 44 ms
+2019-01-22 17:09:18  [ http-nio-8000-exec-10:39877 ] - [ INFO ]  {dataSource-1} inited
+2019-01-22 17:54:12  [ background-preinit:1 ] - [ INFO ]  HV000001: Hibernate Validator 6.0.13.Final
+2019-01-22 17:54:14  [ restartedMain:2507 ] - [ INFO ]  Starting DongblogApplication on dong with PID 10884 (E:\programming\JAVA\dongblog\target\classes started by ☆东★ in E:\programming\JAVA\dongblog)
+2019-01-22 17:54:14  [ restartedMain:2514 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2019-01-22 17:54:15  [ restartedMain:3013 ] - [ INFO ]  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-22 17:54:15  [ restartedMain:3015 ] - [ INFO ]  For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-22 17:54:22  [ restartedMain:10534 ] - [ INFO ]  Tomcat initialized with port(s): 8000 (http)
+2019-01-22 17:54:23  [ restartedMain:10988 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 7971 ms
+2019-01-22 17:54:25  [ restartedMain:13368 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-22 17:54:25  [ restartedMain:13383 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-22 17:54:25  [ restartedMain:13390 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-22 17:54:25  [ restartedMain:13402 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-22 17:54:25  [ restartedMain:13406 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-22 17:54:25  [ restartedMain:13410 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-22 17:54:26  [ restartedMain:13933 ] - [ INFO ]  Creating filter chain: Ant [pattern='/css/**'], []
+2019-01-22 17:54:26  [ restartedMain:13934 ] - [ INFO ]  Creating filter chain: Ant [pattern='/fonts/**'], []
+2019-01-22 17:54:26  [ restartedMain:13935 ] - [ INFO ]  Creating filter chain: Ant [pattern='/images/**'], []
+2019-01-22 17:54:26  [ restartedMain:13935 ] - [ INFO ]  Creating filter chain: Ant [pattern='/js/**'], []
+2019-01-22 17:54:26  [ restartedMain:13936 ] - [ INFO ]  Creating filter chain: Ant [pattern='/favicon.ico'], []
+2019-01-22 17:54:26  [ restartedMain:13937 ] - [ INFO ]  Creating filter chain: Ant [pattern='/markdown/**'], []
+2019-01-22 17:54:26  [ restartedMain:13937 ] - [ INFO ]  Creating filter chain: Ant [pattern='/mavonEditor/**'], []
+2019-01-22 17:54:26  [ restartedMain:14100 ] - [ INFO ]  Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2c01aa81, org.springframework.security.web.context.SecurityContextPersistenceFilter@7ee819c0, org.springframework.security.web.header.HeaderWriterFilter@23fd886c, org.springframework.security.web.authentication.logout.LogoutFilter@6a04ddc3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6f1523f1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52a89bee, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@22fa3c97, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@92a7f8c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6acd1e5b, org.springframework.security.web.session.SessionManagementFilter@22e15925, org.springframework.security.web.access.ExceptionTranslationFilter@52b17ed1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@41bdc45f]
+2019-01-22 17:54:26  [ restartedMain:14644 ] - [ INFO ]  Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-22 17:54:27  [ restartedMain:15172 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-22 17:54:27  [ restartedMain:15287 ] - [ INFO ]  Adding welcome page template: index
+2019-01-22 17:54:28  [ restartedMain:16031 ] - [ INFO ]  LiveReload server is running on port 35729
+2019-01-22 17:54:28  [ restartedMain:16310 ] - [ INFO ]  Tomcat started on port(s): 8000 (http) with context path ''
+2019-01-22 17:54:28  [ restartedMain:16335 ] - [ INFO ]  Started DongblogApplication in 18.002 seconds (JVM running for 25.606)
+2019-01-22 17:57:14  [ http-nio-8000-exec-1:182090 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-01-22 17:57:14  [ http-nio-8000-exec-1:182226 ] - [ INFO ]  Completed initialization in 135 ms
+2019-01-22 17:57:26  [ http-nio-8000-exec-2:194392 ] - [ INFO ]  {dataSource-1} inited
+2019-01-22 20:31:27  [ Thread-39:9435469 ] - [ INFO ]  Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-22 20:31:27  [ Thread-39:9435478 ] - [ INFO ]  {dataSource-1} closed
+2019-01-22 20:31:28  [ restartedMain:9436580 ] - [ INFO ]  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-22 20:31:28  [ restartedMain:9436581 ] - [ INFO ]  For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-22 20:31:28  [ restartedMain:9436628 ] - [ INFO ]  Starting DongblogApplication on dong with PID 10884 (E:\programming\JAVA\dongblog\target\classes started by ☆东★ in E:\programming\JAVA\dongblog)
+2019-01-22 20:31:28  [ restartedMain:9436629 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2019-01-22 20:31:30  [ restartedMain:9438667 ] - [ INFO ]  Tomcat initialized with port(s): 8000 (http)
+2019-01-22 20:31:30  [ restartedMain:9438734 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 2094 ms
+2019-01-22 20:31:31  [ restartedMain:9439456 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-22 20:31:31  [ restartedMain:9439614 ] - [ INFO ]  Creating filter chain: Ant [pattern='/css/**'], []
+2019-01-22 20:31:31  [ restartedMain:9439615 ] - [ INFO ]  Creating filter chain: Ant [pattern='/fonts/**'], []
+2019-01-22 20:31:31  [ restartedMain:9439616 ] - [ INFO ]  Creating filter chain: Ant [pattern='/images/**'], []
+2019-01-22 20:31:31  [ restartedMain:9439616 ] - [ INFO ]  Creating filter chain: Ant [pattern='/js/**'], []
+2019-01-22 20:31:31  [ restartedMain:9439623 ] - [ INFO ]  Creating filter chain: Ant [pattern='/favicon.ico'], []
+2019-01-22 20:31:31  [ restartedMain:9439624 ] - [ INFO ]  Creating filter chain: Ant [pattern='/markdown/**'], []
+2019-01-22 20:31:31  [ restartedMain:9439624 ] - [ INFO ]  Creating filter chain: Ant [pattern='/mavonEditor/**'], []
+2019-01-22 20:31:31  [ restartedMain:9439729 ] - [ INFO ]  Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7cc5d11d, org.springframework.security.web.context.SecurityContextPersistenceFilter@66e32209, org.springframework.security.web.header.HeaderWriterFilter@68558d71, org.springframework.security.web.authentication.logout.LogoutFilter@2021264c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@325464e5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@378ef6d2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@73f4cb57, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@8ffc7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4308d088, org.springframework.security.web.session.SessionManagementFilter@42ae580, org.springframework.security.web.access.ExceptionTranslationFilter@2edfec73, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@10d5e4e1]
+2019-01-22 20:31:32  [ restartedMain:9440047 ] - [ INFO ]  Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-22 20:31:32  [ restartedMain:9440252 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-22 20:31:32  [ restartedMain:9440286 ] - [ INFO ]  Adding welcome page template: index
+2019-01-22 20:31:33  [ restartedMain:9440806 ] - [ INFO ]  LiveReload server is running on port 35729
+2019-01-22 20:31:33  [ restartedMain:9440915 ] - [ INFO ]  Tomcat started on port(s): 8000 (http) with context path ''
+2019-01-22 20:31:33  [ restartedMain:9440920 ] - [ INFO ]  Started DongblogApplication in 4.409 seconds (JVM running for 9450.191)
+2019-01-22 20:31:33  [ restartedMain:9440929 ] - [ INFO ]  Condition evaluation unchanged
+2019-01-22 20:31:34  [ Thread-48:9442725 ] - [ INFO ]  Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-22 20:31:36  [ restartedMain:9443986 ] - [ INFO ]  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-22 20:31:36  [ restartedMain:9443987 ] - [ INFO ]  For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-22 20:31:36  [ restartedMain:9444029 ] - [ INFO ]  Starting DongblogApplication on dong with PID 10884 (E:\programming\JAVA\dongblog\target\classes started by ☆东★ in E:\programming\JAVA\dongblog)
+2019-01-22 20:31:36  [ restartedMain:9444031 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2019-01-22 20:31:38  [ restartedMain:9445980 ] - [ INFO ]  Tomcat initialized with port(s): 8000 (http)
+2019-01-22 20:31:38  [ restartedMain:9446089 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 2033 ms
+2019-01-22 20:31:38  [ restartedMain:9446183 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-22 20:31:39  [ restartedMain:9446777 ] - [ INFO ]  Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-22 20:31:39  [ restartedMain:9446950 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-22 20:31:39  [ restartedMain:9446975 ] - [ INFO ]  Adding welcome page template: index
+2019-01-22 20:31:39  [ restartedMain:9447389 ] - [ INFO ]  Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2415c16d, org.springframework.security.web.context.SecurityContextPersistenceFilter@68de80e3, org.springframework.security.web.header.HeaderWriterFilter@46162845, org.springframework.security.web.csrf.CsrfFilter@64d37b3e, org.springframework.security.web.authentication.logout.LogoutFilter@2edb3892, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@ff62b8c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@59eb579b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@62a5ab19, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@50d846cd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@61b13002, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@16926871, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5cb1468a, org.springframework.security.web.session.SessionManagementFilter@172b13b3, org.springframework.security.web.access.ExceptionTranslationFilter@77ffd321, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@69b5e86e]
+2019-01-22 20:31:39  [ restartedMain:9447724 ] - [ INFO ]  LiveReload server is running on port 35729
+2019-01-22 20:31:40  [ restartedMain:9447819 ] - [ INFO ]  Tomcat started on port(s): 8000 (http) with context path ''
+2019-01-22 20:31:40  [ restartedMain:9447820 ] - [ INFO ]  Started DongblogApplication in 3.939 seconds (JVM running for 9457.091)
+2019-01-22 20:31:40  [ restartedMain:9447889 ] - [ INFO ]  Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebSecurityEnablerConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter; SearchStrategy: all) found bean 'org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$DefaultConfigurerAdapter'; @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2019-01-22 20:32:02  [ http-nio-8000-exec-1:9470107 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-01-22 20:32:02  [ http-nio-8000-exec-1:9470122 ] - [ INFO ]  Completed initialization in 13 ms
+2019-01-22 20:33:17  [ background-preinit:0 ] - [ INFO ]  HV000001: Hibernate Validator 6.0.13.Final
+2019-01-22 20:33:17  [ restartedMain:543 ] - [ INFO ]  Starting DongblogApplication on dong with PID 8264 (E:\programming\JAVA\dongblog\target\classes started by ☆东★ in E:\programming\JAVA\dongblog)
+2019-01-22 20:33:17  [ restartedMain:544 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2019-01-22 20:33:17  [ restartedMain:721 ] - [ INFO ]  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-22 20:33:17  [ restartedMain:721 ] - [ INFO ]  For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-22 20:33:23  [ restartedMain:6119 ] - [ INFO ]  Tomcat initialized with port(s): 8000 (http)
+2019-01-22 20:33:23  [ restartedMain:6617 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 5895 ms
+2019-01-22 20:33:25  [ restartedMain:8335 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-22 20:33:25  [ restartedMain:8344 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-22 20:33:25  [ restartedMain:8348 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-22 20:33:25  [ restartedMain:8353 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-22 20:33:25  [ restartedMain:8355 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-22 20:33:25  [ restartedMain:8357 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-22 20:33:25  [ restartedMain:8642 ] - [ INFO ]  Creating filter chain: Ant [pattern='/css/**'], []
+2019-01-22 20:33:25  [ restartedMain:8642 ] - [ INFO ]  Creating filter chain: Ant [pattern='/fonts/**'], []
+2019-01-22 20:33:25  [ restartedMain:8642 ] - [ INFO ]  Creating filter chain: Ant [pattern='/images/**'], []
+2019-01-22 20:33:25  [ restartedMain:8642 ] - [ INFO ]  Creating filter chain: Ant [pattern='/js/**'], []
+2019-01-22 20:33:25  [ restartedMain:8643 ] - [ INFO ]  Creating filter chain: Ant [pattern='/favicon.ico'], []
+2019-01-22 20:33:25  [ restartedMain:8643 ] - [ INFO ]  Creating filter chain: Ant [pattern='/mavonEditor/**'], []
+2019-01-22 20:33:25  [ restartedMain:8643 ] - [ INFO ]  Creating filter chain: Ant [pattern='/blog/**'], []
+2019-01-22 20:33:25  [ restartedMain:8737 ] - [ INFO ]  Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7d54532e, org.springframework.security.web.context.SecurityContextPersistenceFilter@1a3be0da, org.springframework.security.web.header.HeaderWriterFilter@2cd70458, org.springframework.security.web.authentication.logout.LogoutFilter@1e0dde5a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3c78c99b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17185ffc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@27162704, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@1a9a1aaa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3a1335d6, org.springframework.security.web.session.SessionManagementFilter@72f8f8ce, org.springframework.security.web.access.ExceptionTranslationFilter@5c2115d4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@19235835]
+2019-01-22 20:33:26  [ restartedMain:9033 ] - [ INFO ]  Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-22 20:33:26  [ restartedMain:9349 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-22 20:33:26  [ restartedMain:9420 ] - [ INFO ]  Adding welcome page template: index
+2019-01-22 20:33:27  [ restartedMain:9963 ] - [ INFO ]  LiveReload server is running on port 35729
+2019-01-22 20:33:27  [ restartedMain:10124 ] - [ INFO ]  Tomcat started on port(s): 8000 (http) with context path ''
+2019-01-22 20:33:27  [ restartedMain:10133 ] - [ INFO ]  Started DongblogApplication in 10.46 seconds (JVM running for 13.59)
+2019-01-22 20:33:39  [ http-nio-8000-exec-2:22441 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-01-22 20:33:39  [ http-nio-8000-exec-2:22462 ] - [ INFO ]  Completed initialization in 20 ms
+2019-01-22 20:33:45  [ http-nio-8000-exec-3:28631 ] - [ INFO ]  {dataSource-1} inited
+2019-01-22 20:33:54  [ http-nio-8000-exec-7:37188 ] - [ WARN ]  Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "${userBlog.avatar}"]
+2019-01-22 20:37:58  [ Thread-27:280949 ] - [ INFO ]  Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-22 20:37:58  [ Thread-27:280961 ] - [ INFO ]  {dataSource-1} closed
+2019-01-22 20:37:59  [ restartedMain:282295 ] - [ INFO ]  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-22 20:37:59  [ restartedMain:282295 ] - [ INFO ]  For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-22 20:37:59  [ restartedMain:282330 ] - [ INFO ]  Starting DongblogApplication on dong with PID 8264 (E:\programming\JAVA\dongblog\target\classes started by ☆东★ in E:\programming\JAVA\dongblog)
+2019-01-22 20:37:59  [ restartedMain:282332 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2019-01-22 20:38:01  [ restartedMain:284448 ] - [ INFO ]  Tomcat initialized with port(s): 8000 (http)
+2019-01-22 20:38:01  [ restartedMain:284516 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 2172 ms
+2019-01-22 20:38:02  [ restartedMain:285367 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-22 20:38:02  [ restartedMain:285508 ] - [ INFO ]  Creating filter chain: Ant [pattern='/css/**'], []
+2019-01-22 20:38:02  [ restartedMain:285510 ] - [ INFO ]  Creating filter chain: Ant [pattern='/fonts/**'], []
+2019-01-22 20:38:02  [ restartedMain:285510 ] - [ INFO ]  Creating filter chain: Ant [pattern='/images/**'], []
+2019-01-22 20:38:02  [ restartedMain:285511 ] - [ INFO ]  Creating filter chain: Ant [pattern='/js/**'], []
+2019-01-22 20:38:02  [ restartedMain:285511 ] - [ INFO ]  Creating filter chain: Ant [pattern='/favicon.ico'], []
+2019-01-22 20:38:02  [ restartedMain:285512 ] - [ INFO ]  Creating filter chain: Ant [pattern='/mavonEditor/**'], []
+2019-01-22 20:38:02  [ restartedMain:285512 ] - [ INFO ]  Creating filter chain: Ant [pattern='/blog/**'], []
+2019-01-22 20:38:02  [ restartedMain:285549 ] - [ INFO ]  Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25affa2d, org.springframework.security.web.context.SecurityContextPersistenceFilter@666226ee, org.springframework.security.web.header.HeaderWriterFilter@5c522fa1, org.springframework.security.web.authentication.logout.LogoutFilter@6d80bce2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@71fb417c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1741bab8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5aa3b0d6, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@15b4b6ba, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7d193bc5, org.springframework.security.web.session.SessionManagementFilter@4fcf1b63, org.springframework.security.web.access.ExceptionTranslationFilter@514412c8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@74359b76]
+2019-01-22 20:38:03  [ restartedMain:285826 ] - [ INFO ]  Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-22 20:38:03  [ restartedMain:286090 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-22 20:38:03  [ restartedMain:286114 ] - [ INFO ]  Adding welcome page template: index
+2019-01-22 20:38:03  [ restartedMain:286681 ] - [ INFO ]  LiveReload server is running on port 35729
+2019-01-22 20:38:04  [ restartedMain:286874 ] - [ INFO ]  Tomcat started on port(s): 8000 (http) with context path ''
+2019-01-22 20:38:04  [ restartedMain:286883 ] - [ INFO ]  Started DongblogApplication in 4.673 seconds (JVM running for 290.34)
+2019-01-22 20:38:04  [ restartedMain:286890 ] - [ INFO ]  Condition evaluation unchanged
+2019-01-22 20:38:07  [ Thread-36:290639 ] - [ INFO ]  Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-22 20:38:08  [ restartedMain:291574 ] - [ INFO ]  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-22 20:38:08  [ restartedMain:291575 ] - [ INFO ]  For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-22 20:38:08  [ restartedMain:291593 ] - [ INFO ]  Starting DongblogApplication on dong with PID 8264 (E:\programming\JAVA\dongblog\target\classes started by ☆东★ in E:\programming\JAVA\dongblog)
+2019-01-22 20:38:08  [ restartedMain:291594 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2019-01-22 20:38:10  [ restartedMain:293451 ] - [ INFO ]  Tomcat initialized with port(s): 8000 (http)
+2019-01-22 20:38:10  [ restartedMain:293592 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1994 ms
+2019-01-22 20:38:10  [ restartedMain:293657 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-22 20:38:11  [ restartedMain:294342 ] - [ INFO ]  Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-22 20:38:11  [ restartedMain:294500 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-22 20:38:11  [ restartedMain:294529 ] - [ INFO ]  Adding welcome page template: index
+2019-01-22 20:38:11  [ restartedMain:294742 ] - [ INFO ]  Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ccaca57, org.springframework.security.web.context.SecurityContextPersistenceFilter@70d132fc, org.springframework.security.web.header.HeaderWriterFilter@4c42c453, org.springframework.security.web.csrf.CsrfFilter@70f2e2f7, org.springframework.security.web.authentication.logout.LogoutFilter@7dee7357, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@604d6b7, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@ffdb1fe, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@cdb0017, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@e5c3fd3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7d3c1702, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@278624aa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@631604f8, org.springframework.security.web.session.SessionManagementFilter@2b406276, org.springframework.security.web.access.ExceptionTranslationFilter@607da3bf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2dcb9cec]
+2019-01-22 20:38:12  [ restartedMain:295102 ] - [ INFO ]  LiveReload server is running on port 35729
+2019-01-22 20:38:12  [ restartedMain:295193 ] - [ INFO ]  Tomcat started on port(s): 8000 (http) with context path ''
+2019-01-22 20:38:12  [ restartedMain:295194 ] - [ INFO ]  Started DongblogApplication in 3.651 seconds (JVM running for 298.652)
+2019-01-22 20:38:12  [ restartedMain:295208 ] - [ INFO ]  Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebSecurityEnablerConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter; SearchStrategy: all) found bean 'org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$DefaultConfigurerAdapter'; @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2019-01-22 20:45:56  [ background-preinit:0 ] - [ INFO ]  HV000001: Hibernate Validator 6.0.13.Final
+2019-01-22 20:45:57  [ restartedMain:1213 ] - [ INFO ]  Starting DongblogApplication on dong with PID 3628 (E:\programming\JAVA\dongblog\target\classes started by ☆东★ in E:\programming\JAVA\dongblog)
+2019-01-22 20:45:57  [ restartedMain:1215 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2019-01-22 20:45:58  [ restartedMain:1532 ] - [ INFO ]  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-22 20:45:58  [ restartedMain:1533 ] - [ INFO ]  For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-22 20:46:03  [ restartedMain:6601 ] - [ INFO ]  Tomcat initialized with port(s): 8000 (http)
+2019-01-22 20:46:03  [ restartedMain:6941 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 5407 ms
+2019-01-22 20:46:05  [ restartedMain:8666 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-22 20:46:05  [ restartedMain:8680 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-22 20:46:05  [ restartedMain:8684 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-22 20:46:05  [ restartedMain:8692 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-22 20:46:05  [ restartedMain:8695 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-22 20:46:05  [ restartedMain:8698 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-22 20:46:05  [ restartedMain:9047 ] - [ INFO ]  Creating filter chain: Ant [pattern='/css/**'], []
+2019-01-22 20:46:05  [ restartedMain:9047 ] - [ INFO ]  Creating filter chain: Ant [pattern='/fonts/**'], []
+2019-01-22 20:46:05  [ restartedMain:9047 ] - [ INFO ]  Creating filter chain: Ant [pattern='/images/**'], []
+2019-01-22 20:46:05  [ restartedMain:9048 ] - [ INFO ]  Creating filter chain: Ant [pattern='/js/**'], []
+2019-01-22 20:46:05  [ restartedMain:9048 ] - [ INFO ]  Creating filter chain: Ant [pattern='/favicon.ico'], []
+2019-01-22 20:46:05  [ restartedMain:9048 ] - [ INFO ]  Creating filter chain: Ant [pattern='/mavonEditor/**'], []
+2019-01-22 20:46:05  [ restartedMain:9174 ] - [ INFO ]  Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@33689509, org.springframework.security.web.context.SecurityContextPersistenceFilter@248be05f, org.springframework.security.web.header.HeaderWriterFilter@3ae5b0c3, org.springframework.security.web.authentication.logout.LogoutFilter@1a6ec81e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1d8c67b4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7616a0c1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f16807d, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@4f27f079, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4da7e517, org.springframework.security.web.session.SessionManagementFilter@2ba1a910, org.springframework.security.web.access.ExceptionTranslationFilter@7a822ddc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5d85205b]
+2019-01-22 20:46:06  [ restartedMain:9537 ] - [ INFO ]  Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-22 20:46:06  [ restartedMain:9924 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-22 20:46:06  [ restartedMain:10012 ] - [ INFO ]  Adding welcome page template: index
+2019-01-22 20:46:07  [ restartedMain:10769 ] - [ INFO ]  LiveReload server is running on port 35729
+2019-01-22 20:46:07  [ restartedMain:11030 ] - [ INFO ]  Tomcat started on port(s): 8000 (http) with context path ''
+2019-01-22 20:46:07  [ restartedMain:11043 ] - [ INFO ]  Started DongblogApplication in 11.803 seconds (JVM running for 15.542)
+2019-01-22 20:47:06  [ http-nio-8000-exec-1:69914 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-01-22 20:47:06  [ http-nio-8000-exec-1:69952 ] - [ INFO ]  Completed initialization in 37 ms
+2019-01-22 20:47:07  [ http-nio-8000-exec-1:70327 ] - [ INFO ]  {dataSource-1} inited
+2019-01-22 21:04:20  [ Thread-30:1104100 ] - [ INFO ]  Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-22 21:04:20  [ Thread-30:1104113 ] - [ INFO ]  {dataSource-1} closed
+2019-01-22 21:04:22  [ restartedMain:1106114 ] - [ INFO ]  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-22 21:04:22  [ restartedMain:1106114 ] - [ INFO ]  For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-22 21:04:22  [ restartedMain:1106143 ] - [ INFO ]  Starting DongblogApplication on dong with PID 3628 (E:\programming\JAVA\dongblog\target\classes started by ☆东★ in E:\programming\JAVA\dongblog)
+2019-01-22 21:04:22  [ restartedMain:1106143 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2019-01-22 21:04:23  [ restartedMain:1107056 ] - [ WARN ]  No MyBatis mapper was found in '[com.dong.dongblog.dao]' package. Please check your configuration.
+2019-01-22 21:04:23  [ restartedMain:1107148 ] - [ WARN ]  No MyBatis mapper was found in '[com.dong.dongblog]' package. Please check your configuration.
+2019-01-22 21:04:24  [ restartedMain:1107724 ] - [ INFO ]  Tomcat initialized with port(s): 8080 (http)
+2019-01-22 21:04:24  [ restartedMain:1107780 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1626 ms
+2019-01-22 21:04:24  [ restartedMain:1108084 ] - [ INFO ]  Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-22 21:04:25  [ restartedMain:1108353 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2019-01-22 21:04:25  [ restartedMain:1108355 ] - [ INFO ]  Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-22 21:04:25  [ restartedMain:1108398 ] - [ INFO ]  
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-22 21:04:25  [ restartedMain:1108466 ] - [ ERROR ]  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2019-01-22 21:05:10  [ background-preinit:0 ] - [ INFO ]  HV000001: Hibernate Validator 6.0.13.Final
+2019-01-22 21:05:10  [ restartedMain:936 ] - [ INFO ]  Starting DongblogApplication on dong with PID 9812 (E:\programming\JAVA\dongblog\target\classes started by ☆东★ in E:\programming\JAVA\dongblog)
+2019-01-22 21:05:10  [ restartedMain:938 ] - [ INFO ]  No active profile set, falling back to default profiles: default
+2019-01-22 21:05:11  [ restartedMain:1264 ] - [ INFO ]  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-22 21:05:11  [ restartedMain:1265 ] - [ INFO ]  For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-22 21:05:17  [ restartedMain:7810 ] - [ INFO ]  Tomcat initialized with port(s): 8000 (http)
+2019-01-22 21:05:18  [ restartedMain:8294 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 7029 ms
+2019-01-22 21:05:21  [ restartedMain:11248 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-22 21:05:21  [ restartedMain:11262 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-22 21:05:21  [ restartedMain:11267 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-22 21:05:21  [ restartedMain:11276 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-22 21:05:21  [ restartedMain:11279 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-22 21:05:21  [ restartedMain:11281 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-22 21:05:21  [ restartedMain:11776 ] - [ INFO ]  Creating filter chain: Ant [pattern='/css/**'], []
+2019-01-22 21:05:21  [ restartedMain:11777 ] - [ INFO ]  Creating filter chain: Ant [pattern='/fonts/**'], []
+2019-01-22 21:05:21  [ restartedMain:11777 ] - [ INFO ]  Creating filter chain: Ant [pattern='/images/**'], []
+2019-01-22 21:05:21  [ restartedMain:11778 ] - [ INFO ]  Creating filter chain: Ant [pattern='/js/**'], []
+2019-01-22 21:05:21  [ restartedMain:11778 ] - [ INFO ]  Creating filter chain: Ant [pattern='/favicon.ico'], []
+2019-01-22 21:05:21  [ restartedMain:11779 ] - [ INFO ]  Creating filter chain: Ant [pattern='/mavonEditor/**'], []
+2019-01-22 21:05:21  [ restartedMain:11946 ] - [ INFO ]  Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f52e56, org.springframework.security.web.context.SecurityContextPersistenceFilter@68de47a1, org.springframework.security.web.header.HeaderWriterFilter@af73406, org.springframework.security.web.authentication.logout.LogoutFilter@5fa9432e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@72bc8ff5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@15623814, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2d7e0aca, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@2dc9b639, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@e9c9b13, org.springframework.security.web.session.SessionManagementFilter@5ec1dbb, org.springframework.security.web.access.ExceptionTranslationFilter@686b96cd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@76237446]
+2019-01-22 21:05:22  [ restartedMain:12626 ] - [ INFO ]  Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-22 21:05:23  [ restartedMain:13558 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-22 21:05:23  [ restartedMain:13744 ] - [ INFO ]  Adding welcome page template: index
+2019-01-22 21:05:24  [ restartedMain:14296 ] - [ INFO ]  LiveReload server is running on port 35729
+2019-01-22 21:05:24  [ restartedMain:14469 ] - [ INFO ]  Tomcat started on port(s): 8000 (http) with context path ''
+2019-01-22 21:05:24  [ restartedMain:14480 ] - [ INFO ]  Started DongblogApplication in 14.82 seconds (JVM running for 17.934)
+2019-01-22 21:05:31  [ http-nio-8000-exec-2:21860 ] - [ INFO ]  Initializing Servlet 'dispatcherServlet'
+2019-01-22 21:05:31  [ http-nio-8000-exec-2:21881 ] - [ INFO ]  Completed initialization in 20 ms
+2019-01-22 21:09:58  [ http-nio-8000-exec-5:288638 ] - [ INFO ]  {dataSource-1} inited

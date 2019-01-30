@@ -69,7 +69,7 @@ void subsetsTest(){
 		cout<<v[i]<<" ";
 	}
 	cout<<endl;
-	vector<vector<int>> subs = subsets3(v);
+	vector<vector<int>> subs = subsets(v);
 	for(auto sub : subs){
 		for(auto s : sub){
 			cout<<s<<" ";

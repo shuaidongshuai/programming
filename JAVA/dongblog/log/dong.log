@@ -1,0 +1,764 @@
+2019-01-29 15:12:53  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 15:12:54  [ restartedMain:330 ] - [ INFO ]  Finished Spring Data repository scanning in 290ms. Found 1 repository interfaces.
+2019-01-29 15:12:59  [ restartedMain:6120 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 15:12:59  [ restartedMain:6140 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 15:12:59  [ restartedMain:6150 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 15:12:59  [ restartedMain:6150 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 15:12:59  [ restartedMain:6160 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 15:12:59  [ restartedMain:6160 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 15:13:07  [ restartedMain:13582 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 15:13:27  [ restartedMain:33650 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-29 15:15:56  [ http-nio-8000-exec-7:182622 ] - [ INFO ]  {dataSource-1} inited
+2019-01-29 15:16:44  [ Thread-65:230279 ] - [ INFO ]  {dataSource-1} closed
+2019-01-29 15:16:46  [ restartedMain:232855 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 15:16:46  [ restartedMain:232914 ] - [ INFO ]  Finished Spring Data repository scanning in 58ms. Found 1 repository interfaces.
+2019-01-29 15:16:47  [ restartedMain:234064 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 15:16:48  [ restartedMain:234277 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 15:16:48  [ restartedMain:234867 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-29 15:17:03  [ restartedMain:249897 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 15:17:03  [ restartedMain:249965 ] - [ INFO ]  Finished Spring Data repository scanning in 68ms. Found 1 repository interfaces.
+2019-01-29 15:17:05  [ restartedMain:251425 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 15:17:05  [ restartedMain:251675 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 15:17:06  [ restartedMain:252467 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-29 15:17:16  [ restartedMain:262852 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 15:17:16  [ restartedMain:262938 ] - [ INFO ]  Finished Spring Data repository scanning in 85ms. Found 1 repository interfaces.
+2019-01-29 15:17:18  [ restartedMain:264416 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 15:17:18  [ restartedMain:264711 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 15:17:19  [ restartedMain:265649 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-29 15:17:35  [ http-nio-8000-exec-7:281513 ] - [ INFO ]  {dataSource-2} inited
+2019-01-29 15:20:16  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 15:20:16  [ restartedMain:238 ] - [ INFO ]  Finished Spring Data repository scanning in 226ms. Found 1 repository interfaces.
+2019-01-29 15:20:20  [ restartedMain:4571 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 15:20:20  [ restartedMain:4585 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 15:20:20  [ restartedMain:4589 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 15:20:20  [ restartedMain:4595 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 15:20:20  [ restartedMain:4599 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 15:20:20  [ restartedMain:4601 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 15:20:25  [ restartedMain:9272 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 15:20:28  [ restartedMain:12723 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-29 15:47:15  [ http-nio-8000-exec-1:1619665 ] - [ INFO ]  {dataSource-1} inited
+2019-01-29 15:48:15  [ Thread-38:1679445 ] - [ INFO ]  {dataSource-1} closed
+2019-01-29 15:48:17  [ restartedMain:1681822 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 15:48:18  [ restartedMain:1681902 ] - [ INFO ]  Finished Spring Data repository scanning in 80ms. Found 1 repository interfaces.
+2019-01-29 15:48:19  [ restartedMain:1683184 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 15:48:19  [ restartedMain:1683454 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 15:48:20  [ restartedMain:1684154 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-29 15:48:29  [ restartedMain:1692894 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 15:48:29  [ restartedMain:1692974 ] - [ INFO ]  Finished Spring Data repository scanning in 80ms. Found 1 repository interfaces.
+2019-01-29 15:48:30  [ restartedMain:1694389 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 15:48:30  [ restartedMain:1694599 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 15:48:31  [ restartedMain:1695213 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-29 15:49:35  [ http-nio-8000-exec-4:1759757 ] - [ INFO ]  {dataSource-2} inited
+2019-01-29 15:54:53  [ Thread-60:2076938 ] - [ INFO ]  {dataSource-2} closed
+2019-01-29 15:54:54  [ restartedMain:2078724 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 15:54:54  [ restartedMain:2078794 ] - [ INFO ]  Finished Spring Data repository scanning in 70ms. Found 1 repository interfaces.
+2019-01-29 15:54:55  [ restartedMain:2079704 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 15:54:55  [ restartedMain:2079844 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 15:54:56  [ restartedMain:2080324 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-29 15:55:03  [ restartedMain:2087114 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 15:55:03  [ restartedMain:2087196 ] - [ INFO ]  Finished Spring Data repository scanning in 82ms. Found 1 repository interfaces.
+2019-01-29 15:55:04  [ restartedMain:2088648 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 15:55:05  [ restartedMain:2089118 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 15:55:05  [ restartedMain:2089504 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-29 15:57:08  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 15:57:08  [ restartedMain:219 ] - [ INFO ]  Finished Spring Data repository scanning in 209ms. Found 1 repository interfaces.
+2019-01-29 15:57:12  [ restartedMain:4271 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 15:57:12  [ restartedMain:4281 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 15:57:12  [ restartedMain:4291 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 15:57:12  [ restartedMain:4301 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 15:57:12  [ restartedMain:4301 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 15:57:12  [ restartedMain:4301 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 15:57:16  [ restartedMain:8840 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 15:57:20  [ restartedMain:12251 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-29 16:07:32  [ restartedMain:624519 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 16:07:32  [ restartedMain:624569 ] - [ INFO ]  Finished Spring Data repository scanning in 50ms. Found 1 repository interfaces.
+2019-01-29 17:02:20  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 17:08:58  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 17:10:16  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 17:13:01  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 17:15:38  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 17:41:09  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 17:47:50  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 17:49:13  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 17:54:18  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 17:57:01  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 17:58:59  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 17:59:48  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 17:59:49  [ restartedMain:440 ] - [ INFO ]  Finished Spring Data repository scanning in 410ms. Found 1 repository interfaces.
+2019-01-29 17:59:54  [ restartedMain:5530 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 17:59:54  [ restartedMain:5550 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 17:59:54  [ restartedMain:5550 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 17:59:54  [ restartedMain:5560 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 17:59:54  [ restartedMain:5560 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 17:59:54  [ restartedMain:5560 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 18:03:31  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 18:03:32  [ restartedMain:514 ] - [ INFO ]  Finished Spring Data repository scanning in 484ms. Found 1 repository interfaces.
+2019-01-29 18:03:37  [ restartedMain:5324 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 18:03:37  [ restartedMain:5344 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 18:03:37  [ restartedMain:5344 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 18:03:37  [ restartedMain:5354 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 18:03:37  [ restartedMain:5354 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 18:03:37  [ restartedMain:5354 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 18:06:18  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 18:06:18  [ restartedMain:320 ] - [ INFO ]  Finished Spring Data repository scanning in 300ms. Found 1 repository interfaces.
+2019-01-29 18:06:23  [ restartedMain:4980 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 18:06:23  [ restartedMain:4990 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 18:06:23  [ restartedMain:5000 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 18:06:23  [ restartedMain:5000 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 18:06:23  [ restartedMain:5010 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 18:06:23  [ restartedMain:5010 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 18:08:46  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 18:08:46  [ restartedMain:240 ] - [ INFO ]  Finished Spring Data repository scanning in 230ms. Found 1 repository interfaces.
+2019-01-29 18:08:51  [ restartedMain:5290 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 18:08:51  [ restartedMain:5300 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 18:08:51  [ restartedMain:5310 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 18:08:51  [ restartedMain:5320 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 18:08:51  [ restartedMain:5320 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 18:08:51  [ restartedMain:5330 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 18:10:56  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 18:10:57  [ restartedMain:260 ] - [ INFO ]  Finished Spring Data repository scanning in 240ms. Found 1 repository interfaces.
+2019-01-29 18:11:02  [ restartedMain:5350 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 18:11:02  [ restartedMain:5360 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 18:11:02  [ restartedMain:5370 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 18:11:02  [ restartedMain:5370 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 18:11:02  [ restartedMain:5380 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 18:11:02  [ restartedMain:5380 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 18:22:37  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 18:22:38  [ restartedMain:600 ] - [ INFO ]  Finished Spring Data repository scanning in 590ms. Found 1 repository interfaces.
+2019-01-29 18:22:42  [ restartedMain:5344 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 18:22:43  [ restartedMain:5364 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 18:22:43  [ restartedMain:5364 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 18:22:43  [ restartedMain:5374 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 18:22:43  [ restartedMain:5374 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 18:22:43  [ restartedMain:5374 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 18:25:14  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 18:25:14  [ restartedMain:430 ] - [ INFO ]  Finished Spring Data repository scanning in 420ms. Found 1 repository interfaces.
+2019-01-29 18:25:20  [ restartedMain:6457 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 18:25:20  [ restartedMain:6467 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 18:25:20  [ restartedMain:6467 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 18:25:20  [ restartedMain:6477 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 18:25:20  [ restartedMain:6477 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 18:25:20  [ restartedMain:6477 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 18:32:29  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 18:32:29  [ restartedMain:529 ] - [ INFO ]  Finished Spring Data repository scanning in 515ms. Found 1 repository interfaces.
+2019-01-29 18:32:38  [ restartedMain:9114 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 18:32:38  [ restartedMain:9137 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 18:32:38  [ restartedMain:9143 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 18:32:38  [ restartedMain:9162 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 18:32:38  [ restartedMain:9166 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 18:32:38  [ restartedMain:9170 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 18:34:48  [ main:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 18:34:48  [ main:548 ] - [ INFO ]  Finished Spring Data repository scanning in 515ms. Found 1 repository interfaces.
+2019-01-29 18:34:58  [ main:10240 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 18:34:58  [ main:10294 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 18:34:58  [ main:10365 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: main
+2019-01-29 18:34:58  [ main:10443 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 18:34:58  [ main:10464 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 18:34:58  [ main:10503 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 18:38:35  [ main:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 18:38:36  [ main:100 ] - [ INFO ]  Finished Spring Data repository scanning in 90ms. Found 0 repository interfaces.
+2019-01-29 18:38:40  [ main:4286 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 18:38:40  [ main:4306 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 18:38:40  [ main:4306 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: main
+2019-01-29 18:38:40  [ main:4316 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 18:38:40  [ main:4316 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 18:38:40  [ main:4316 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 18:40:44  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 18:40:45  [ restartedMain:90 ] - [ INFO ]  Finished Spring Data repository scanning in 90ms. Found 0 repository interfaces.
+2019-01-29 18:40:49  [ restartedMain:4860 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 18:40:49  [ restartedMain:4880 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 18:40:49  [ restartedMain:4900 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 18:40:49  [ restartedMain:4900 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 18:40:49  [ restartedMain:4910 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 18:40:49  [ restartedMain:4910 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 18:44:41  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 18:44:41  [ restartedMain:78 ] - [ INFO ]  Finished Spring Data repository scanning in 65ms. Found 0 repository interfaces.
+2019-01-29 18:44:45  [ restartedMain:4259 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 18:44:45  [ restartedMain:4271 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 18:44:45  [ restartedMain:4278 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 18:44:45  [ restartedMain:4284 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 18:44:45  [ restartedMain:4287 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 18:44:45  [ restartedMain:4290 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 18:46:46  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 18:46:46  [ restartedMain:104 ] - [ INFO ]  Finished Spring Data repository scanning in 86ms. Found 0 repository interfaces.
+2019-01-29 18:46:51  [ restartedMain:4931 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 18:46:51  [ restartedMain:4944 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 18:46:51  [ restartedMain:4948 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 18:46:51  [ restartedMain:4956 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 18:46:51  [ restartedMain:4959 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 18:46:51  [ restartedMain:4962 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 18:48:27  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 18:48:27  [ restartedMain:90 ] - [ INFO ]  Finished Spring Data repository scanning in 80ms. Found 0 repository interfaces.
+2019-01-29 18:48:32  [ restartedMain:4755 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 18:48:32  [ restartedMain:4765 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 18:48:32  [ restartedMain:4775 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 18:48:32  [ restartedMain:4775 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 18:48:32  [ restartedMain:4775 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 18:48:32  [ restartedMain:4785 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 18:48:33  [ restartedMain:5785 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-29 18:48:37  [ restartedMain:9475 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 18:51:15  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 18:52:23  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 18:52:24  [ restartedMain:240 ] - [ INFO ]  Finished Spring Data repository scanning in 230ms. Found 1 repository interfaces.
+2019-01-29 18:52:29  [ restartedMain:5470 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 18:52:29  [ restartedMain:5480 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 18:52:29  [ restartedMain:5490 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 18:52:29  [ restartedMain:5490 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 18:52:29  [ restartedMain:5490 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 18:52:29  [ restartedMain:5500 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 18:52:33  [ restartedMain:9214 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 18:52:36  [ restartedMain:12534 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-29 18:54:17  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 18:55:17  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 18:55:17  [ restartedMain:260 ] - [ INFO ]  Finished Spring Data repository scanning in 250ms. Found 2 repository interfaces.
+2019-01-29 18:55:22  [ restartedMain:5066 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 18:55:22  [ restartedMain:5076 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 18:55:22  [ restartedMain:5076 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 18:55:22  [ restartedMain:5086 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 18:55:22  [ restartedMain:5086 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 18:55:22  [ restartedMain:5096 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 18:55:26  [ restartedMain:8776 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 18:57:19  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 18:57:19  [ restartedMain:180 ] - [ INFO ]  Finished Spring Data repository scanning in 170ms. Found 2 repository interfaces.
+2019-01-29 18:57:23  [ restartedMain:3540 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 18:57:23  [ restartedMain:3550 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 18:57:23  [ restartedMain:3550 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 18:57:23  [ restartedMain:3550 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 18:57:23  [ restartedMain:3560 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 18:57:23  [ restartedMain:3560 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 18:57:26  [ restartedMain:7170 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 19:08:30  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 19:08:31  [ restartedMain:440 ] - [ INFO ]  Finished Spring Data repository scanning in 420ms. Found 2 repository interfaces.
+2019-01-29 19:08:35  [ restartedMain:5030 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 19:08:35  [ restartedMain:5040 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 19:08:35  [ restartedMain:5040 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 19:08:35  [ restartedMain:5040 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 19:08:35  [ restartedMain:5050 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 19:08:35  [ restartedMain:5050 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 19:08:39  [ restartedMain:8860 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 19:09:58  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 19:09:59  [ restartedMain:200 ] - [ INFO ]  Finished Spring Data repository scanning in 180ms. Found 2 repository interfaces.
+2019-01-29 19:10:02  [ restartedMain:3480 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 19:10:02  [ restartedMain:3490 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 19:10:02  [ restartedMain:3490 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 19:10:02  [ restartedMain:3500 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 19:10:02  [ restartedMain:3500 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 19:10:02  [ restartedMain:3500 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 19:10:06  [ restartedMain:7180 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 19:10:47  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 19:10:47  [ restartedMain:290 ] - [ INFO ]  Finished Spring Data repository scanning in 280ms. Found 1 repository interfaces.
+2019-01-29 19:10:53  [ restartedMain:6745 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 19:10:53  [ restartedMain:6755 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 19:10:53  [ restartedMain:6755 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 19:10:53  [ restartedMain:6765 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 19:10:53  [ restartedMain:6765 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 19:10:53  [ restartedMain:6765 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 19:10:58  [ restartedMain:11217 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 19:11:01  [ restartedMain:14895 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-29 19:12:27  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 19:12:27  [ restartedMain:300 ] - [ INFO ]  Finished Spring Data repository scanning in 290ms. Found 1 repository interfaces.
+2019-01-29 19:12:33  [ restartedMain:6098 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 19:12:33  [ restartedMain:6108 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 19:12:33  [ restartedMain:6108 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 19:12:33  [ restartedMain:6118 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 19:12:33  [ restartedMain:6118 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 19:12:33  [ restartedMain:6128 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 19:12:41  [ restartedMain:13628 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 19:12:47  [ restartedMain:20218 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-29 19:15:47  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 19:15:47  [ restartedMain:630 ] - [ INFO ]  Finished Spring Data repository scanning in 620ms. Found 2 repository interfaces.
+2019-01-29 19:15:53  [ restartedMain:6336 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 19:15:53  [ restartedMain:6346 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 19:15:53  [ restartedMain:6356 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 19:15:53  [ restartedMain:6356 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 19:15:53  [ restartedMain:6356 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 19:15:53  [ restartedMain:6366 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 19:15:57  [ restartedMain:10006 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 19:17:34  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 19:17:34  [ restartedMain:350 ] - [ INFO ]  Finished Spring Data repository scanning in 340ms. Found 2 repository interfaces.
+2019-01-29 19:17:39  [ restartedMain:4760 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 19:17:39  [ restartedMain:4760 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 19:17:39  [ restartedMain:4770 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 19:17:39  [ restartedMain:4770 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 19:17:39  [ restartedMain:4770 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 19:17:39  [ restartedMain:4780 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 19:17:42  [ restartedMain:8390 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 19:17:47  [ restartedMain:13400 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-29 19:18:51  [ http-nio-8000-exec-3:76771 ] - [ INFO ]  {dataSource-1} inited
+2019-01-29 19:24:04  [ Thread-31:389841 ] - [ INFO ]  {dataSource-1} closed
+2019-01-29 19:24:05  [ restartedMain:391471 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 19:24:05  [ restartedMain:391521 ] - [ INFO ]  Finished Spring Data repository scanning in 50ms. Found 2 repository interfaces.
+2019-01-29 19:24:06  [ restartedMain:392521 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 19:24:07  [ restartedMain:392651 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 19:24:07  [ restartedMain:393361 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-29 19:24:21  [ restartedMain:407381 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 19:24:21  [ restartedMain:407471 ] - [ INFO ]  Finished Spring Data repository scanning in 90ms. Found 2 repository interfaces.
+2019-01-29 19:24:24  [ restartedMain:409861 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 19:24:31  [ restartedMain:417522 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 19:24:32  [ restartedMain:417665 ] - [ INFO ]  Finished Spring Data repository scanning in 143ms. Found 2 repository interfaces.
+2019-01-29 19:24:33  [ restartedMain:419358 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 19:24:34  [ restartedMain:419744 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 19:24:35  [ restartedMain:420761 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-29 19:24:46  [ restartedMain:432005 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 19:24:46  [ restartedMain:432065 ] - [ INFO ]  Finished Spring Data repository scanning in 60ms. Found 2 repository interfaces.
+2019-01-29 19:24:47  [ restartedMain:433435 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 19:25:22  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 19:25:22  [ restartedMain:314 ] - [ INFO ]  Finished Spring Data repository scanning in 304ms. Found 2 repository interfaces.
+2019-01-29 19:25:27  [ restartedMain:5490 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 19:25:27  [ restartedMain:5500 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 19:25:27  [ restartedMain:5510 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 19:25:27  [ restartedMain:5510 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 19:25:27  [ restartedMain:5510 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 19:25:27  [ restartedMain:5520 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 19:25:31  [ restartedMain:9200 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 19:25:34  [ restartedMain:12320 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-29 19:25:41  [ http-nio-8000-exec-1:19812 ] - [ INFO ]  {dataSource-1} inited
+2019-01-29 19:26:57  [ Thread-33:95375 ] - [ INFO ]  {dataSource-1} closed
+2019-01-29 19:26:59  [ restartedMain:97205 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 19:26:59  [ restartedMain:97255 ] - [ INFO ]  Finished Spring Data repository scanning in 50ms. Found 2 repository interfaces.
+2019-01-29 19:27:00  [ restartedMain:98597 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 19:27:00  [ restartedMain:98737 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 19:27:01  [ restartedMain:99397 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-29 19:27:09  [ restartedMain:107519 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 19:27:09  [ restartedMain:107729 ] - [ INFO ]  Finished Spring Data repository scanning in 210ms. Found 2 repository interfaces.
+2019-01-29 19:27:11  [ restartedMain:109151 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 19:27:53  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 19:27:53  [ restartedMain:240 ] - [ INFO ]  Finished Spring Data repository scanning in 230ms. Found 2 repository interfaces.
+2019-01-29 19:27:58  [ restartedMain:4920 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 19:27:58  [ restartedMain:4930 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 19:27:58  [ restartedMain:4930 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 19:27:58  [ restartedMain:4940 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 19:27:58  [ restartedMain:4940 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 19:27:58  [ restartedMain:4940 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 19:28:02  [ restartedMain:8630 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 19:28:05  [ restartedMain:12392 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-29 19:28:08  [ http-nio-8000-exec-1:15032 ] - [ INFO ]  {dataSource-1} inited
+2019-01-29 19:30:10  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 19:30:10  [ restartedMain:370 ] - [ INFO ]  Finished Spring Data repository scanning in 350ms. Found 2 repository interfaces.
+2019-01-29 19:30:15  [ restartedMain:5231 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 19:30:15  [ restartedMain:5251 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 19:30:15  [ restartedMain:5251 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 19:30:15  [ restartedMain:5261 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 19:30:15  [ restartedMain:5261 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 19:30:15  [ restartedMain:5261 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 19:30:20  [ restartedMain:10268 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 19:30:24  [ restartedMain:13838 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-29 19:30:34  [ http-nio-8000-exec-1:24329 ] - [ INFO ]  {dataSource-1} inited
+2019-01-29 19:50:54  [ http-nio-8000-exec-4:1244117 ] - [ ERROR ]  [THYMELEAF][http-nio-8000-exec-4] Exception processing template "/blog/userBlogList": An error happened during template parsing (template: "class path resource [templates//blog/userBlogList.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates//blog/userBlogList.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "selfBlog" (template: "/blog/userBlogList" - line 43, col 26)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 86 more
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "selfBlog" (template: "/blog/userBlogList" - line 43, col 26)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:290)
+	at org.thymeleaf.standard.expression.SelectionVariableExpression.executeSelectionVariableExpression(SelectionVariableExpression.java:158)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:92)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:125)
+	at org.thymeleaf.standard.processor.StandardIfTagProcessor.isVisible(StandardIfTagProcessor.java:59)
+	at org.thymeleaf.standard.processor.AbstractStandardConditionalVisibilityTagProcessor.doProcess(AbstractStandardConditionalVisibilityTagProcessor.java:61)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918)
+	at org.thymeleaf.engine.StandaloneElementTag.beHandled(StandaloneElementTag.java:228)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164)
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169)
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412)
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473)
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 88 more
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1008E: Property or field 'selfBlog' cannot be found on object of type 'com.dong.dongblog.dto.BlogDto' - maybe not public or not valid?
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:217)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:91)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:111)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:328)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	... 115 more
+2019-01-29 19:51:20  [ restartedMain:1 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 19:51:21  [ restartedMain:434 ] - [ INFO ]  Finished Spring Data repository scanning in 416ms. Found 2 repository interfaces.
+2019-01-29 19:51:29  [ restartedMain:9077 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 19:51:29  [ restartedMain:9090 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 19:51:29  [ restartedMain:9095 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 19:51:29  [ restartedMain:9102 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 19:51:29  [ restartedMain:9105 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 19:51:29  [ restartedMain:9107 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 19:51:35  [ restartedMain:14525 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 19:51:39  [ restartedMain:18738 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-29 19:51:45  [ http-nio-8000-exec-2:25145 ] - [ INFO ]  {dataSource-1} inited
+2019-01-29 19:51:48  [ http-nio-8000-exec-2:27417 ] - [ ERROR ]  [THYMELEAF][http-nio-8000-exec-2] Exception processing template "/blog/userBlogList": An error happened during template parsing (template: "class path resource [templates//blog/userBlogList.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates//blog/userBlogList.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:150)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "selfBlog" (template: "/blog/userBlogList" - line 43, col 26)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 86 more
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "selfBlog" (template: "/blog/userBlogList" - line 43, col 26)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:290)
+	at org.thymeleaf.standard.expression.SelectionVariableExpression.executeSelectionVariableExpression(SelectionVariableExpression.java:158)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:92)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:125)
+	at org.thymeleaf.standard.processor.StandardIfTagProcessor.isVisible(StandardIfTagProcessor.java:59)
+	at org.thymeleaf.standard.processor.AbstractStandardConditionalVisibilityTagProcessor.doProcess(AbstractStandardConditionalVisibilityTagProcessor.java:61)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918)
+	at org.thymeleaf.engine.StandaloneElementTag.beHandled(StandaloneElementTag.java:228)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164)
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169)
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412)
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473)
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 88 more
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1008E: Property or field 'selfBlog' cannot be found on object of type 'com.dong.dongblog.dto.BlogDto' - maybe not public or not valid?
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:217)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:91)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:111)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:328)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	... 115 more
+2019-01-29 19:51:55  [ http-nio-8000-exec-1:34645 ] - [ ERROR ]  [THYMELEAF][http-nio-8000-exec-1] Exception processing template "/blog/userBlogList": An error happened during template parsing (template: "class path resource [templates//blog/userBlogList.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates//blog/userBlogList.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:150)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "selfBlog" (template: "/blog/userBlogList" - line 43, col 26)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 86 more
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "selfBlog" (template: "/blog/userBlogList" - line 43, col 26)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:290)
+	at org.thymeleaf.standard.expression.SelectionVariableExpression.executeSelectionVariableExpression(SelectionVariableExpression.java:158)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:92)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:125)
+	at org.thymeleaf.standard.processor.StandardIfTagProcessor.isVisible(StandardIfTagProcessor.java:59)
+	at org.thymeleaf.standard.processor.AbstractStandardConditionalVisibilityTagProcessor.doProcess(AbstractStandardConditionalVisibilityTagProcessor.java:61)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleStandaloneElement(ProcessorTemplateHandler.java:918)
+	at org.thymeleaf.engine.StandaloneElementTag.beHandled(StandaloneElementTag.java:228)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164)
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169)
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412)
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473)
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 88 more
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1008E: Property or field 'selfBlog' cannot be found on object of type 'com.dong.dongblog.dto.BlogDto' - maybe not public or not valid?
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:217)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:91)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:111)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:328)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	... 115 more
+2019-01-29 19:56:17  [ restartedMain:0 ] - [ INFO ]  Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-29 19:56:17  [ restartedMain:507 ] - [ INFO ]  Finished Spring Data repository scanning in 484ms. Found 2 repository interfaces.
+2019-01-29 19:56:23  [ restartedMain:5890 ] - [ INFO ]  Trying to find Dozer configuration file: dozer.properties
+2019-01-29 19:56:23  [ restartedMain:5904 ] - [ WARN ]  Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2019-01-29 19:56:23  [ restartedMain:5908 ] - [ INFO ]  Initializing Dozer. Version: 5.5.0, Thread Name: restartedMain
+2019-01-29 19:56:23  [ restartedMain:5915 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2019-01-29 19:56:23  [ restartedMain:5918 ] - [ INFO ]  Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2019-01-29 19:56:23  [ restartedMain:5920 ] - [ INFO ]  Initializing a new instance of dozer bean mapper.
+2019-01-29 19:56:28  [ restartedMain:11459 ] - [ INFO ]  Adding transport node : 127.0.0.1:9300
+2019-01-29 19:56:33  [ restartedMain:15852 ] - [ WARN ]  [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-01-29 19:56:45  [ http-nio-8000-exec-3:28456 ] - [ INFO ]  {dataSource-1} inited
