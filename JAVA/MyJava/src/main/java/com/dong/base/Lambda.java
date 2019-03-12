@@ -18,7 +18,7 @@ public class Lambda {
     @Test
     public void test1(){
         String name = "东";
-        Runnable r = ()     -> System.out.println("hello " + name + " " + love);
+        Runnable r = () -> System.out.println("hello " + name + " " + love);
         r.run();
 //        name = "Anthony"; //取消注释编译就不能通过
         love = 521; //非局部变量是可以的

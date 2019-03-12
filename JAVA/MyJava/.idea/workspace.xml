@@ -2,177 +2,97 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c324964-dba9-4653-936f-9fd578112e1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/tools.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyJava.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/base/CompletableFutureTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/base/CompletableFutureTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/base/FilterApple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/base/FutureTaskTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/base/Lambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/base/中文拼音排序.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/base/泛型super和extends.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/clearppclassinvoke/CallMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/clearppclassinvoke/ClassNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/clearppclassinvoke/ClearUpClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/clearppclassinvoke/MethodNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/clearppclassinvoke/ParseSceneXml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/guava/ListenableFutureTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/guava/ListenableFutureTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/guava/OptionalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/guava/OrderingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/guava/PreconditionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/javac/ClassReaderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/javac/CompileFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/javac/JavaParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/javac/ParseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/javac/整理类关系.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/javap/TestCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/stream/Collect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/stream/一组单词中找出最长的单词.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/test/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/test/Blips.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/test/ClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/test/HashMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/test/SweetShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/tool/Dom4j解析.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/tool/FindAllFileUnderDirectory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/tool/Md5_Base64加密.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/MyJava.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/base/CompletableFutureTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/base/CompletableFutureTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/base/FilterApple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/base/FutureTaskTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/base/Lambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/base/中文拼音排序.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/base/泛型super和extends.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/clearppclassinvoke/CallMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/clearppclassinvoke/ClassNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/clearppclassinvoke/ClearUpClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/clearppclassinvoke/MethodNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/clearppclassinvoke/ParseSceneXml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/guava/ListenableFutureTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/guava/ListenableFutureTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/guava/OptionalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/guava/OrderingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/guava/PreconditionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/javac/ClassReaderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/javac/CompileFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/javac/JavaParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/javac/ParseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/javac/整理类关系.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/javap/TestCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/stream/Collect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/stream/一组单词中找出最长的单词.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/test/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/test/Blips.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/test/ClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/test/HashMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/test/SweetShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/tool/Dom4j解析.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/tool/FindAllFileUnderDirectory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../MyJava/src/main/java/com/dong/tool/Md5_Base64加密.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/test/Debug/test.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/test/Debug/test.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/test/Debug/test.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/test/Debug/test.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/test/Debug/test.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/test/Debug/test.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/test/test.sdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/test/test.sdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/test/test.v12.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/test/test.v12.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/test/test/Debug/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/test/test/Debug/test.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/test/test/Debug/test.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/test/test/Debug/test.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/test/test/Debug/test.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/test/test/Debug/test.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/test/test/Debug/vc120.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/test/test/Debug/vc120.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/test/test/Debug/vc120.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/test/test/Debug/vc120.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/test/test/Debug/源.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/test/test/Debug/源.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++/test/test/源.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++/test/test/源.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++算法_数据结构/未命名1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++算法_数据结构/未命名1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++算法_数据结构/未命名1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++算法_数据结构/未命名1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../C++算法_数据结构/求所有子集.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../C++算法_数据结构/求所有子集.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TreeSet/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TreeSet/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TreeSet/bin/com/dong/io/ReadText.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TreeSet/bin/com/dong/myw/Score2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TreeSet/bin/com/dong/myw/SortScore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TreeSet/src/com/dong/io/ReadText.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TreeSet/src/com/dong/myw/SortScore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Child.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Father.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/PriNum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/TalkServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/dong/proxy/InvocationHandlerImpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/dong/proxy/InvocationHandlerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/dong/proxy/ProxyDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/dong/proxy/Worker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/dong/proxy/WorkerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clone类/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clone类/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clone类/bin/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clone类/bin/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clone类/bin/Clone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clone类/src/Clone.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Child.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PriNum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TalkServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dong/proxy/ProxyDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/读取文件信息/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/读取文件信息/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/读取文件信息/bin/com/dong/client/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/读取文件信息/bin/com/dong/io/ReadText.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/读取文件信息/src/com/dong/client/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/读取文件信息/src/com/dong/io/ReadText.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/读取文件信息/百度文档.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstMaven/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstMaven/.idea/libraries/Maven__junit_junit_4_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstMaven/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstMaven/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstMaven/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstMaven/FirstMaven.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstMaven/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstMaven/src/main/java/First.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstMaven/src/test/java/FirstTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstMaven/target/classes/First.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstMaven/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstMaven/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstMaven/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstMaven/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstMaven/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstMaven/target/surefire-reports/FirstTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstMaven/target/surefire-reports/TEST-FirstTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstMaven/target/test-classes/FirstTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstWebTomcat/.idea/artifacts/FirstWebTomcat_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstWebTomcat/.idea/artifacts/FirstWebTomcat_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstWebTomcat/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstWebTomcat/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstWebTomcat/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstWebTomcat/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstWebTomcat/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstWebTomcat/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstWebTomcat/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstWebTomcat/FirstWebTomcat.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstWebTomcat/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstWebTomcat/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstWebTomcat/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstWebTomcat/target/FirstWebTomcat.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstWebTomcat/target/FirstWebTomcat/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstWebTomcat/target/FirstWebTomcat/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstWebTomcat/target/FirstWebTomcat/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstWebTomcat/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstWebTomcat/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstWebTomcat/target/tomcat/conf/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstWebTomcat/target/tomcat/work/localEngine/localhost/FirstWebTomcat/org/apache/jsp/index_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../maven/FirstWebTomcat/target/tomcat/work/localEngine/localhost/FirstWebTomcat/org/apache/jsp/index_jsp.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/base/for_forEach_stream三种遍历方法执行效率比较.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/jmap/OOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/stream/Artist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/stream/FlatMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/stream/找出字符串中小写字母个数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dong/stream/累加.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/conf/DtbtNginx.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/conf/log.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/consHash/ConsistentHash.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/consHash/ConsistentHash.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/consHash/HashFunc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/consHash/MD5HashFunc.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/consHash/MD5HashFunc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/consHash/Node.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/consHash/Node.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/consHash/md5.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/consHash/md5.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/core" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/easyloggingpp/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/easyloggingpp/easylogging++.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/easyloggingpp/easylogging++.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/easyloggingpp/logs/myeasylog.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/easyloggingpp/test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/lib/ConsistentHash.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/lib/DtbtNginx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/lib/MD5HashFunc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/lib/Nginx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/lib/Node.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/lib/easylogging++.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/lib/inNginx.pb.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/lib/md5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/logs/debug_log_20171207.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/logs/debug_log_20171208.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/logs/error_log_20171207.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/logs/error_log_20171208.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/logs/info_log_20171207.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/logs/info_log_20171208.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/logs/log_20171207.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/logs/log_20171208.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/logs/myeasylog.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/logs/trace_log_20171207.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/logs/trace_log_20171208.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/logs/warning_log_20171207.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/logs/warning_log_20171208.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/myDtbtNginx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/proto/inNginx.pb.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/proto/inNginx.pb.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/proto/inNginx.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/src/DtbtNginx.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/src/DtbtNginx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/src/Nginx.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/src/Nginx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/src/Processpool.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/src/ReadConf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/src/Singleton.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/src/common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/src/keepAlive.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/src/locker.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/src/protoCallBack.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/test/client.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/test/server1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/test/server2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/test/server3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/test/server4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/test/server5.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/test/testServer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git/DtbtNginx/笔记.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dong/base/Lambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dong/base/Lambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dong/stream/一组单词中找出最长的单词.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dong/stream/一组单词中找出最长的单词.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dong/test/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dong/test/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dong/test/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dong/test/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../笔试面试题/1+2+++n.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../笔试面试题/O(n)的排序.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../笔试面试题/Tecent笔试加分题.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../笔试面试题/strcpy的漏洞.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../笔试面试题/两个有序链表合并成一个有序链表.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../笔试面试题/函数指针题.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../笔试面试题/去重复的全排列_递归.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../笔试面试题/可扩展性程序.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../笔试面试题/字符串个数.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../笔试面试题/实现pow函数.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../笔试面试题/打印1到最大的n位数.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../笔试面试题/找出数组中不成对的那两个数.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../笔试面试题/数组.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../笔试面试题/斐波那契数列.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../笔试面试题/旋转数组的最小数字.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../笔试面试题/求中间值要注意.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../笔试面试题/求链表倒数第K个节点.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../笔试面试题/链表的逆置.cpp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -182,112 +102,67 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/MyJava$OOM.ic" NAME="OOM Coverage Results" MODIFIED="1551681355128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.dong.jmap.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/javac/整理类关系.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/stream/累加.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="80" column="6" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
+            <state relative-caret-position="288">
+              <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/javac/CompileFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/javac/ParseClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/test/ClassTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/stream/FlatMap.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/stream/找出字符串中小写字母个数.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/test/Base.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/stream/一组单词中找出最长的单词.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-              <folding>
-                <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#183#184#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/guava/ListenableFutureTest2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="122" column="7" selection-start-line="122" selection-start-column="7" selection-end-line="122" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/base/Lambda.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyJava.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/test/HashMapTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="317">
+              <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -310,7 +185,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dong/tool/FindAllFileUnderDirectory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dong/javac/JavaParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dong/javac/ParseClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dong/jmap/OOM.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dong/test/Base.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dong/base/Lambda.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dong/base/for_forEach_stream三种遍历方法执行效率比较.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dong/stream/累加.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dong/stream/Artist.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dong/stream/FlatMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dong/stream/找出字符串中小写字母个数.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dong/stream/一组单词中找出最长的单词.java" />
       </list>
     </option>
   </component>
@@ -355,6 +238,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -396,45 +280,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dong" type="462c0819:PsiDirectoryNode" />
-              <item name="guava" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dong" type="462c0819:PsiDirectoryNode" />
-              <item name="guava" type="462c0819:PsiDirectoryNode" />
-              <item name="ListenableFutureTest2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dong" type="462c0819:PsiDirectoryNode" />
-              <item name="javac" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dong" type="462c0819:PsiDirectoryNode" />
-              <item name="javac" type="462c0819:PsiDirectoryNode" />
-              <item name="整理类关系.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dong" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyJava" type="b2602c69:ProjectViewProjectNode" />
@@ -445,14 +291,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544430584301" />
-    <property name="last_opened_file_path" value="D:/JAVA/jdk1.8.0_191/lib/tools.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552364237212" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/java-8-lambdas-exercises-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -461,6 +306,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dong.stream" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\programming\JAVA\MyJava\src\main\java" />
     </key>
@@ -477,23 +325,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Base.test">
+  <component name="RunManager" selected="JUnit.一组单词中找出最长的单词.test3">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParseClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dong.javac.ParseClass" />
-      <module name="MyJava" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dong.javac.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -504,34 +338,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Base.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FlatMap.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dong.test.*" />
+          <option name="PATTERN" value="com.dong.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dong.test" />
-      <option name="MAIN_CLASS_NAME" value="com.dong.test.Base" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListenableFutureTest2.testException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dong.guava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dong.guava" />
-      <option name="MAIN_CLASS_NAME" value="com.dong.guava.ListenableFutureTest2" />
-      <option name="METHOD_NAME" value="testException" />
+      <option name="PACKAGE_NAME" value="com.dong.stream" />
+      <option name="MAIN_CLASS_NAME" value="com.dong.stream.FlatMap" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -539,6 +356,74 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="一组单词中找出最长的单词.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dong.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dong.stream" />
+      <option name="MAIN_CLASS_NAME" value="com.dong.stream.一组单词中找出最长的单词" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="找出字符串中小写字母个数.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dong.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dong.stream" />
+      <option name="MAIN_CLASS_NAME" value="com.dong.stream.找出字符串中小写字母个数" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="一组单词中找出最长的单词.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dong.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dong.stream" />
+      <option name="MAIN_CLASS_NAME" value="com.dong.stream.一组单词中找出最长的单词" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="一组单词中找出最长的单词.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dong.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dong.stream" />
+      <option name="MAIN_CLASS_NAME" value="com.dong.stream.一组单词中找出最长的单词" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -561,11 +446,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.FlatMap.test3" />
+      <item itemvalue="JUnit.找出字符串中小写字母个数.test1" />
+      <item itemvalue="JUnit.一组单词中找出最长的单词.test4" />
+      <item itemvalue="JUnit.一组单词中找出最长的单词.test" />
+      <item itemvalue="JUnit.一组单词中找出最长的单词.test3" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Base.test" />
-        <item itemvalue="Application.ParseClass" />
-        <item itemvalue="JUnit.ListenableFutureTest2.testException" />
+        <item itemvalue="JUnit.一组单词中找出最长的单词.test3" />
+        <item itemvalue="JUnit.一组单词中找出最长的单词.test" />
+        <item itemvalue="JUnit.一组单词中找出最长的单词.test4" />
+        <item itemvalue="JUnit.找出字符串中小写字母个数.test1" />
+        <item itemvalue="JUnit.FlatMap.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -582,27 +476,51 @@
       <workItem from="1543983563493" duration="1900000" />
       <workItem from="1543986490021" duration="302000" />
       <workItem from="1544429922137" duration="623000" />
+      <workItem from="1551680390627" duration="1995000" />
+      <workItem from="1551868815977" duration="1972000" />
+      <workItem from="1552355871058" duration="7918000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ListenableFutureTest2_testException - 2018.12.05 at 13h 11m 46s.xml">
-      <configuration name="ListenableFutureTest2.testException" configurationId="JUnit" />
+    <history-entry file="找出字符串中小写字母个数_test1 - 2019.03.12 at 11h 51m 49s.xml">
+      <configuration name="找出字符串中小写字母个数.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Base_test - 2018.12.10 at 16h 25m 36s.xml">
-      <configuration name="Base.test" configurationId="JUnit" />
+    <history-entry file="一组单词中找出最长的单词_test4 - 2019.03.12 at 11h 57m 38s.xml">
+      <configuration name="一组单词中找出最长的单词.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Base_test - 2018.12.10 at 16h 27m 36s.xml">
-      <configuration name="Base.test" configurationId="JUnit" />
+    <history-entry file="一组单词中找出最长的单词_test4 - 2019.03.12 at 11h 58m 15s.xml">
+      <configuration name="一组单词中找出最长的单词.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="一组单词中找出最长的单词_test4 - 2019.03.12 at 11h 59m 26s.xml">
+      <configuration name="一组单词中找出最长的单词.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="一组单词中找出最长的单词_test4 - 2019.03.12 at 11h 59m 58s.xml">
+      <configuration name="一组单词中找出最长的单词.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="一组单词中找出最长的单词_test4 - 2019.03.12 at 12h 00m 16s.xml">
+      <configuration name="一组单词中找出最长的单词.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="一组单词中找出最长的单词_test - 2019.03.12 at 12h 10m 55s.xml">
+      <configuration name="一组单词中找出最长的单词.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="一组单词中找出最长的单词_test3 - 2019.03.12 at 12h 12m 17s.xml">
+      <configuration name="一组单词中找出最长的单词.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="一组单词中找出最长的单词_test3 - 2019.03.12 at 12h 13m 52s.xml">
+      <configuration name="一组单词中找出最长的单词.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="一组单词中找出最长的单词_test3 - 2019.03.12 at 12h 15m 30s.xml">
+      <configuration name="一组单词中找出最长的单词.test3" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2825000" />
+    <option name="totallyTimeSpent" value="14710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20726173" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2655068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -611,7 +529,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2590164" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36885247" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -623,7 +541,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.2852459" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49778762" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
@@ -631,15 +549,17 @@
       <window_info anchor="right" id="Maven" order="6" weight="0.11270802" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5022124" side_tool="true" weight="0.24962178" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/stream/Collect.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/clearppclassinvoke/ClearUpClass.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -692,40 +612,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/test/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/javac/CompileFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state>
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/base/Lambda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyJava.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/test/HashMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -745,23 +645,162 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/guava/ListenableFutureTest2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
+        <state relative-caret-position="366">
           <caret line="122" column="7" selection-start-line="122" selection-start-column="7" selection-end-line="122" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/test/Base.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/test/HashMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyJava.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/jmap/OOM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/base/Lambda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/base/for_forEach_stream三种遍历方法执行效率比较.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JAVA/jdk1.8.0_191/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="96" column="30" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
+          <folding>
+            <element signature="e#2837#2838#0" expanded="true" />
+            <element signature="e#2866#2867#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JAVA/jdk1.8.0_191/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="621" column="15" selection-start-line="621" selection-start-column="15" selection-end-line="621" selection-end-column="15" />
+          <folding>
+            <element signature="e#22786#22787#0" expanded="true" />
+            <element signature="e#22821#22822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/stream/Collect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="28" column="98" selection-start-line="28" selection-start-column="98" selection-end-line="28" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JAVA/jdk1.8.0_191/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="853" column="9" selection-start-line="853" selection-start-column="9" selection-end-line="853" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JAVA/jdk1.8.0_191/src.zip!/java/util/stream/ReferencePipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="472" column="23" selection-start-line="472" selection-start-column="23" selection-end-line="472" selection-end-column="23" />
+          <folding>
+            <element signature="e#19180#19181#0" expanded="true" />
+            <element signature="e#19227#19228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/stream/Artist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="49" />
+          <folding>
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/stream/累加.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/stream/FlatMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JAVA/jdk1.8.0_191/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="228" column="29" selection-start-line="228" selection-start-column="29" selection-end-line="228" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JAVA/jdk1.8.0_191/src.zip!/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/stream/找出字符串中小写字母个数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dong/stream/一组单词中找出最长的单词.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
         </state>
       </provider>
     </entry>

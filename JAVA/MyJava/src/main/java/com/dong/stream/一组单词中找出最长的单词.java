@@ -2,6 +2,7 @@ package com.dong.stream;
 
 import org.junit.Test;
 
+import java.util.Comparator;
 import java.util.Optional;
 import java.util.stream.Stream;
 
@@ -20,13 +21,6 @@ public class 一组单词中找出最长的单词 {
         System.out.println(reduce.get());
     }
 
-    @Test
-    public void test2() {
-        Stream<String> stream = Stream.of("I", "love", "you", "too");
-        Optional<String> reduce = stream.max((s1, s2) -> s1.length() - s2.length());
-        System.out.println(reduce.get());
-    }
-
     /**
      * 求单词长度和
      */
@@ -34,7 +28,33 @@ public class 一组单词中找出最长的单词 {
     public void test3() {
         Stream<String> stream = Stream.of("I", "love", "you", "too");
         //1.初始值 2.累加器 3.多个部分如何合并
-        Integer lengthSum = stream.reduce(0, (sum, str) -> sum + str.length(), (a, b) -> a + b);
+        Integer lengthSum = stream.reduce(0, (sum, str) -> {
+            System.out.println("sum=" + sum + "  str=" + str);
+            return sum + str.length();
+        }, (a, b) -> {
+            System.out.println("a=" + a + "  b=" + b);
+            return a + b;
+        });
         System.out.println(lengthSum);
+
+        Stream<String> stream2 = Stream.of("I", "love", "you", "too");
+        //1.初始值 2.累加器 3.多个部分如何合并
+        Optional<String> reduce = stream2.reduce((a, b) -> {
+            System.out.println("a=" + a + "  b=" + b);
+            return a + b;
+        });
+        System.out.println(reduce.get());
     }
+
+    @Test
+    public void test4() {
+        Stream<String> stream = Stream.of("I", "love", "you", "too", "");
+        Optional<String> max = stream.max(Comparator.comparing(s -> s.length()));
+        System.out.println(max.get());
+
+        Stream<String> stream2 = Stream.of();
+        Optional<String> min = stream2.min(Comparator.comparing(s -> s.length()));
+        System.out.println(min.get());
+    }
+
 }

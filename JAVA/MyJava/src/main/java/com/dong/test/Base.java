@@ -34,7 +34,7 @@ class B extends A{
 public class Base{
     @Test
     public void test() {
-        B b = B.getInstance();
+//        B b = B.getInstance();
 //        b.test();
     }
 }
